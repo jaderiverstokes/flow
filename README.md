@@ -1,1 +1,38 @@
 # ₿
+
+````html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bitcoin Treasury Purchases</title>
+<style>
+body {font-family: Arial, sans-serif; margin: 40px;}
+h1 {color: #333;}
+table {border-collapse: collapse; width: 100%; margin-bottom: 40px;}
+th, td {border: 1px solid #ccc; padding: 8px;}
+</style>
+</head>
+<body>
+<h1>Strategy Purchases</h1>
+<table id="strategy"></table>
+<h1>Metaplanet Purchases</h1>
+<table id="metaplanet"></table>
+<script>
+fetch('data.json')
+  .then(r => r.json())
+  .then(data => {
+    function render(tableId, rows) {
+      const table = document.getElementById(tableId);
+      if (!rows.length) { table.innerHTML = '<tr><td>No data</td></tr>'; return; }
+      const headers = Object.keys(rows[0]);
+      table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
+        rows.map(r => '<tr>' + headers.map(h => '<td>' + r[h] + '</td>').join('') + '</tr>').join('');
+    }
+    render('strategy', data.strategy);
+    render('metaplanet', data.metaplanet);
+  });
+</script>
+</body>
+</html>
+````
