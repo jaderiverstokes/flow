@@ -57,22 +57,54 @@
   <table id="metaplanet"></table>
 </div>
 <script>
-fetch('data.json')
-  .then(r => r.json())
-  .then(data => {
-    function render(tableId, rows) {
-      const table = document.getElementById(tableId);
-      if (!rows.length) { table.innerHTML = '<tr><td>No data</td></tr>'; return; }
-      const headers = Object.keys(rows[0]);
-      function format(value) {
-        return typeof value === 'number' ? value.toLocaleString() : value;
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      const headerMap = {
+        date: 'Date',
+        btc: 'BTC',
+        avg_price_usd: 'Average Price (USD)',
+        total_cost_usd: 'Total Cost (USD)'
+      };
+
+      function render(tableId, rows) {
+        const table = document.getElementById(tableId);
+        if (!rows.length) {
+          table.innerHTML = '<tr><td>No data</td></tr>';
+          return;
+        }
+
+        const headers = Object.keys(rows[0]);
+
+        function format(value, key) {
+          if (key === 'date') {
+            return new Date(value).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric'
+            });
+          }
+          return typeof value === 'number' ? value.toLocaleString() : value;
+        }
+
+        table.innerHTML =
+          '<tr>' +
+          headers.map(h => '<th>' + (headerMap[h] || h) + '</th>').join('') +
+          '</tr>' +
+          rows
+            .map(r =>
+              '<tr>' +
+              headers
+                .map(h => '<td>' + format(r[h], h) + '</td>')
+                .join('') +
+              '</tr>'
+            )
+            .join('');
       }
-      table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
-        rows.map(r => '<tr>' + headers.map(h => '<td>' + format(r[h]) + '</td>').join('') + '</tr>').join('');
-    }
-    render('strategy', data.strategy.slice().reverse());
-    render('metaplanet', data.metaplanet);
-  });
+
+      render('strategy', data.strategy.slice().reverse());
+      render('metaplanet', data.metaplanet);
+    });
 </script>
 </body>
 </html>
