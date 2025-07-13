@@ -423,340 +423,250 @@
   ],
   "metaplanet": [
     {
-      "": "",
-      "Reported": "",
-      "BTC Acquisitions": "",
-      "Avg BTC Cost": "$99,307",
-      "Acquisition Cost": "$1.54B",
-      "BTC Holdings": "\u20bf15,555"
+      "date": "2025-07-07",
+      "btc": 2205.0,
+      "avg_price_usd": 108237.0,
+      "total_cost_usd": 238660000.0
     },
     {
-      "": "",
-      "Reported": "Jul 07, 2025",
-      "BTC Acquisitions": "\u20bf2,205",
-      "Avg BTC Cost": "$108,237",
-      "Acquisition Cost": "$238.66M",
-      "BTC Holdings": "\u20bf15,555"
+      "date": "2025-06-30",
+      "btc": 1005.0,
+      "avg_price_usd": 107601.0,
+      "total_cost_usd": 108140000.0
     },
     {
-      "": "",
-      "Reported": "Jun 30, 2025",
-      "BTC Acquisitions": "\u20bf1,005",
-      "Avg BTC Cost": "$107,601",
-      "Acquisition Cost": "$108.14M",
-      "BTC Holdings": "\u20bf13,350"
+      "date": "2025-06-26",
+      "btc": 1234.0,
+      "avg_price_usd": 107557.0,
+      "total_cost_usd": 132729999.99999999
     },
     {
-      "": "",
-      "Reported": "Jun 26, 2025",
-      "BTC Acquisitions": "\u20bf1,234",
-      "Avg BTC Cost": "$107,557",
-      "Acquisition Cost": "$132.73M",
-      "BTC Holdings": "\u20bf12,345"
+      "date": "2025-06-23",
+      "btc": 1111.0,
+      "avg_price_usd": 106408.0,
+      "total_cost_usd": 118220000.0
     },
     {
-      "": "",
-      "Reported": "Jun 23, 2025",
-      "BTC Acquisitions": "\u20bf1,111",
-      "Avg BTC Cost": "$106,408",
-      "Acquisition Cost": "$118.22M",
-      "BTC Holdings": "\u20bf11,111"
+      "date": "2025-06-16",
+      "btc": 1112.0,
+      "avg_price_usd": 105435.0,
+      "total_cost_usd": 117240000.0
     },
     {
-      "": "",
-      "Reported": "Jun 16, 2025",
-      "BTC Acquisitions": "\u20bf1,112",
-      "Avg BTC Cost": "$105,435",
-      "Acquisition Cost": "$117.24M",
-      "BTC Holdings": "\u20bf10,000"
+      "date": "2025-06-02",
+      "btc": 1088.0,
+      "avg_price_usd": 107771.0,
+      "total_cost_usd": 117250000.0
     },
     {
-      "": "",
-      "Reported": "Jun 02, 2025",
-      "BTC Acquisitions": "\u20bf1,088",
-      "Avg BTC Cost": "$107,771",
-      "Acquisition Cost": "$117.25M",
-      "BTC Holdings": "\u20bf8,888"
+      "date": "2025-05-19",
+      "btc": 1004.0,
+      "avg_price_usd": 103873.0,
+      "total_cost_usd": 104290000.0
     },
     {
-      "": "",
-      "Reported": "May 19, 2025",
-      "BTC Acquisitions": "\u20bf1,004",
-      "Avg BTC Cost": "$103,873",
-      "Acquisition Cost": "$104.29M",
-      "BTC Holdings": "\u20bf7,800"
+      "date": "2025-05-12",
+      "btc": 1241.0,
+      "avg_price_usd": 102119.0,
+      "total_cost_usd": 126730000.0
     },
     {
-      "": "",
-      "Reported": "May 12, 2025",
-      "BTC Acquisitions": "\u20bf1,241",
-      "Avg BTC Cost": "$102,119",
-      "Acquisition Cost": "$126.73M",
-      "BTC Holdings": "\u20bf6,796"
+      "date": "2025-05-07",
+      "btc": 555.0,
+      "avg_price_usd": 96134.0,
+      "total_cost_usd": 53350000.0
     },
     {
-      "": "",
-      "Reported": "May 07, 2025",
-      "BTC Acquisitions": "\u20bf555.00",
-      "Avg BTC Cost": "$96,134",
-      "Acquisition Cost": "$53.35M",
-      "BTC Holdings": "\u20bf5,555"
+      "date": "2025-04-24",
+      "btc": 145.0,
+      "avg_price_usd": 93623.0,
+      "total_cost_usd": 13580000.0
     },
     {
-      "": "",
-      "Reported": "Apr 24, 2025",
-      "BTC Acquisitions": "\u20bf145.00",
-      "Avg BTC Cost": "$93,623",
-      "Acquisition Cost": "$13.58M",
-      "BTC Holdings": "\u20bf5,000"
+      "date": "2025-04-21",
+      "btc": 330.0,
+      "avg_price_usd": 85605.0,
+      "total_cost_usd": 28250000.0
     },
     {
-      "": "",
-      "Reported": "Apr 21, 2025",
-      "BTC Acquisitions": "\u20bf330.00",
-      "Avg BTC Cost": "$85,605",
-      "Acquisition Cost": "$28.25M",
-      "BTC Holdings": "\u20bf4,855"
+      "date": "2025-04-14",
+      "btc": 319.0,
+      "avg_price_usd": 82549.0,
+      "total_cost_usd": 26330000.0
     },
     {
-      "": "",
-      "Reported": "Apr 14, 2025",
-      "BTC Acquisitions": "\u20bf319.00",
-      "Avg BTC Cost": "$82,549",
-      "Acquisition Cost": "$26.33M",
-      "BTC Holdings": "\u20bf4,525"
+      "date": "2025-04-02",
+      "btc": 160.0,
+      "avg_price_usd": 83711.0,
+      "total_cost_usd": 13390000.0
     },
     {
-      "": "",
-      "Reported": "Apr 02, 2025",
-      "BTC Acquisitions": "\u20bf160.00",
-      "Avg BTC Cost": "$83,711",
-      "Acquisition Cost": "$13.39M",
-      "BTC Holdings": "\u20bf4,206"
+      "date": "2025-03-31",
+      "btc": 696.0,
+      "avg_price_usd": 97502.0,
+      "total_cost_usd": 67860000.0
     },
     {
-      "": "",
-      "Reported": "Mar 31, 2025",
-      "BTC Acquisitions": "\u20bf696.00",
-      "Avg BTC Cost": "$97,502",
-      "Acquisition Cost": "$67.86M",
-      "BTC Holdings": "\u20bf4,046"
+      "date": "2025-03-24",
+      "btc": 150.0,
+      "avg_price_usd": 83412.0,
+      "total_cost_usd": 12510000.0
     },
     {
-      "": "",
-      "Reported": "Mar 24, 2025",
-      "BTC Acquisitions": "\u20bf150.00",
-      "Avg BTC Cost": "$83,412",
-      "Acquisition Cost": "$12.51M",
-      "BTC Holdings": "\u20bf3,350"
+      "date": "2025-03-18",
+      "btc": 150.0,
+      "avg_price_usd": 83956.0,
+      "total_cost_usd": 12590000.0
     },
     {
-      "": "",
-      "Reported": "Mar 18, 2025",
-      "BTC Acquisitions": "\u20bf150.00",
-      "Avg BTC Cost": "$83,956",
-      "Acquisition Cost": "$12.59M",
-      "BTC Holdings": "\u20bf3,200"
+      "date": "2025-03-12",
+      "btc": 162.0,
+      "avg_price_usd": 83628.0,
+      "total_cost_usd": 13550000.0
     },
     {
-      "": "",
-      "Reported": "Mar 12, 2025",
-      "BTC Acquisitions": "\u20bf162.00",
-      "Avg BTC Cost": "$83,628",
-      "Acquisition Cost": "$13.55M",
-      "BTC Holdings": "\u20bf3,050"
+      "date": "2025-03-05",
+      "btc": 497.0,
+      "avg_price_usd": 89398.0,
+      "total_cost_usd": 44430000.0
     },
     {
-      "": "",
-      "Reported": "Mar 05, 2025",
-      "BTC Acquisitions": "\u20bf497.00",
-      "Avg BTC Cost": "$89,398",
-      "Acquisition Cost": "$44.43M",
-      "BTC Holdings": "\u20bf2,888"
+      "date": "2025-03-03",
+      "btc": 156.0,
+      "avg_price_usd": 86636.0,
+      "total_cost_usd": 13520000.0
     },
     {
-      "": "",
-      "Reported": "Mar 03, 2025",
-      "BTC Acquisitions": "\u20bf156.00",
-      "Avg BTC Cost": "$86,636",
-      "Acquisition Cost": "$13.52M",
-      "BTC Holdings": "\u20bf2,391"
+      "date": "2025-02-25",
+      "btc": 135.0,
+      "avg_price_usd": 96379.0,
+      "total_cost_usd": 13010000.0
     },
     {
-      "": "",
-      "Reported": "Feb 25, 2025",
-      "BTC Acquisitions": "\u20bf135.00",
-      "Avg BTC Cost": "$96,379",
-      "Acquisition Cost": "$13.01M",
-      "BTC Holdings": "\u20bf2,235"
+      "date": "2025-02-20",
+      "btc": 68.59,
+      "avg_price_usd": 97108.0,
+      "total_cost_usd": 6660000.0
     },
     {
-      "": "",
-      "Reported": "Feb 20, 2025",
-      "BTC Acquisitions": "\u20bf68.59",
-      "Avg BTC Cost": "$97,108",
-      "Acquisition Cost": "$6.66M",
-      "BTC Holdings": "\u20bf2,100"
+      "date": "2025-02-17",
+      "btc": 269.43,
+      "avg_price_usd": 98060.0,
+      "total_cost_usd": 26420000.0
     },
     {
-      "": "",
-      "Reported": "Feb 17, 2025",
-      "BTC Acquisitions": "\u20bf269.43",
-      "Avg BTC Cost": "$98,060",
-      "Acquisition Cost": "$26.42M",
-      "BTC Holdings": "\u20bf2,031"
+      "date": "2024-12-23",
+      "btc": 619.7,
+      "avg_price_usd": 97644.0,
+      "total_cost_usd": 60510000.0
     },
     {
-      "": "",
-      "Reported": "Dec 23, 2024",
-      "BTC Acquisitions": "\u20bf619.70",
-      "Avg BTC Cost": "$97,644",
-      "Acquisition Cost": "$60.51M",
-      "BTC Holdings": "\u20bf1,762"
+      "date": "2024-11-19",
+      "btc": 124.12,
+      "avg_price_usd": 91171.0,
+      "total_cost_usd": 11320000.0
     },
     {
-      "": "",
-      "Reported": "Nov 19, 2024",
-      "BTC Acquisitions": "\u20bf124.12",
-      "Avg BTC Cost": "$91,171",
-      "Acquisition Cost": "$11.32M",
-      "BTC Holdings": "\u20bf1,142"
+      "date": "2024-10-28",
+      "btc": 156.78,
+      "avg_price_usd": 66613.0,
+      "total_cost_usd": 10440000.0
     },
     {
-      "": "",
-      "Reported": "Oct 28, 2024",
-      "BTC Acquisitions": "\u20bf156.78",
-      "Avg BTC Cost": "$66,613",
-      "Acquisition Cost": "$10.44M",
-      "BTC Holdings": "\u20bf1,018"
+      "date": "2024-10-16",
+      "btc": 5.91,
+      "avg_price_usd": 65508.0,
+      "total_cost_usd": 387120.0
     },
     {
-      "": "",
-      "Reported": "Oct 16, 2024",
-      "BTC Acquisitions": "\u20bf5.91",
-      "Avg BTC Cost": "$65,508",
-      "Acquisition Cost": "$387,120",
-      "BTC Holdings": "\u20bf861.39"
+      "date": "2024-10-15",
+      "btc": 106.98,
+      "avg_price_usd": 62738.0,
+      "total_cost_usd": 6710000.0
     },
     {
-      "": "",
-      "Reported": "Oct 15, 2024",
-      "BTC Acquisitions": "\u20bf106.98",
-      "Avg BTC Cost": "$62,738",
-      "Acquisition Cost": "$6.71M",
-      "BTC Holdings": "\u20bf855.48"
+      "date": "2024-10-11",
+      "btc": 109.0,
+      "avg_price_usd": 61540.0,
+      "total_cost_usd": 6710000.0
     },
     {
-      "": "",
-      "Reported": "Oct 11, 2024",
-      "BTC Acquisitions": "\u20bf109.00",
-      "Avg BTC Cost": "$61,540",
-      "Acquisition Cost": "$6.71M",
-      "BTC Holdings": "\u20bf748.50"
+      "date": "2024-10-07",
+      "btc": 108.79,
+      "avg_price_usd": 62027.0,
+      "total_cost_usd": 6750000.0
     },
     {
-      "": "",
-      "Reported": "Oct 07, 2024",
-      "BTC Acquisitions": "\u20bf108.79",
-      "Avg BTC Cost": "$62,027",
-      "Acquisition Cost": "$6.75M",
-      "BTC Holdings": "\u20bf639.50"
+      "date": "2024-10-03",
+      "btc": 23.97,
+      "avg_price_usd": 60926.0,
+      "total_cost_usd": 1460000.0
     },
     {
-      "": "",
-      "Reported": "Oct 03, 2024",
-      "BTC Acquisitions": "\u20bf23.97",
-      "Avg BTC Cost": "$60,926",
-      "Acquisition Cost": "$1.46M",
-      "BTC Holdings": "\u20bf530.71"
+      "date": "2024-10-01",
+      "btc": 107.91,
+      "avg_price_usd": 64576.0,
+      "total_cost_usd": 6970000.0
     },
     {
-      "": "",
-      "Reported": "Oct 01, 2024",
-      "BTC Acquisitions": "\u20bf107.91",
-      "Avg BTC Cost": "$64,576",
-      "Acquisition Cost": "$6.97M",
-      "BTC Holdings": "\u20bf506.74"
+      "date": "2024-09-10",
+      "btc": 38.46,
+      "avg_price_usd": 54772.0,
+      "total_cost_usd": 2110000.0
     },
     {
-      "": "",
-      "Reported": "Sep 10, 2024",
-      "BTC Acquisitions": "\u20bf38.46",
-      "Avg BTC Cost": "$54,772",
-      "Acquisition Cost": "$2.11M",
-      "BTC Holdings": "\u20bf398.83"
+      "date": "2024-08-20",
+      "btc": 57.27,
+      "avg_price_usd": 60104.0,
+      "total_cost_usd": 3440000.0
     },
     {
-      "": "",
-      "Reported": "Aug 20, 2024",
-      "BTC Acquisitions": "\u20bf57.27",
-      "Avg BTC Cost": "$60,104",
-      "Acquisition Cost": "$3.44M",
-      "BTC Holdings": "\u20bf360.37"
+      "date": "2024-08-13",
+      "btc": 57.1,
+      "avg_price_usd": 59647.0,
+      "total_cost_usd": 3410000.0
     },
     {
-      "": "",
-      "Reported": "Aug 13, 2024",
-      "BTC Acquisitions": "\u20bf57.10",
-      "Avg BTC Cost": "$59,647",
-      "Acquisition Cost": "$3.41M",
-      "BTC Holdings": "\u20bf303.09"
+      "date": "2024-07-22",
+      "btc": 20.38,
+      "avg_price_usd": 71882.0,
+      "total_cost_usd": 1470000.0
     },
     {
-      "": "",
-      "Reported": "Jul 22, 2024",
-      "BTC Acquisitions": "\u20bf20.38",
-      "Avg BTC Cost": "$71,882",
-      "Acquisition Cost": "$1.47M",
-      "BTC Holdings": "\u20bf245.99"
+      "date": "2024-07-16",
+      "btc": 21.88,
+      "avg_price_usd": 57751.0,
+      "total_cost_usd": 1260000.0
     },
     {
-      "": "",
-      "Reported": "Jul 16, 2024",
-      "BTC Acquisitions": "\u20bf21.88",
-      "Avg BTC Cost": "$57,751",
-      "Acquisition Cost": "$1.26M",
-      "BTC Holdings": "\u20bf225.61"
+      "date": "2024-07-08",
+      "btc": 42.47,
+      "avg_price_usd": 58578.0,
+      "total_cost_usd": 2490000.0
     },
     {
-      "": "",
-      "Reported": "Jul 08, 2024",
-      "BTC Acquisitions": "\u20bf42.47",
-      "Avg BTC Cost": "$58,578",
-      "Acquisition Cost": "$2.49M",
-      "BTC Holdings": "\u20bf203.73"
+      "date": "2024-07-01",
+      "btc": 20.2,
+      "avg_price_usd": 61512.0,
+      "total_cost_usd": 1240000.0
     },
     {
-      "": "",
-      "Reported": "Jul 01, 2024",
-      "BTC Acquisitions": "\u20bf20.20",
-      "Avg BTC Cost": "$61,512",
-      "Acquisition Cost": "$1.24M",
-      "BTC Holdings": "\u20bf161.27"
+      "date": "2024-06-10",
+      "btc": 23.35,
+      "avg_price_usd": 68136.0,
+      "total_cost_usd": 1590000.0
     },
     {
-      "": "",
-      "Reported": "Jun 10, 2024",
-      "BTC Acquisitions": "\u20bf23.35",
-      "Avg BTC Cost": "$68,136",
-      "Acquisition Cost": "$1.59M",
-      "BTC Holdings": "\u20bf141.07"
+      "date": "2024-05-09",
+      "btc": 19.87,
+      "avg_price_usd": 64626.0,
+      "total_cost_usd": 1280000.0
     },
     {
-      "": "",
-      "Reported": "May 09, 2024",
-      "BTC Acquisitions": "\u20bf19.87",
-      "Avg BTC Cost": "$64,626",
-      "Acquisition Cost": "$1.28M",
-      "BTC Holdings": "\u20bf117.72"
-    },
-    {
-      "": "",
-      "Reported": "Apr 23, 2024",
-      "BTC Acquisitions": "\u20bf97.85",
-      "Avg BTC Cost": "$66,018",
-      "Acquisition Cost": "$6.46M",
-      "BTC Holdings": "\u20bf97.85"
+      "date": "2024-04-23",
+      "btc": 97.85,
+      "avg_price_usd": 66018.0,
+      "total_cost_usd": 6460000.0
     }
   ]
 }

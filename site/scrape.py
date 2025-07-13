@@ -47,8 +47,39 @@ def fetch_metaplanet():
         headers = [th.get_text(strip=True) for th in table.find_all('th')]
         for tr in table.find_all('tr')[1:]:
             cells = [td.get_text(strip=True) for td in tr.find_all('td')]
-            if cells:
-                rows.append(dict(zip(headers, cells)))
+            if not cells:
+                continue
+            item = dict(zip(headers, cells))
+            # Skip summary rows lacking a date
+            if not item.get('Reported'):
+                continue
+            def parse_btc(val):
+                return float(val.replace('₿', '').replace(',', ''))
+
+            def parse_money(val):
+                val = val.replace('$', '').replace(',', '')
+                multiplier = 1
+                if val.endswith('B'):
+                    multiplier = 1_000_000_000
+                    val = val[:-1]
+                elif val.endswith('M'):
+                    multiplier = 1_000_000
+                    val = val[:-1]
+                elif val.endswith('K'):
+                    multiplier = 1_000
+                    val = val[:-1]
+                return float(val) * multiplier
+
+            def parse_date(val):
+                from datetime import datetime
+                return datetime.strptime(val, '%b %d, %Y').strftime('%Y-%m-%d')
+
+            rows.append({
+                'date': parse_date(item['Reported']),
+                'btc': parse_btc(item['BTC Acquisitions']),
+                'avg_price_usd': parse_money(item['Avg BTC Cost']),
+                'total_cost_usd': parse_money(item['Acquisition Cost'])
+            })
         return rows
     finally:
         driver.quit()
