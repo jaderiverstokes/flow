@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bitcoin Treasury Purchases</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; }
+section { margin-bottom: 40px; }
+</style>
+</head>
+<body>
+<h1>Bitcoin Treasury Purchases</h1>
+<section id="strategy">
+<h2>Strategy Purchases</h2>
+<pre id="strategy-data">Loading...</pre>
+</section>
+<section id="metaplanet">
+<h2>Metaplanet Purchases</h2>
+<pre id="metaplanet-data">Loading...</pre>
+</section>
+<script>
+async function fetchStrategy() {
+  const res = await fetch('https://www.strategy.com/purchases');
+  const html = await res.text();
+  const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([^<]+)/);
+  if (match) {
+    const json = JSON.parse(match[1]);
+    const data = json.props.pageProps.bitcoinData.map(p => `${p.date_of_purchase}: ₿${p.count}`).join('\n');
+    document.getElementById('strategy-data').textContent = data;
+  } else {
+    document.getElementById('strategy-data').textContent = 'Failed to load data';
+  }
+}
+async function fetchMetaplanet() {
+  const res = await fetch('https://metaplanet.jp/en/analytics');
+  const html = await res.text();
+  const match = html.match(/"ticker":"BTC-PURCHASES-USD"[^\[]*\"chartData\":\[(.*?)\]\}/);
+  if (match) {
+    const entries = JSON.parse('[' + match[1] + ']');
+    const data = entries.map(e => `${e.reported}: ${e.acquisition}`).join('\n');
+    document.getElementById('metaplanet-data').textContent = data;
+  } else {
+    document.getElementById('metaplanet-data').textContent = 'Failed to load data';
+  }
+}
+fetchStrategy();
+fetchMetaplanet();
+</script>
+</body>
+</html>
