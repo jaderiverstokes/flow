@@ -4,17 +4,58 @@
 <meta charset="UTF-8">
 <title>Bitcoin Treasury Purchases</title>
 <style>
-body {font-family: Arial, sans-serif; margin: 40px;}
-h1 {color: #333;}
-table {border-collapse: collapse; width: 100%; margin-bottom: 40px;}
-th, td {border: 1px solid #ccc; padding: 8px;}
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #121212;
+    color: #eee;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  h1 {
+    color: #F7931A;
+    margin-top: 40px;
+    font-size: 1.8em;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  th {
+    background: #F7931A;
+    color: #fff;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+    background: #1e1e1e;
+  }
 </style>
 </head>
 <body>
-<h1>Strategy Purchases</h1>
-<table id="strategy"></table>
-<h1>Metaplanet Purchases</h1>
-<table id="metaplanet"></table>
+<div class="container">
+  <h1>Strategy Purchases</h1>
+  <table id="strategy"></table>
+  <h1>Metaplanet Purchases</h1>
+  <table id="metaplanet"></table>
+</div>
 <script>
 fetch('data.json')
   .then(r => r.json())
