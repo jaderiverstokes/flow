@@ -26,8 +26,11 @@ fetch('data.json')
       const table = document.getElementById(tableId);
       if (!rows.length) { table.innerHTML = '<tr><td>No data</td></tr>'; return; }
       const headers = Object.keys(rows[0]);
+      function format(value) {
+        return typeof value === 'number' ? value.toLocaleString() : value;
+      }
       table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
-        rows.map(r => '<tr>' + headers.map(h => '<td>' + r[h] + '</td>').join('') + '</tr>').join('');
+        rows.map(r => '<tr>' + headers.map(h => '<td>' + format(r[h]) + '</td>').join('') + '</tr>').join('');
     }
     render('strategy', data.strategy);
     render('metaplanet', data.metaplanet);
