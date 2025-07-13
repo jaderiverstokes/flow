@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Bitcoin Treasury Purchases</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    table { border-collapse: collapse; margin-bottom: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Bitcoin Treasury Purchases</h1>
+  <div id="strategy">
+    <h2>Strategy</h2>
+    <table id="strategy-table">
+      <thead><tr><th>Date</th><th>BTC</th><th>Price</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div id="metaplanet">
+    <h2>Metaplanet</h2>
+    <table id="metaplanet-table">
+      <thead><tr><th>Date</th><th>BTC</th><th>Price</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script>
+  fetch('/api/purchases')
+    .then(resp => resp.json())
+    .then(data => {
+      renderTable('strategy-table', data.strategy);
+      renderTable('metaplanet-table', data.metaplanet);
+    })
+    .catch(err => console.error('Failed to load data', err));
+
+  function renderTable(id, rows) {
+    const tbody = document.querySelector(`#${id} tbody`);
+    rows.forEach(row => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${row.date}</td><td>${row.btc}</td><td>${row.price}</td>`;
+      tbody.appendChild(tr);
+    });
+  }
+  </script>
+</body>
+</html>
