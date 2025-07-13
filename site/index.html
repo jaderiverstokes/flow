@@ -70,7 +70,7 @@ fetch('data.json')
       table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
         rows.map(r => '<tr>' + headers.map(h => '<td>' + format(r[h]) + '</td>').join('') + '</tr>').join('');
     }
-    render('strategy', data.strategy);
+    render('strategy', data.strategy.slice().reverse());
     render('metaplanet', data.metaplanet);
   });
 </script>
