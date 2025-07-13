@@ -1,0 +1,66 @@
+import json
+import requests
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+
+
+STRATEGY_URL = "https://www.strategy.com/purchases"
+METAPLANET_URL = "https://metaplanet.jp/en/analytics"
+
+
+def fetch_strategy():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    html = requests.get(STRATEGY_URL, headers=headers).text
+    start = html.find("__NEXT_DATA__")
+    if start == -1:
+        raise RuntimeError("__NEXT_DATA__ not found")
+    json_start = html.index('>', start) + 1
+    json_end = html.index('</script>', json_start)
+    data = json.loads(html[json_start:json_end])
+    purchases = []
+    for item in data['props']['pageProps']['bitcoinData']:
+        purchases.append({
+            'date': item['date_of_purchase'],
+            'btc': item['count'],
+            'avg_price_usd': item['average_price'],
+            'total_cost_usd': item.get('total_purchase_price')
+        })
+    return purchases
+
+
+def fetch_metaplanet():
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--ignore-certificate-errors')
+    driver = webdriver.Chrome(options=options)
+    try:
+        driver.get(METAPLANET_URL)
+        driver.implicitly_wait(10)
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        table = soup.find('table')
+        if not table:
+            return []
+        rows = []
+        headers = [th.get_text(strip=True) for th in table.find_all('th')]
+        for tr in table.find_all('tr')[1:]:
+            cells = [td.get_text(strip=True) for td in tr.find_all('td')]
+            if cells:
+                rows.append(dict(zip(headers, cells)))
+        return rows
+    finally:
+        driver.quit()
+
+
+def main():
+    data = {
+        'strategy': fetch_strategy(),
+        'metaplanet': fetch_metaplanet(),
+    }
+    with open('data.json', 'w') as f:
+        json.dump(data, f, indent=2)
+
+if __name__ == '__main__':
+    main()

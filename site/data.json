@@ -1,0 +1,762 @@
+{
+  "strategy": [
+    {
+      "date": "2020-08-10",
+      "btc": 21454,
+      "avg_price_usd": 11652.84,
+      "total_cost_usd": 250000000
+    },
+    {
+      "date": "2020-09-14",
+      "btc": 16796,
+      "avg_price_usd": 11035.995,
+      "total_cost_usd": 175000000
+    },
+    {
+      "date": "2020-12-04",
+      "btc": 2574,
+      "avg_price_usd": 13832.997,
+      "total_cost_usd": 50000000
+    },
+    {
+      "date": "2020-12-21",
+      "btc": 29646,
+      "avg_price_usd": 15698.498,
+      "total_cost_usd": 650000000
+    },
+    {
+      "date": "2021-01-22",
+      "btc": 314,
+      "avg_price_usd": 18920.398,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2021-02-02",
+      "btc": 295,
+      "avg_price_usd": 16109,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2021-02-19",
+      "btc": 19452,
+      "avg_price_usd": 23985,
+      "total_cost_usd": 1023000000
+    },
+    {
+      "date": "2021-03-01",
+      "btc": 328,
+      "avg_price_usd": 24063,
+      "total_cost_usd": 15000000
+    },
+    {
+      "date": "2021-03-05",
+      "btc": 205,
+      "avg_price_usd": 24119,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2021-03-12",
+      "btc": 262,
+      "avg_price_usd": 24214,
+      "total_cost_usd": 15000000
+    },
+    {
+      "date": "2021-04-05",
+      "btc": 253,
+      "avg_price_usd": 24311,
+      "total_cost_usd": 15000000
+    },
+    {
+      "date": "2021-05-13",
+      "btc": 271,
+      "avg_price_usd": 24403,
+      "total_cost_usd": 15000000
+    },
+    {
+      "date": "2021-05-18",
+      "btc": 229,
+      "avg_price_usd": 24450,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2021-06-21",
+      "btc": 13005,
+      "avg_price_usd": 26080,
+      "total_cost_usd": 489000000
+    },
+    {
+      "date": "2021-08-24",
+      "btc": 3907,
+      "avg_price_usd": 26769,
+      "total_cost_usd": 177000000
+    },
+    {
+      "date": "2021-09-13",
+      "btc": 5050,
+      "avg_price_usd": 27713,
+      "total_cost_usd": 242900000
+    },
+    {
+      "date": "2021-11-29",
+      "btc": 7002,
+      "avg_price_usd": 29534,
+      "total_cost_usd": 414400000
+    },
+    {
+      "date": "2021-12-09",
+      "btc": 1434,
+      "avg_price_usd": 29861,
+      "total_cost_usd": 82400000
+    },
+    {
+      "date": "2021-12-30",
+      "btc": 1914,
+      "avg_price_usd": 30159,
+      "total_cost_usd": 94200000
+    },
+    {
+      "date": "2022-02-01",
+      "btc": 660,
+      "avg_price_usd": 30200,
+      "total_cost_usd": 25000000
+    },
+    {
+      "date": "2022-04-05",
+      "btc": 4167,
+      "avg_price_usd": 30700,
+      "total_cost_usd": 190500000
+    },
+    {
+      "date": "2022-06-29",
+      "btc": 480,
+      "avg_price_usd": 30664,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2022-09-20",
+      "btc": 301,
+      "avg_price_usd": 30639,
+      "total_cost_usd": 6000000
+    },
+    {
+      "date": "2022-12-28",
+      "btc": 2501,
+      "avg_price_usd": 30397,
+      "total_cost_usd": 45000000
+    },
+    {
+      "date": "2023-03-23",
+      "btc": 6455,
+      "avg_price_usd": 29817,
+      "total_cost_usd": 150000000
+    },
+    {
+      "date": "2023-04-05",
+      "btc": 1045,
+      "avg_price_usd": 29803,
+      "total_cost_usd": 29300000
+    },
+    {
+      "date": "2023-06-28",
+      "btc": 12333,
+      "avg_price_usd": 29668,
+      "total_cost_usd": 347000000
+    },
+    {
+      "date": "2023-08-01",
+      "btc": 467,
+      "avg_price_usd": 29672,
+      "total_cost_usd": 14400000
+    },
+    {
+      "date": "2023-09-25",
+      "btc": 5445,
+      "avg_price_usd": 29582,
+      "total_cost_usd": 147300000
+    },
+    {
+      "date": "2023-11-01",
+      "btc": 155,
+      "avg_price_usd": 29586,
+      "total_cost_usd": 5000000
+    },
+    {
+      "date": "2023-11-30",
+      "btc": 16130,
+      "avg_price_usd": 30252,
+      "total_cost_usd": 593300000
+    },
+    {
+      "date": "2023-12-27",
+      "btc": 14620,
+      "avg_price_usd": 31168,
+      "total_cost_usd": 616000000
+    },
+    {
+      "date": "2024-02-06",
+      "btc": 850,
+      "avg_price_usd": 31224,
+      "total_cost_usd": 37200000
+    },
+    {
+      "date": "2024-02-26",
+      "btc": 3000,
+      "avg_price_usd": 31544,
+      "total_cost_usd": 155400000
+    },
+    {
+      "date": "2024-03-11",
+      "btc": 12000,
+      "avg_price_usd": 33706,
+      "total_cost_usd": 822000000
+    },
+    {
+      "date": "2024-03-19",
+      "btc": 9245,
+      "avg_price_usd": 35160,
+      "total_cost_usd": 623000000
+    },
+    {
+      "date": "2024-04-29",
+      "btc": 155,
+      "avg_price_usd": 35180,
+      "total_cost_usd": 10000000
+    },
+    {
+      "date": "2024-06-20",
+      "btc": 11931,
+      "avg_price_usd": 43723,
+      "total_cost_usd": 786000000
+    },
+    {
+      "date": "2024-08-01",
+      "btc": 169,
+      "avg_price_usd": 36821,
+      "total_cost_usd": 11400000
+    },
+    {
+      "date": "2024-09-13",
+      "btc": 18300,
+      "avg_price_usd": 36821,
+      "total_cost_usd": 1110000000
+    },
+    {
+      "date": "2024-09-20",
+      "btc": 7420,
+      "avg_price_usd": 39266,
+      "total_cost_usd": 458200000
+    },
+    {
+      "date": "2024-11-11",
+      "btc": 27200,
+      "avg_price_usd": 42692,
+      "total_cost_usd": 2025407757.59
+    },
+    {
+      "date": "2024-11-18",
+      "btc": 51780,
+      "avg_price_usd": 42692,
+      "total_cost_usd": 4600000000
+    },
+    {
+      "date": "2024-11-25",
+      "btc": 55500,
+      "avg_price_usd": 56761,
+      "total_cost_usd": 5400000000
+    },
+    {
+      "date": "2024-12-02",
+      "btc": 15400,
+      "avg_price_usd": 58263,
+      "total_cost_usd": 1500000000
+    },
+    {
+      "date": "2024-12-09",
+      "btc": 21550,
+      "avg_price_usd": 60324,
+      "total_cost_usd": 2100000000
+    },
+    {
+      "date": "2024-12-16",
+      "btc": 15350,
+      "avg_price_usd": 61725,
+      "total_cost_usd": 1500000000
+    },
+    {
+      "date": "2024-12-23",
+      "btc": 5262,
+      "avg_price_usd": 62257,
+      "total_cost_usd": 561000000
+    },
+    {
+      "date": "2024-12-30",
+      "btc": 2138,
+      "avg_price_usd": 62428,
+      "total_cost_usd": 209000000
+    },
+    {
+      "date": "2025-01-06",
+      "btc": 1070,
+      "avg_price_usd": 62503,
+      "total_cost_usd": 101000000
+    },
+    {
+      "date": "2025-01-13",
+      "btc": 2530,
+      "avg_price_usd": 62691,
+      "total_cost_usd": 243000000
+    },
+    {
+      "date": "2025-01-21",
+      "btc": 11000,
+      "avg_price_usd": 63610,
+      "total_cost_usd": 1100000000
+    },
+    {
+      "date": "2025-01-27",
+      "btc": 10107,
+      "avg_price_usd": 64511,
+      "total_cost_usd": 1100000000
+    },
+    {
+      "date": "2025-02-10",
+      "btc": 7633,
+      "avg_price_usd": 65033,
+      "total_cost_usd": 742400000
+    },
+    {
+      "date": "2025-02-24",
+      "btc": 20356,
+      "avg_price_usd": 66357,
+      "total_cost_usd": 1985000000
+    },
+    {
+      "date": "2025-03-17",
+      "btc": 130,
+      "avg_price_usd": 66360,
+      "total_cost_usd": 11000000
+    },
+    {
+      "date": "2025-03-24",
+      "btc": 6911,
+      "avg_price_usd": 66608,
+      "total_cost_usd": 584000000
+    },
+    {
+      "date": "2025-03-31",
+      "btc": 22048,
+      "avg_price_usd": 67458,
+      "total_cost_usd": 1918000000
+    },
+    {
+      "date": "2025-04-14",
+      "btc": 3459,
+      "avg_price_usd": 67556,
+      "total_cost_usd": 286000000
+    },
+    {
+      "date": "2025-04-21",
+      "btc": 6556,
+      "avg_price_usd": 67766,
+      "total_cost_usd": 556000000
+    },
+    {
+      "date": "2025-04-28",
+      "btc": 15355,
+      "avg_price_usd": 68459,
+      "total_cost_usd": 1424000000
+    },
+    {
+      "date": "2025-05-05",
+      "btc": 1895,
+      "avg_price_usd": 68550,
+      "total_cost_usd": 180000000
+    },
+    {
+      "date": "2025-05-12",
+      "btc": 13390,
+      "avg_price_usd": 69287,
+      "total_cost_usd": 1337000000
+    },
+    {
+      "date": "2025-05-19",
+      "btc": 7390,
+      "avg_price_usd": 69726,
+      "total_cost_usd": 765000000
+    },
+    {
+      "date": "2025-05-26",
+      "btc": 4020,
+      "avg_price_usd": 69979,
+      "total_cost_usd": 427000000
+    },
+    {
+      "date": "2025-06-02",
+      "btc": 705,
+      "avg_price_usd": 70023,
+      "total_cost_usd": 75000000
+    },
+    {
+      "date": "2025-06-09",
+      "btc": 1045,
+      "avg_price_usd": 70086,
+      "total_cost_usd": 110000000
+    },
+    {
+      "date": "2025-06-16",
+      "btc": 10100,
+      "avg_price_usd": 70666,
+      "total_cost_usd": 1051000000
+    },
+    {
+      "date": "2025-06-23",
+      "btc": 245,
+      "avg_price_usd": 70681,
+      "total_cost_usd": 26000000
+    },
+    {
+      "date": "2025-06-30",
+      "btc": 4980,
+      "avg_price_usd": 70982,
+      "total_cost_usd": 532000000
+    }
+  ],
+  "metaplanet": [
+    {
+      "": "",
+      "Reported": "",
+      "BTC Acquisitions": "",
+      "Avg BTC Cost": "$99,307",
+      "Acquisition Cost": "$1.54B",
+      "BTC Holdings": "\u20bf15,555"
+    },
+    {
+      "": "",
+      "Reported": "Jul 07, 2025",
+      "BTC Acquisitions": "\u20bf2,205",
+      "Avg BTC Cost": "$108,237",
+      "Acquisition Cost": "$238.66M",
+      "BTC Holdings": "\u20bf15,555"
+    },
+    {
+      "": "",
+      "Reported": "Jun 30, 2025",
+      "BTC Acquisitions": "\u20bf1,005",
+      "Avg BTC Cost": "$107,601",
+      "Acquisition Cost": "$108.14M",
+      "BTC Holdings": "\u20bf13,350"
+    },
+    {
+      "": "",
+      "Reported": "Jun 26, 2025",
+      "BTC Acquisitions": "\u20bf1,234",
+      "Avg BTC Cost": "$107,557",
+      "Acquisition Cost": "$132.73M",
+      "BTC Holdings": "\u20bf12,345"
+    },
+    {
+      "": "",
+      "Reported": "Jun 23, 2025",
+      "BTC Acquisitions": "\u20bf1,111",
+      "Avg BTC Cost": "$106,408",
+      "Acquisition Cost": "$118.22M",
+      "BTC Holdings": "\u20bf11,111"
+    },
+    {
+      "": "",
+      "Reported": "Jun 16, 2025",
+      "BTC Acquisitions": "\u20bf1,112",
+      "Avg BTC Cost": "$105,435",
+      "Acquisition Cost": "$117.24M",
+      "BTC Holdings": "\u20bf10,000"
+    },
+    {
+      "": "",
+      "Reported": "Jun 02, 2025",
+      "BTC Acquisitions": "\u20bf1,088",
+      "Avg BTC Cost": "$107,771",
+      "Acquisition Cost": "$117.25M",
+      "BTC Holdings": "\u20bf8,888"
+    },
+    {
+      "": "",
+      "Reported": "May 19, 2025",
+      "BTC Acquisitions": "\u20bf1,004",
+      "Avg BTC Cost": "$103,873",
+      "Acquisition Cost": "$104.29M",
+      "BTC Holdings": "\u20bf7,800"
+    },
+    {
+      "": "",
+      "Reported": "May 12, 2025",
+      "BTC Acquisitions": "\u20bf1,241",
+      "Avg BTC Cost": "$102,119",
+      "Acquisition Cost": "$126.73M",
+      "BTC Holdings": "\u20bf6,796"
+    },
+    {
+      "": "",
+      "Reported": "May 07, 2025",
+      "BTC Acquisitions": "\u20bf555.00",
+      "Avg BTC Cost": "$96,134",
+      "Acquisition Cost": "$53.35M",
+      "BTC Holdings": "\u20bf5,555"
+    },
+    {
+      "": "",
+      "Reported": "Apr 24, 2025",
+      "BTC Acquisitions": "\u20bf145.00",
+      "Avg BTC Cost": "$93,623",
+      "Acquisition Cost": "$13.58M",
+      "BTC Holdings": "\u20bf5,000"
+    },
+    {
+      "": "",
+      "Reported": "Apr 21, 2025",
+      "BTC Acquisitions": "\u20bf330.00",
+      "Avg BTC Cost": "$85,605",
+      "Acquisition Cost": "$28.25M",
+      "BTC Holdings": "\u20bf4,855"
+    },
+    {
+      "": "",
+      "Reported": "Apr 14, 2025",
+      "BTC Acquisitions": "\u20bf319.00",
+      "Avg BTC Cost": "$82,549",
+      "Acquisition Cost": "$26.33M",
+      "BTC Holdings": "\u20bf4,525"
+    },
+    {
+      "": "",
+      "Reported": "Apr 02, 2025",
+      "BTC Acquisitions": "\u20bf160.00",
+      "Avg BTC Cost": "$83,711",
+      "Acquisition Cost": "$13.39M",
+      "BTC Holdings": "\u20bf4,206"
+    },
+    {
+      "": "",
+      "Reported": "Mar 31, 2025",
+      "BTC Acquisitions": "\u20bf696.00",
+      "Avg BTC Cost": "$97,502",
+      "Acquisition Cost": "$67.86M",
+      "BTC Holdings": "\u20bf4,046"
+    },
+    {
+      "": "",
+      "Reported": "Mar 24, 2025",
+      "BTC Acquisitions": "\u20bf150.00",
+      "Avg BTC Cost": "$83,412",
+      "Acquisition Cost": "$12.51M",
+      "BTC Holdings": "\u20bf3,350"
+    },
+    {
+      "": "",
+      "Reported": "Mar 18, 2025",
+      "BTC Acquisitions": "\u20bf150.00",
+      "Avg BTC Cost": "$83,956",
+      "Acquisition Cost": "$12.59M",
+      "BTC Holdings": "\u20bf3,200"
+    },
+    {
+      "": "",
+      "Reported": "Mar 12, 2025",
+      "BTC Acquisitions": "\u20bf162.00",
+      "Avg BTC Cost": "$83,628",
+      "Acquisition Cost": "$13.55M",
+      "BTC Holdings": "\u20bf3,050"
+    },
+    {
+      "": "",
+      "Reported": "Mar 05, 2025",
+      "BTC Acquisitions": "\u20bf497.00",
+      "Avg BTC Cost": "$89,398",
+      "Acquisition Cost": "$44.43M",
+      "BTC Holdings": "\u20bf2,888"
+    },
+    {
+      "": "",
+      "Reported": "Mar 03, 2025",
+      "BTC Acquisitions": "\u20bf156.00",
+      "Avg BTC Cost": "$86,636",
+      "Acquisition Cost": "$13.52M",
+      "BTC Holdings": "\u20bf2,391"
+    },
+    {
+      "": "",
+      "Reported": "Feb 25, 2025",
+      "BTC Acquisitions": "\u20bf135.00",
+      "Avg BTC Cost": "$96,379",
+      "Acquisition Cost": "$13.01M",
+      "BTC Holdings": "\u20bf2,235"
+    },
+    {
+      "": "",
+      "Reported": "Feb 20, 2025",
+      "BTC Acquisitions": "\u20bf68.59",
+      "Avg BTC Cost": "$97,108",
+      "Acquisition Cost": "$6.66M",
+      "BTC Holdings": "\u20bf2,100"
+    },
+    {
+      "": "",
+      "Reported": "Feb 17, 2025",
+      "BTC Acquisitions": "\u20bf269.43",
+      "Avg BTC Cost": "$98,060",
+      "Acquisition Cost": "$26.42M",
+      "BTC Holdings": "\u20bf2,031"
+    },
+    {
+      "": "",
+      "Reported": "Dec 23, 2024",
+      "BTC Acquisitions": "\u20bf619.70",
+      "Avg BTC Cost": "$97,644",
+      "Acquisition Cost": "$60.51M",
+      "BTC Holdings": "\u20bf1,762"
+    },
+    {
+      "": "",
+      "Reported": "Nov 19, 2024",
+      "BTC Acquisitions": "\u20bf124.12",
+      "Avg BTC Cost": "$91,171",
+      "Acquisition Cost": "$11.32M",
+      "BTC Holdings": "\u20bf1,142"
+    },
+    {
+      "": "",
+      "Reported": "Oct 28, 2024",
+      "BTC Acquisitions": "\u20bf156.78",
+      "Avg BTC Cost": "$66,613",
+      "Acquisition Cost": "$10.44M",
+      "BTC Holdings": "\u20bf1,018"
+    },
+    {
+      "": "",
+      "Reported": "Oct 16, 2024",
+      "BTC Acquisitions": "\u20bf5.91",
+      "Avg BTC Cost": "$65,508",
+      "Acquisition Cost": "$387,120",
+      "BTC Holdings": "\u20bf861.39"
+    },
+    {
+      "": "",
+      "Reported": "Oct 15, 2024",
+      "BTC Acquisitions": "\u20bf106.98",
+      "Avg BTC Cost": "$62,738",
+      "Acquisition Cost": "$6.71M",
+      "BTC Holdings": "\u20bf855.48"
+    },
+    {
+      "": "",
+      "Reported": "Oct 11, 2024",
+      "BTC Acquisitions": "\u20bf109.00",
+      "Avg BTC Cost": "$61,540",
+      "Acquisition Cost": "$6.71M",
+      "BTC Holdings": "\u20bf748.50"
+    },
+    {
+      "": "",
+      "Reported": "Oct 07, 2024",
+      "BTC Acquisitions": "\u20bf108.79",
+      "Avg BTC Cost": "$62,027",
+      "Acquisition Cost": "$6.75M",
+      "BTC Holdings": "\u20bf639.50"
+    },
+    {
+      "": "",
+      "Reported": "Oct 03, 2024",
+      "BTC Acquisitions": "\u20bf23.97",
+      "Avg BTC Cost": "$60,926",
+      "Acquisition Cost": "$1.46M",
+      "BTC Holdings": "\u20bf530.71"
+    },
+    {
+      "": "",
+      "Reported": "Oct 01, 2024",
+      "BTC Acquisitions": "\u20bf107.91",
+      "Avg BTC Cost": "$64,576",
+      "Acquisition Cost": "$6.97M",
+      "BTC Holdings": "\u20bf506.74"
+    },
+    {
+      "": "",
+      "Reported": "Sep 10, 2024",
+      "BTC Acquisitions": "\u20bf38.46",
+      "Avg BTC Cost": "$54,772",
+      "Acquisition Cost": "$2.11M",
+      "BTC Holdings": "\u20bf398.83"
+    },
+    {
+      "": "",
+      "Reported": "Aug 20, 2024",
+      "BTC Acquisitions": "\u20bf57.27",
+      "Avg BTC Cost": "$60,104",
+      "Acquisition Cost": "$3.44M",
+      "BTC Holdings": "\u20bf360.37"
+    },
+    {
+      "": "",
+      "Reported": "Aug 13, 2024",
+      "BTC Acquisitions": "\u20bf57.10",
+      "Avg BTC Cost": "$59,647",
+      "Acquisition Cost": "$3.41M",
+      "BTC Holdings": "\u20bf303.09"
+    },
+    {
+      "": "",
+      "Reported": "Jul 22, 2024",
+      "BTC Acquisitions": "\u20bf20.38",
+      "Avg BTC Cost": "$71,882",
+      "Acquisition Cost": "$1.47M",
+      "BTC Holdings": "\u20bf245.99"
+    },
+    {
+      "": "",
+      "Reported": "Jul 16, 2024",
+      "BTC Acquisitions": "\u20bf21.88",
+      "Avg BTC Cost": "$57,751",
+      "Acquisition Cost": "$1.26M",
+      "BTC Holdings": "\u20bf225.61"
+    },
+    {
+      "": "",
+      "Reported": "Jul 08, 2024",
+      "BTC Acquisitions": "\u20bf42.47",
+      "Avg BTC Cost": "$58,578",
+      "Acquisition Cost": "$2.49M",
+      "BTC Holdings": "\u20bf203.73"
+    },
+    {
+      "": "",
+      "Reported": "Jul 01, 2024",
+      "BTC Acquisitions": "\u20bf20.20",
+      "Avg BTC Cost": "$61,512",
+      "Acquisition Cost": "$1.24M",
+      "BTC Holdings": "\u20bf161.27"
+    },
+    {
+      "": "",
+      "Reported": "Jun 10, 2024",
+      "BTC Acquisitions": "\u20bf23.35",
+      "Avg BTC Cost": "$68,136",
+      "Acquisition Cost": "$1.59M",
+      "BTC Holdings": "\u20bf141.07"
+    },
+    {
+      "": "",
+      "Reported": "May 09, 2024",
+      "BTC Acquisitions": "\u20bf19.87",
+      "Avg BTC Cost": "$64,626",
+      "Acquisition Cost": "$1.28M",
+      "BTC Holdings": "\u20bf117.72"
+    },
+    {
+      "": "",
+      "Reported": "Apr 23, 2024",
+      "BTC Acquisitions": "\u20bf97.85",
+      "Avg BTC Cost": "$66,018",
+      "Acquisition Cost": "$6.46M",
+      "BTC Holdings": "\u20bf97.85"
+    }
+  ]
+}
