@@ -51,27 +51,51 @@
 </head>
 <body>
 <div class="container">
-  <h1>Strategy Purchases</h1>
-  <table id="strategy"></table>
-  <h1>Metaplanet Purchases</h1>
-  <table id="metaplanet"></table>
+  <h1>Bitcoin Treasury Purchases</h1>
+  <label for="companyFilter">Company:</label>
+  <select id="companyFilter">
+    <option value="All">All</option>
+  </select>
+  <table id="purchases"></table>
 </div>
 <script>
 fetch('data.json')
   .then(r => r.json())
   .then(data => {
-    function render(tableId, rows) {
-      const table = document.getElementById(tableId);
-      if (!rows.length) { table.innerHTML = '<tr><td>No data</td></tr>'; return; }
-      const headers = Object.keys(rows[0]);
-      function format(value) {
-        return typeof value === 'number' ? value.toLocaleString() : value;
-      }
-      table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
-        rows.map(r => '<tr>' + headers.map(h => '<td>' + format(r[h]) + '</td>').join('') + '</tr>').join('');
+    const rows = [
+      ...data.strategy.map(r => ({...r, company: 'Strategy'})),
+      ...data.metaplanet.map(r => ({...r, company: 'Metaplanet'}))
+    ];
+    rows.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    const filter = document.getElementById('companyFilter');
+    Array.from(new Set(rows.map(r => r.company))).forEach(name => {
+      const opt = document.createElement('option');
+      opt.value = name;
+      opt.textContent = name;
+      filter.appendChild(opt);
+    });
+
+    const table = document.getElementById('purchases');
+
+    function format(value) {
+      return typeof value === 'number' ? value.toLocaleString() : value;
     }
-    render('strategy', data.strategy.slice().reverse());
-    render('metaplanet', data.metaplanet);
+
+    function render() {
+      const company = filter.value;
+      const visible = company === 'All' ? rows : rows.filter(r => r.company === company);
+      if (!visible.length) {
+        table.innerHTML = '<tr><td>No data</td></tr>';
+        return;
+      }
+      const headers = Object.keys(visible[0]);
+      table.innerHTML = '<tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr>' +
+        visible.map(r => '<tr>' + headers.map(h => '<td>' + format(r[h]) + '</td>').join('') + '</tr>').join('');
+    }
+
+    filter.addEventListener('change', render);
+    render();
   });
 </script>
 </body>
