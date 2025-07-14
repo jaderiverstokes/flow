@@ -51,10 +51,14 @@
 </head>
 <body>
 <div class="container">
-  <h1>Strategy Purchases</h1>
-  <table id="strategy"></table>
-  <h1>Metaplanet Purchases</h1>
-  <table id="metaplanet"></table>
+  <h1>Purchases</h1>
+  <label for="company-filter">Company:</label>
+  <select id="company-filter">
+    <option value="all">All</option>
+    <option value="Strategy">Strategy</option>
+    <option value="Metaplanet">Metaplanet</option>
+  </select>
+  <table id="purchases"></table>
 </div>
 <script>
   fetch('data.json')
@@ -64,7 +68,8 @@
         date: 'Date',
         btc: 'BTC',
         avg_price_usd: 'Average Price (USD)',
-        total_cost_usd: 'Total Cost (USD)'
+        total_cost_usd: 'Total Cost (USD)',
+        company: 'Company'
       };
 
       function render(tableId, rows) {
@@ -102,8 +107,26 @@
             .join('');
       }
 
-      render('strategy', data.strategy.slice().reverse());
-      render('metaplanet', data.metaplanet);
+      const allRows = [
+        ...data.strategy.map(r => ({ ...r, company: 'Strategy' })),
+        ...data.metaplanet.map(r => ({ ...r, company: 'Metaplanet' }))
+      ];
+
+      allRows.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+      const filterEl = document.getElementById('company-filter');
+
+      function renderFiltered() {
+        let rows = allRows;
+        const val = filterEl.value;
+        if (val !== 'all') {
+          rows = rows.filter(r => r.company === val);
+        }
+        render('purchases', rows);
+      }
+
+      renderFiltered();
+      filterEl.addEventListener('change', renderFiltered);
     });
 </script>
 </body>
