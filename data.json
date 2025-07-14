@@ -419,6 +419,12 @@
       "btc": 4980,
       "avg_price_usd": 106801,
       "total_cost_usd": 532000000
+    },
+    {
+      "date": "2025-07-14",
+      "btc": 4225,
+      "avg_price_usd": 111827,
+      "total_cost_usd": 472000000
     }
   ],
   "metaplanet": [
