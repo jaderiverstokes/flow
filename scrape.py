@@ -3,10 +3,13 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+import re
+from datetime import datetime
 
 
 STRATEGY_URL = "https://www.strategy.com/purchases"
 METAPLANET_URL = "https://metaplanet.jp/en/analytics"
+MARA_URL = "https://bitcointreasuries.net/public-companies/mara"
 
 
 def fetch_strategy():
@@ -85,10 +88,37 @@ def fetch_metaplanet():
         driver.quit()
 
 
+def fetch_mara():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    html = requests.get(MARA_URL, headers=headers).text
+    start = html.find("Recent Developments")
+    end = html.find("Additional recent highlights", start)
+    if start == -1 or end == -1:
+        return []
+    section = html[start:end]
+    pattern = re.compile(r'- \*\*(.+?)\*\*([^\n]*)')
+    rows = []
+    for date_str, text in pattern.findall(section):
+        date_str = date_str.strip().rstrip(':')
+        m = re.search(r'([\d,]+) BTC', text)
+        if not m:
+            continue
+        btc = float(m.group(1).replace(',', ''))
+        date = datetime.strptime(date_str, '%B %d, %Y').strftime('%Y-%m-%d')
+        rows.append({
+            'date': date,
+            'btc': btc,
+            'avg_price_usd': 0,
+            'total_cost_usd': 0
+        })
+    return rows
+
+
 def main():
     data = {
         'strategy': fetch_strategy(),
         'metaplanet': fetch_metaplanet(),
+        'mara': fetch_mara(),
     }
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)

@@ -680,5 +680,37 @@
       "avg_price_usd": 66018.0,
       "total_cost_usd": 6460000.0
     }
+  ],
+  "mara": [
+    {
+      "date": "2025-04-03",
+      "btc": 1226.0,
+      "avg_price_usd": 0,
+      "total_cost_usd": 0
+    },
+    {
+      "date": "2025-03-10",
+      "btc": 715.0,
+      "avg_price_usd": 0,
+      "total_cost_usd": 0
+    },
+    {
+      "date": "2025-02-03",
+      "btc": 766.0,
+      "avg_price_usd": 0,
+      "total_cost_usd": 0
+    },
+    {
+      "date": "2025-01-03",
+      "btc": 499.0,
+      "avg_price_usd": 0,
+      "total_cost_usd": 0
+    },
+    {
+      "date": "2024-12-19",
+      "btc": 3959.0,
+      "avg_price_usd": 0,
+      "total_cost_usd": 0
+    }
   ]
 }
