@@ -23,7 +23,7 @@ def fetch_strategy():
         purchases.append({
             'date': item['date_of_purchase'],
             'btc': item['count'],
-            'avg_price_usd': item['average_price'],
+            'avg_price_usd': item['purchase_price'],
             'total_cost_usd': item.get('total_purchase_price')
         })
     return purchases

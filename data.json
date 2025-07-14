@@ -9,419 +9,425 @@
     {
       "date": "2020-09-14",
       "btc": 16796,
-      "avg_price_usd": 11035.995,
+      "avg_price_usd": 10419.15,
       "total_cost_usd": 175000000
     },
     {
       "date": "2020-12-04",
       "btc": 2574,
-      "avg_price_usd": 13832.997,
+      "avg_price_usd": 19427,
       "total_cost_usd": 50000000
     },
     {
       "date": "2020-12-21",
       "btc": 29646,
-      "avg_price_usd": 15698.498,
+      "avg_price_usd": 21925,
       "total_cost_usd": 650000000
     },
     {
       "date": "2021-01-22",
       "btc": 314,
-      "avg_price_usd": 18920.398,
+      "avg_price_usd": 31808,
       "total_cost_usd": 10000000
     },
     {
       "date": "2021-02-02",
       "btc": 295,
-      "avg_price_usd": 16109,
+      "avg_price_usd": 33810,
       "total_cost_usd": 10000000
     },
     {
       "date": "2021-02-19",
       "btc": 19452,
-      "avg_price_usd": 23985,
+      "avg_price_usd": 52765,
       "total_cost_usd": 1023000000
     },
     {
       "date": "2021-03-01",
       "btc": 328,
-      "avg_price_usd": 24063,
+      "avg_price_usd": 45710,
       "total_cost_usd": 15000000
     },
     {
       "date": "2021-03-05",
       "btc": 205,
-      "avg_price_usd": 24119,
+      "avg_price_usd": 48888,
       "total_cost_usd": 10000000
     },
     {
       "date": "2021-03-12",
       "btc": 262,
-      "avg_price_usd": 24214,
+      "avg_price_usd": 57146,
       "total_cost_usd": 15000000
     },
     {
       "date": "2021-04-05",
       "btc": 253,
-      "avg_price_usd": 24311,
+      "avg_price_usd": 59339,
       "total_cost_usd": 15000000
     },
     {
       "date": "2021-05-13",
       "btc": 271,
-      "avg_price_usd": 24403,
+      "avg_price_usd": 55387,
       "total_cost_usd": 15000000
     },
     {
       "date": "2021-05-18",
       "btc": 229,
-      "avg_price_usd": 24450,
+      "avg_price_usd": 43663,
       "total_cost_usd": 10000000
     },
     {
       "date": "2021-06-21",
       "btc": 13005,
-      "avg_price_usd": 26080,
+      "avg_price_usd": 37617,
       "total_cost_usd": 489000000
     },
     {
       "date": "2021-08-24",
       "btc": 3907,
-      "avg_price_usd": 26769,
+      "avg_price_usd": 45294,
       "total_cost_usd": 177000000
     },
     {
       "date": "2021-09-13",
       "btc": 5050,
-      "avg_price_usd": 27713,
+      "avg_price_usd": 48099,
       "total_cost_usd": 242900000
     },
     {
       "date": "2021-11-29",
       "btc": 7002,
-      "avg_price_usd": 29534,
+      "avg_price_usd": 59187,
       "total_cost_usd": 414400000
     },
     {
       "date": "2021-12-09",
       "btc": 1434,
-      "avg_price_usd": 29861,
+      "avg_price_usd": 57477,
       "total_cost_usd": 82400000
     },
     {
       "date": "2021-12-30",
       "btc": 1914,
-      "avg_price_usd": 30159,
+      "avg_price_usd": 49229,
       "total_cost_usd": 94200000
     },
     {
       "date": "2022-02-01",
       "btc": 660,
-      "avg_price_usd": 30200,
+      "avg_price_usd": 37865,
       "total_cost_usd": 25000000
     },
     {
       "date": "2022-04-05",
       "btc": 4167,
-      "avg_price_usd": 30700,
+      "avg_price_usd": 45714,
       "total_cost_usd": 190500000
     },
     {
       "date": "2022-06-29",
       "btc": 480,
-      "avg_price_usd": 30664,
+      "avg_price_usd": 20817,
       "total_cost_usd": 10000000
     },
     {
       "date": "2022-09-20",
       "btc": 301,
-      "avg_price_usd": 30639,
+      "avg_price_usd": 19851,
       "total_cost_usd": 6000000
     },
     {
       "date": "2022-12-28",
       "btc": 2501,
-      "avg_price_usd": 30397,
+      "avg_price_usd": 17847,
       "total_cost_usd": 45000000
     },
     {
       "date": "2023-03-23",
       "btc": 6455,
-      "avg_price_usd": 29817,
+      "avg_price_usd": 23238,
       "total_cost_usd": 150000000
     },
     {
       "date": "2023-04-05",
       "btc": 1045,
-      "avg_price_usd": 29803,
+      "avg_price_usd": 28016,
       "total_cost_usd": 29300000
     },
     {
       "date": "2023-06-28",
       "btc": 12333,
-      "avg_price_usd": 29668,
+      "avg_price_usd": 28136,
       "total_cost_usd": 347000000
     },
     {
       "date": "2023-08-01",
       "btc": 467,
-      "avg_price_usd": 29672,
+      "avg_price_usd": 30788,
       "total_cost_usd": 14400000
     },
     {
       "date": "2023-09-25",
       "btc": 5445,
-      "avg_price_usd": 29582,
+      "avg_price_usd": 27053,
       "total_cost_usd": 147300000
     },
     {
       "date": "2023-11-01",
       "btc": 155,
-      "avg_price_usd": 29586,
+      "avg_price_usd": 34495,
       "total_cost_usd": 5000000
     },
     {
       "date": "2023-11-30",
       "btc": 16130,
-      "avg_price_usd": 30252,
+      "avg_price_usd": 36785,
       "total_cost_usd": 593300000
     },
     {
       "date": "2023-12-27",
       "btc": 14620,
-      "avg_price_usd": 31168,
+      "avg_price_usd": 42110,
       "total_cost_usd": 616000000
     },
     {
       "date": "2024-02-06",
       "btc": 850,
-      "avg_price_usd": 31224,
+      "avg_price_usd": 43723,
       "total_cost_usd": 37200000
     },
     {
       "date": "2024-02-26",
       "btc": 3000,
-      "avg_price_usd": 31544,
+      "avg_price_usd": 51813,
       "total_cost_usd": 155400000
     },
     {
       "date": "2024-03-11",
       "btc": 12000,
-      "avg_price_usd": 33706,
+      "avg_price_usd": 68477,
       "total_cost_usd": 822000000
     },
     {
       "date": "2024-03-19",
       "btc": 9245,
-      "avg_price_usd": 35160,
+      "avg_price_usd": 67382,
       "total_cost_usd": 623000000
     },
     {
       "date": "2024-04-29",
       "btc": 155,
-      "avg_price_usd": 35180,
+      "avg_price_usd": 63397,
       "total_cost_usd": 10000000
     },
     {
       "date": "2024-06-20",
       "btc": 11931,
-      "avg_price_usd": 43723,
+      "avg_price_usd": 65883,
       "total_cost_usd": 786000000
     },
     {
       "date": "2024-08-01",
       "btc": 169,
-      "avg_price_usd": 36821,
+      "avg_price_usd": 67455,
       "total_cost_usd": 11400000
     },
     {
       "date": "2024-09-13",
       "btc": 18300,
-      "avg_price_usd": 36821,
+      "avg_price_usd": 60408,
       "total_cost_usd": 1110000000
     },
     {
       "date": "2024-09-20",
       "btc": 7420,
-      "avg_price_usd": 39266,
+      "avg_price_usd": 61750,
       "total_cost_usd": 458200000
     },
     {
       "date": "2024-11-11",
       "btc": 27200,
-      "avg_price_usd": 42692,
+      "avg_price_usd": 74463,
       "total_cost_usd": 2025407757.59
     },
     {
       "date": "2024-11-18",
       "btc": 51780,
-      "avg_price_usd": 42692,
+      "avg_price_usd": 88627,
       "total_cost_usd": 4600000000
     },
     {
       "date": "2024-11-25",
       "btc": 55500,
-      "avg_price_usd": 56761,
+      "avg_price_usd": 97862,
       "total_cost_usd": 5400000000
     },
     {
       "date": "2024-12-02",
       "btc": 15400,
-      "avg_price_usd": 58263,
+      "avg_price_usd": 95976,
       "total_cost_usd": 1500000000
     },
     {
       "date": "2024-12-09",
       "btc": 21550,
-      "avg_price_usd": 60324,
+      "avg_price_usd": 98783,
       "total_cost_usd": 2100000000
     },
     {
       "date": "2024-12-16",
       "btc": 15350,
-      "avg_price_usd": 61725,
+      "avg_price_usd": 100386,
       "total_cost_usd": 1500000000
     },
     {
       "date": "2024-12-23",
       "btc": 5262,
-      "avg_price_usd": 62257,
+      "avg_price_usd": 106662,
       "total_cost_usd": 561000000
     },
     {
       "date": "2024-12-30",
       "btc": 2138,
-      "avg_price_usd": 62428,
+      "avg_price_usd": 97837,
       "total_cost_usd": 209000000
     },
     {
       "date": "2025-01-06",
       "btc": 1070,
-      "avg_price_usd": 62503,
+      "avg_price_usd": 94004,
       "total_cost_usd": 101000000
     },
     {
       "date": "2025-01-13",
       "btc": 2530,
-      "avg_price_usd": 62691,
+      "avg_price_usd": 95972,
       "total_cost_usd": 243000000
     },
     {
       "date": "2025-01-21",
       "btc": 11000,
-      "avg_price_usd": 63610,
+      "avg_price_usd": 101191,
       "total_cost_usd": 1100000000
     },
     {
       "date": "2025-01-27",
       "btc": 10107,
-      "avg_price_usd": 64511,
+      "avg_price_usd": 105596,
       "total_cost_usd": 1100000000
     },
     {
       "date": "2025-02-10",
       "btc": 7633,
-      "avg_price_usd": 65033,
+      "avg_price_usd": 97255,
       "total_cost_usd": 742400000
     },
     {
       "date": "2025-02-24",
       "btc": 20356,
-      "avg_price_usd": 66357,
+      "avg_price_usd": 97514,
       "total_cost_usd": 1985000000
     },
     {
       "date": "2025-03-17",
       "btc": 130,
-      "avg_price_usd": 66360,
+      "avg_price_usd": 82981,
       "total_cost_usd": 11000000
     },
     {
       "date": "2025-03-24",
       "btc": 6911,
-      "avg_price_usd": 66608,
+      "avg_price_usd": 84529,
       "total_cost_usd": 584000000
     },
     {
       "date": "2025-03-31",
       "btc": 22048,
-      "avg_price_usd": 67458,
+      "avg_price_usd": 86969,
       "total_cost_usd": 1918000000
     },
     {
       "date": "2025-04-14",
       "btc": 3459,
-      "avg_price_usd": 67556,
+      "avg_price_usd": 82618,
       "total_cost_usd": 286000000
     },
     {
       "date": "2025-04-21",
       "btc": 6556,
-      "avg_price_usd": 67766,
+      "avg_price_usd": 84785,
       "total_cost_usd": 556000000
     },
     {
       "date": "2025-04-28",
       "btc": 15355,
-      "avg_price_usd": 68459,
+      "avg_price_usd": 92737,
       "total_cost_usd": 1424000000
     },
     {
       "date": "2025-05-05",
       "btc": 1895,
-      "avg_price_usd": 68550,
+      "avg_price_usd": 95167,
       "total_cost_usd": 180000000
     },
     {
       "date": "2025-05-12",
       "btc": 13390,
-      "avg_price_usd": 69287,
+      "avg_price_usd": 99856,
       "total_cost_usd": 1337000000
     },
     {
       "date": "2025-05-19",
       "btc": 7390,
-      "avg_price_usd": 69726,
+      "avg_price_usd": 103498,
       "total_cost_usd": 765000000
     },
     {
       "date": "2025-05-26",
       "btc": 4020,
-      "avg_price_usd": 69979,
+      "avg_price_usd": 106237,
       "total_cost_usd": 427000000
     },
     {
       "date": "2025-06-02",
       "btc": 705,
-      "avg_price_usd": 70023,
+      "avg_price_usd": 106495,
       "total_cost_usd": 75000000
     },
     {
       "date": "2025-06-09",
       "btc": 1045,
-      "avg_price_usd": 70086,
+      "avg_price_usd": 105426,
       "total_cost_usd": 110000000
     },
     {
       "date": "2025-06-16",
       "btc": 10100,
-      "avg_price_usd": 70666,
+      "avg_price_usd": 104080,
       "total_cost_usd": 1051000000
     },
     {
       "date": "2025-06-23",
       "btc": 245,
-      "avg_price_usd": 70681,
+      "avg_price_usd": 105856,
       "total_cost_usd": 26000000
     },
     {
       "date": "2025-06-30",
       "btc": 4980,
-      "avg_price_usd": 70982,
+      "avg_price_usd": 106801,
       "total_cost_usd": 532000000
     }
   ],
   "metaplanet": [
+    {
+      "date": "2025-07-14",
+      "btc": 797.0,
+      "avg_price_usd": 117451.0,
+      "total_cost_usd": 93610000.0
+    },
     {
       "date": "2025-07-07",
       "btc": 2205.0,
