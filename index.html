@@ -112,7 +112,7 @@
         ...data.metaplanet.map(r => ({ ...r, company: 'Metaplanet' }))
       ];
 
-      allRows.sort((a, b) => new Date(a.date) - new Date(b.date));
+      allRows.sort((a, b) => new Date(b.date) - new Date(a.date));
 
       const filterEl = document.getElementById('company-filter');
 
