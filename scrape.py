@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 STRATEGY_URL = "https://www.strategy.com/purchases"
 METAPLANET_URL = "https://metaplanet.jp/en/analytics"
+MARA_URL = "https://bitcointreasuries.net/public-companies/mara"
 
 
 def fetch_strategy():
@@ -85,10 +86,51 @@ def fetch_metaplanet():
         driver.quit()
 
 
+def fetch_mara():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    html = requests.get(MARA_URL, headers=headers).text
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # The table rows are embedded in hidden <dl> elements
+    dls = list(reversed(soup.select('.hidden dl')))
+    entries = []
+    for dl in dls:
+        time = dl.find('time')
+        if not time:
+            continue
+        data = {}
+        for div in dl.find_all('div', recursive=False):
+            dt = div.find('dt')
+            dd = div.find('dd')
+            if dt and dd:
+                data[dt.get_text(strip=True)] = dd.get_text(strip=True)
+        balance = float(data.get('BTC Balance', '0').replace(',', ''))
+        entries.append({
+            'date': time['datetime'],
+            'balance': balance
+        })
+
+    # Derive purchases from balance deltas
+    purchases = []
+    prev = None
+    for e in entries:
+        delta = e['balance'] if prev is None else e['balance'] - prev
+        prev = e['balance']
+        if delta > 0:
+            purchases.append({
+                'date': e['date'],
+                'btc': delta,
+                'avg_price_usd': None,
+                'total_cost_usd': None
+            })
+    return purchases
+
+
 def main():
     data = {
         'strategy': fetch_strategy(),
         'metaplanet': fetch_metaplanet(),
+        'mara': fetch_mara(),
     }
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
