@@ -91,7 +91,19 @@
               day: 'numeric'
             });
           }
-          return typeof value === 'number' ? value.toLocaleString() : value;
+          else if (key === 'avg_price_usd' || key === 'total_cost_usd') {
+            return value.toLocaleString('en-US', {
+                style: 'currency', currency: 'USD'
+            });
+          }
+          else if (key === 'btc') {
+            return "₿" + value.toLocaleString('en-US', {
+              maximumFractionDigits: 2
+            });
+          }
+          return typeof value === 'number' ? value.toLocaleString('en-US', {
+              maximumFractionDigits: 2
+          }) : value;
         }
 
         table.innerHTML =
