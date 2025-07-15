@@ -15,6 +15,7 @@ BITCOIN_TREASURY_BASE_URL = "https://bitcointreasuries.net/public-companies/"
 # identifier is "mara".
 BITCOIN_TREASURY_COMPANIES = [
     "mara",
+    "riot",
     "xxi",
 ]
 

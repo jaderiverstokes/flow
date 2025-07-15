@@ -68,6 +68,7 @@
     <option value="Strategy">Strategy</option>
     <option value="Metaplanet">Metaplanet</option>
     <option value="Mara">Mara</option>
+    <option value="Riot">Riot</option>
     <option value="XXI">XXI</option>
   </select>
   <table id="purchases"></table>
@@ -135,6 +136,7 @@
         ...data.strategy.map(r => ({ ...r, company: 'Strategy' })),
         ...data.metaplanet.map(r => ({ ...r, company: 'Metaplanet' })),
         ...(data.mara || []).map(r => ({ ...r, company: 'Mara' })),
+        ...(data.riot || []).map(r => ({ ...r, company: 'Riot' })),
         ...(data.xxi || []).map(r => ({ ...r, company: 'XXI' }))
       ];
 
