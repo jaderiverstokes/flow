@@ -1,5 +1,7 @@
 import json
 import requests
+import subprocess
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
@@ -7,6 +9,7 @@ from bs4 import BeautifulSoup
 
 STRATEGY_URL = "https://www.strategy.com/purchases"
 METAPLANET_URL = "https://metaplanet.jp/en/analytics"
+MARA_URL = "https://bitcointreasuries.net/public-companies/mara"
 
 
 def fetch_strategy():
@@ -85,10 +88,27 @@ def fetch_metaplanet():
         driver.quit()
 
 
+def fetch_mara():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    html = requests.get(MARA_URL, headers=headers).text
+    # ensure devalue package is available for the node script
+    if not os.path.exists('node_modules/devalue'):
+        subprocess.run(['npm', 'install', 'devalue'], check=True)
+    try:
+        result = subprocess.run(
+            ["node", "parse_mara.js"], input=html, text=True, capture_output=True, check=True
+        )
+    except subprocess.CalledProcessError as e:
+        print("node error", e.stderr)
+        return []
+    return json.loads(result.stdout)
+
+
 def main():
     data = {
         'strategy': fetch_strategy(),
         'metaplanet': fetch_metaplanet(),
+        'mara': fetch_mara(),
     }
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
