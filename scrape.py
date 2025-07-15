@@ -134,7 +134,9 @@ def main():
     }
 
     for name in BITCOIN_TREASURY_COMPANIES:
-        data[name] = fetch_bitcointreasury_company(name)
+        results = fetch_bitcointreasury_company(name)
+        if results:
+            data[name] = results
 
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
