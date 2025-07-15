@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 STRATEGY_URL = "https://www.strategy.com/purchases"
 METAPLANET_URL = "https://metaplanet.jp/en/analytics"
 MARA_URL = "https://bitcointreasuries.net/public-companies/mara"
+XXI_URL = "https://bitcointreasuries.net/public-companies/xxi"
 
 
 def fetch_strategy():
@@ -169,11 +170,36 @@ def fetch_mara():
     return rows
 
 
+def fetch_xxi():
+    headers = {"User-Agent": "Mozilla/5.0"}
+    html = requests.get(XXI_URL, headers=headers).text
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = soup.find_all("script", {"type": "application/json"})
+    if len(scripts) < 2:
+        return []
+    body = json.loads(scripts[1].string)["body"]
+    data_str = json.loads(body)[0]["result"]["data"]
+    obj = _parse_devalue(data_str)
+    rows = []
+    for b in obj.get("balances", []):
+        date = b["date"].date().isoformat()
+        btc = float(b["btcDelta"])
+        price = float(b["btcMarketPrice"])
+        rows.append({
+            "date": date,
+            "btc": btc,
+            "avg_price_usd": price,
+            "total_cost_usd": btc * price,
+        })
+    return rows
+
+
 def main():
     data = {
         'strategy': fetch_strategy(),
         'metaplanet': fetch_metaplanet(),
         'mara': fetch_mara(),
+        'xxi': fetch_xxi(),
     }
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)

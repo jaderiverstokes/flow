@@ -59,6 +59,7 @@
     <option value="Strategy">Strategy</option>
     <option value="Metaplanet">Metaplanet</option>
     <option value="Mara">Mara</option>
+    <option value="XXI">XXI</option>
   </select>
   <table id="purchases"></table>
 </div>
@@ -124,7 +125,8 @@
       const allRows = [
         ...data.strategy.map(r => ({ ...r, company: 'Strategy' })),
         ...data.metaplanet.map(r => ({ ...r, company: 'Metaplanet' })),
-        ...(data.mara || []).map(r => ({ ...r, company: 'Mara' }))
+        ...(data.mara || []).map(r => ({ ...r, company: 'Mara' })),
+        ...(data.xxi || []).map(r => ({ ...r, company: 'XXI' }))
       ];
 
       allRows.sort((a, b) => new Date(b.date) - new Date(a.date));
