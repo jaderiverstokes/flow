@@ -8,8 +8,15 @@ from bs4 import BeautifulSoup
 
 STRATEGY_URL = "https://www.strategy.com/purchases"
 METAPLANET_URL = "https://metaplanet.jp/en/analytics"
-MARA_URL = "https://bitcointreasuries.net/public-companies/mara"
-XXI_URL = "https://bitcointreasuries.net/public-companies/xxi"
+BITCOIN_TREASURY_BASE_URL = "https://bitcointreasuries.net/public-companies/"
+
+# List of company identifiers on bitcointreasuries.net
+# e.g. for "https://bitcointreasuries.net/public-companies/mara" the
+# identifier is "mara".
+BITCOIN_TREASURY_COMPANIES = [
+    "mara",
+    "xxi",
+]
 
 
 def fetch_strategy():
@@ -170,21 +177,21 @@ def _fetch_btc_treasury(url):
     return rows
 
 
-def fetch_mara():
-    return _fetch_btc_treasury(MARA_URL)
-
-
-def fetch_xxi():
-    return _fetch_btc_treasury(XXI_URL)
+def fetch_bitcointreasury_company(name: str):
+    """Fetch purchase history for a given company identifier."""
+    url = f"{BITCOIN_TREASURY_BASE_URL}{name}"
+    return _fetch_btc_treasury(url)
 
 
 def main():
     data = {
         'strategy': fetch_strategy(),
         'metaplanet': fetch_metaplanet(),
-        'mara': fetch_mara(),
-        'xxi': fetch_xxi(),
     }
+
+    for name in BITCOIN_TREASURY_COMPANIES:
+        data[name] = fetch_bitcointreasury_company(name)
+
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
 
