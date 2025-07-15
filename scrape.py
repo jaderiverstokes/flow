@@ -1,7 +1,6 @@
 import json
 import requests
-import subprocess
-import os
+from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
@@ -88,20 +87,86 @@ def fetch_metaplanet():
         driver.quit()
 
 
+UNDEFINED = -1
+HOLE = -2
+NAN = -3
+POSITIVE_INFINITY = -4
+NEGATIVE_INFINITY = -5
+NEGATIVE_ZERO = -6
+
+
+def _hydrate(values, index, cache):
+    if index == UNDEFINED:
+        return None
+    if index == NAN:
+        return float("nan")
+    if index == POSITIVE_INFINITY:
+        return float("inf")
+    if index == NEGATIVE_INFINITY:
+        return float("-inf")
+    if index == NEGATIVE_ZERO:
+        return -0.0
+    if index in cache:
+        return cache[index]
+
+    value = values[index]
+    if value is None or not isinstance(value, (list, dict)):
+        cache[index] = value
+    elif isinstance(value, list):
+        if value and isinstance(value[0], str):
+            t = value[0]
+            if t == "Date":
+                cache[index] = datetime.fromisoformat(value[1].replace("Z", "+00:00"))
+            elif t == "null":
+                obj = {}
+                cache[index] = obj
+                for i in range(1, len(value), 2):
+                    obj[value[i]] = _hydrate(values, value[i + 1], cache)
+            else:
+                raise ValueError(f"Unsupported type {t}")
+        else:
+            arr = []
+            cache[index] = arr
+            for v in value:
+                if v == HOLE:
+                    arr.append(None)
+                else:
+                    arr.append(_hydrate(values, v, cache))
+    else:
+        obj = {}
+        cache[index] = obj
+        for k, v in value.items():
+            obj[k] = _hydrate(values, v, cache)
+    return cache[index]
+
+
+def _parse_devalue(serialized):
+    values = json.loads(serialized)
+    return _hydrate(values, 0, {})
+
+
 def fetch_mara():
     headers = {"User-Agent": "Mozilla/5.0"}
     html = requests.get(MARA_URL, headers=headers).text
-    # ensure devalue package is available for the node script
-    if not os.path.exists('node_modules/devalue'):
-        subprocess.run(['npm', 'install', 'devalue'], check=True)
-    try:
-        result = subprocess.run(
-            ["node", "parse_mara.js"], input=html, text=True, capture_output=True, check=True
-        )
-    except subprocess.CalledProcessError as e:
-        print("node error", e.stderr)
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = soup.find_all("script", {"type": "application/json"})
+    if len(scripts) < 2:
         return []
-    return json.loads(result.stdout)
+    body = json.loads(scripts[1].string)["body"]
+    data_str = json.loads(body)[0]["result"]["data"]
+    obj = _parse_devalue(data_str)
+    rows = []
+    for b in obj.get("balances", []):
+        date = b["date"].date().isoformat()
+        btc = float(b["btcDelta"])
+        price = float(b["btcMarketPrice"])
+        rows.append({
+            "date": date,
+            "btc": btc,
+            "avg_price_usd": price,
+            "total_cost_usd": btc * price,
+        })
+    return rows
 
 
 def main():
