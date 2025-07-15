@@ -48,18 +48,48 @@
   tr:nth-child(even) {
     background: #1e1e1e;
   }
+
+  .filter {
+    margin-bottom: 20px;
+  }
+
+  .filter label {
+    margin-right: 10px;
+  }
+
+  #company-filter {
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #1a1a1a;
+    color: #eee;
+    font-size: 1em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20'%3E%3Cpolyline points='5 7 10 12 15 7' fill='none' stroke='%23eee' stroke-width='2'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+
+  select::-ms-expand {
+    display: none;
+  }
 </style>
 </head>
 <body>
 <div class="container">
   <h1>Purchases</h1>
-  <label for="company-filter">Company:</label>
-  <select id="company-filter">
-    <option value="all">All</option>
-    <option value="Strategy">Strategy</option>
-    <option value="Metaplanet">Metaplanet</option>
-    <option value="Mara">Mara</option>
-  </select>
+  <div class="filter">
+    <label for="company-filter">Company:</label>
+    <select id="company-filter">
+      <option value="all">All</option>
+      <option value="Strategy">Strategy</option>
+      <option value="Metaplanet">Metaplanet</option>
+      <option value="Mara">Mara</option>
+    </select>
+  </div>
   <table id="purchases"></table>
 </div>
 <script>
