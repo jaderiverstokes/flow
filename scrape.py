@@ -146,9 +146,9 @@ def _parse_devalue(serialized):
     return _hydrate(values, 0, {})
 
 
-def fetch_mara():
+def _fetch_btc_treasury(url):
     headers = {"User-Agent": "Mozilla/5.0"}
-    html = requests.get(MARA_URL, headers=headers).text
+    html = requests.get(url, headers=headers).text
     soup = BeautifulSoup(html, "html.parser")
     scripts = soup.find_all("script", {"type": "application/json"})
     if len(scripts) < 2:
@@ -168,30 +168,14 @@ def fetch_mara():
             "total_cost_usd": btc * price,
         })
     return rows
+
+
+def fetch_mara():
+    return _fetch_btc_treasury(MARA_URL)
 
 
 def fetch_xxi():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    html = requests.get(XXI_URL, headers=headers).text
-    soup = BeautifulSoup(html, "html.parser")
-    scripts = soup.find_all("script", {"type": "application/json"})
-    if len(scripts) < 2:
-        return []
-    body = json.loads(scripts[1].string)["body"]
-    data_str = json.loads(body)[0]["result"]["data"]
-    obj = _parse_devalue(data_str)
-    rows = []
-    for b in obj.get("balances", []):
-        date = b["date"].date().isoformat()
-        btc = float(b["btcDelta"])
-        price = float(b["btcMarketPrice"])
-        rows.append({
-            "date": date,
-            "btc": btc,
-            "avg_price_usd": price,
-            "total_cost_usd": btc * price,
-        })
-    return rows
+    return _fetch_btc_treasury(XXI_URL)
 
 
 def main():
