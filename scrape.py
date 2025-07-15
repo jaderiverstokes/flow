@@ -1,8 +1,7 @@
 import json
-import requests
 from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+
+import cloudscraper
 from bs4 import BeautifulSoup
 
 
@@ -20,9 +19,11 @@ BITCOIN_TREASURY_COMPANIES = [
 ]
 
 
+scraper = cloudscraper.create_scraper()
+
+
 def fetch_strategy():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    html = requests.get(STRATEGY_URL, headers=headers).text
+    html = scraper.get(STRATEGY_URL).text
     start = html.find("__NEXT_DATA__")
     if start == -1:
         raise RuntimeError("__NEXT_DATA__ not found")
@@ -99,8 +100,7 @@ def _parse_devalue(serialized):
 
 
 def _fetch_btc_treasury(url):
-    headers = {"User-Agent": "Mozilla/5.0"}
-    html = requests.get(url, headers=headers).text
+    html = scraper.get(url).text
     soup = BeautifulSoup(html, "html.parser")
     scripts = soup.find_all("script", {"type": "application/json"})
     if len(scripts) < 2:
