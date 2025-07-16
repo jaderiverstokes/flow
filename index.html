@@ -136,7 +136,12 @@
       const allRows = [];
       Object.keys(data).forEach(key => {
         const name = key.length <= 3 ? key.toUpperCase() :
-          key.charAt(0).toUpperCase() + key.slice(1);
+          // if there are any dashes, replace with space and capitalize
+          key.replace(/-/g, ' ')
+            .split(' ')
+            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+            .slice(0, 2)
+            .join(' ');
         (data[key] || []).forEach(r => {
           allRows.push({ ...r, company: name });
         });
