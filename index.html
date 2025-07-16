@@ -65,6 +65,16 @@
     border-radius: 4px;
     margin-bottom: 40px;
   }
+
+  #io-panel {
+    padding: 6px 12px;
+    background: #3a3a3a;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-top: 10px;
+  }
 </style>
 </head>
 <body>
@@ -74,8 +84,9 @@
   <select id="company-filter">
     <option value="all">All</option>
   </select>
+  <span>&nbsp;&nbsp;&nbsp;Last 30 days: </span>
+  <span id="io-panel" ></span>
   <canvas id="btcChart" height="180"></canvas>
-  <div id="io-panel" style="margin:15px 0;"></div>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -208,7 +219,7 @@
         });
         const mined = minedLast30Days();
         panel.textContent =
-          `Mined last 30d: ₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})} | Purchased: ₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
+          `Mined: ₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})} | Purchased: ₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
       }
 
       function updateChart(rows) {
