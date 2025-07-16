@@ -16,6 +16,7 @@ BITCOIN_TREASURY_COMPANIES = [
     "riot",
     "xxi",
     "metaplanet",
+    "galaxy-digital-holdings",
 ]
 
 
