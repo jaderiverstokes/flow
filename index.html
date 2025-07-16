@@ -65,6 +65,14 @@
     border-radius: 4px;
     margin-bottom: 40px;
   }
+
+  #inflow-outflow-panel {
+    margin: 20px 0;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+  }
 </style>
 </head>
 <body>
@@ -74,6 +82,7 @@
   <select id="company-filter">
     <option value="all">All</option>
   </select>
+  <div id="inflow-outflow-panel"></div>
   <canvas id="btcChart" height="180"></canvas>
   <table id="purchases"></table>
 </div>
@@ -161,7 +170,50 @@
         filterEl.appendChild(opt);
       });
 
+
       allRows.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      function renderInflowOutflow() {
+        const panel = document.getElementById('inflow-outflow-panel');
+        const now = new Date();
+        const start = new Date(now);
+        start.setDate(start.getDate() - 30);
+
+        const purchased = allRows.reduce((sum, r) => {
+          const d = new Date(r.date);
+          return d >= start ? sum + Number(r.btc) : sum;
+        }, 0);
+
+        const halvings = [
+          { date: new Date('2009-01-03'), reward: 50 },
+          { date: new Date('2012-11-28'), reward: 25 },
+          { date: new Date('2016-07-09'), reward: 12.5 },
+          { date: new Date('2020-05-11'), reward: 6.25 },
+          { date: new Date('2024-04-20'), reward: 3.125 }
+        ];
+
+        function rewardAt(date) {
+          for (let i = halvings.length - 1; i >= 0; i--) {
+            if (date >= halvings[i].date) return halvings[i].reward;
+          }
+          return 0;
+        }
+
+        let mined = 0;
+        let cur = new Date(start);
+        while (cur < now) {
+          const reward = rewardAt(cur);
+          const nextHalving = halvings.find(h => h.date > cur);
+          const end = nextHalving && nextHalving.date < now ? nextHalving.date : now;
+          const days = (end - cur) / 86400000;
+          mined += days * 144 * reward;
+          cur = end;
+        }
+
+        panel.textContent = `Past 30 days: mined ${mined.toLocaleString('en-US', {maximumFractionDigits:0})} BTC vs purchased ${purchased.toLocaleString('en-US', {maximumFractionDigits:0})} BTC`;
+      }
+
+      renderInflowOutflow();
 
       const ctx = document.getElementById('btcChart').getContext('2d');
       let chart;
