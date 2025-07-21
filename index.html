@@ -74,6 +74,8 @@
     border-radius: 4px;
     font-size: 1em;
     margin-top: 10px;
+    display: inline-block;
+    white-space: nowrap;
   }
 </style>
 </head>
@@ -218,8 +220,8 @@
           }
         });
         const mined = minedLast30Days();
-        panel.textContent =
-          `Mined: ₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})} | Purchased: ₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
+        panel.innerHTML =
+          `Mined:&nbsp;₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})}&nbsp;|&nbsp;Purchased:&nbsp;₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
       }
 
       function updateChart(rows) {
