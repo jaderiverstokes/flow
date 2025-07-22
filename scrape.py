@@ -8,19 +8,13 @@ from bs4 import BeautifulSoup
 STRATEGY_URL = "https://www.strategy.com/purchases"
 BITCOIN_TREASURY_BASE_URL = "https://bitcointreasuries.net/public-companies/"
 
-# List of company identifiers on bitcointreasuries.net
-# e.g. for "https://bitcointreasuries.net/public-companies/mara" the
-# identifier is "mara".
-BITCOIN_TREASURY_COMPANIES = [
-    "mara",
-    "riot",
-    "xxi",
-    "metaplanet",
-    "tesla",
-]
+TOP_COMPANIES_URL = "https://bitcointreasuries.net"
 
 
-scraper = cloudscraper.create_scraper()
+# Cloudflare protection on bitcointreasuries.net can present challenges
+# when scraping multiple pages quickly. Using a small delay helps
+# cloudscraper solve the challenge reliably.
+scraper = cloudscraper.create_scraper(delay=10)
 
 
 def fetch_strategy():
@@ -123,6 +117,21 @@ def _fetch_btc_treasury(url):
     return rows
 
 
+def fetch_top_company_slugs(limit: int = 10):
+    """Return the slugs for the top public companies by BTC balance."""
+    html = scraper.get(TOP_COMPANIES_URL).text
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = soup.find_all("script", {"type": "application/json"})
+    if len(scripts) < 2:
+        return []
+    body = json.loads(scripts[1].string)["body"]
+    data_str = json.loads(body)[0]["result"]["data"]
+    obj = _parse_devalue(data_str)
+    public = [c for c in obj if c.get("type") == "PUBLIC_COMPANY"]
+    public.sort(key=lambda c: c.get("btcBalance", 0), reverse=True)
+    return [c["currentSlug"] for c in public[:limit] if c.get("currentSlug")]
+
+
 def fetch_bitcointreasury_company(name: str):
     """Fetch purchase history for a given company identifier."""
     url = f"{BITCOIN_TREASURY_BASE_URL}{name}"
@@ -134,7 +143,9 @@ def main():
         'strategy': fetch_strategy(),
     }
 
-    for name in BITCOIN_TREASURY_COMPANIES:
+    company_slugs = fetch_top_company_slugs(10)
+
+    for name in company_slugs:
         results = fetch_bitcointreasury_company(name)
         if results:
             data[name] = results
