@@ -144,6 +144,7 @@ def main():
     }
 
     company_slugs = fetch_top_company_slugs(10)
+    company_slugs = [slug for slug in company_slugs if slug != 'microstrategy']
 
     for name in company_slugs:
         results = fetch_bitcointreasury_company(name)
