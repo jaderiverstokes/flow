@@ -121,6 +121,7 @@
         function format(value, key) {
           if (key === 'date') {
             return new Date(value).toLocaleDateString('en-US', {
+              timeZone: 'UTC',
               year: 'numeric',
               month: 'short',
               day: 'numeric'
@@ -236,7 +237,7 @@
         let cumulative = 0;
         sorted.forEach(r => {
           cumulative += Number(r.btc);
-          labels.push(new Date(r.date).toLocaleDateString('en-US'));
+          labels.push(new Date(r.date).toLocaleDateString('en-US', { timeZone: 'UTC' }));
           dataPoints.push(cumulative);
         });
         if (chart) chart.destroy();
