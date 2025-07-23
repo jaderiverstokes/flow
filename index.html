@@ -64,6 +64,13 @@
     -webkit-appearance: none;
   }
 
+  #io-wrapper {
+    display: inline-block;
+    margin-left: 1em;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
   #io-panel {
     margin-top: -4px;
     padding: 3.7px 12px;
@@ -74,6 +81,10 @@
     display: inline-block;
     white-space: nowrap;
     vertical-align: middle;   /* or top */
+  }
+
+  th.date, td.date {
+    white-space: nowrap;
   }
 
   #btcChart {
@@ -88,6 +99,9 @@
     .total_cost_usd {
       display: none;
     }
+    #io-panel {
+      font-size: 0.85em;
+    }
   }
 
 </style>
@@ -99,8 +113,7 @@
   <select id="company-filter">
     <option value="all">All</option>
   </select>
-  <span>&nbsp;&nbsp;&nbsp;Last 30 days: </span>
-  <span id="io-panel" ></span>
+  <span id="io-wrapper">Last 30 days: <span id="io-panel"></span></span>
   <canvas id="btcChart" height="180"></canvas>
   <table id="purchases"></table>
 </div>
@@ -113,7 +126,7 @@
       const headerMap = {
         date: 'Date',
         btc: 'BTC',
-        avg_price_usd: 'Average Price',
+        avg_price_usd: window.innerWidth <= 600 ? 'Price' : 'Average Price',
         total_cost_usd: 'Total Cost',
         company: 'Company'
       };
