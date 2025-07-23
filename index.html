@@ -97,6 +97,7 @@
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
 <script>
   fetch('data.json')
     .then(r => r.json())
@@ -232,19 +233,16 @@
 
       function updateChart(rows) {
         const sorted = rows.slice().sort((a, b) => new Date(a.date) - new Date(b.date));
-        const labels = [];
         const dataPoints = [];
         let cumulative = 0;
         sorted.forEach(r => {
           cumulative += Number(r.btc);
-          labels.push(new Date(r.date).toLocaleDateString('en-US', { timeZone: 'UTC' }));
-          dataPoints.push(cumulative);
+          dataPoints.push({ x: r.date, y: cumulative });
         });
         if (chart) chart.destroy();
         chart = new Chart(ctx, {
           type: 'line',
           data: {
-            labels,
             datasets: [{
               label: 'Cumulative BTC',
               data: dataPoints,
@@ -254,11 +252,12 @@
             }]
           },
           options: {
+            parsing: false,
             plugins: {
               legend: { labels: { color: '#eee' } }
             },
             scales: {
-              x: { ticks: { color: '#eee' } },
+              x: { type: 'time', ticks: { color: '#eee' } },
               y: { ticks: { color: '#eee' } }
             }
           }
