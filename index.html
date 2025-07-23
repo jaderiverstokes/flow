@@ -131,7 +131,8 @@
           }
           else if (key === 'avg_price_usd' || key === 'total_cost_usd') {
             return value.toLocaleString('en-US', {
-                style: 'currency', currency: 'USD'
+                style: 'currency', currency: 'USD',
+                maximumFractionDigits: 0
             });
           }
           else if (key === 'btc') {
