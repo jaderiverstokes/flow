@@ -141,7 +141,13 @@
 
         function format(value, key) {
           if (key === 'date') {
-            return new Date(value).toLocaleDateString('en-US', {
+            const mobile = window.innerWidth <= 600;
+            return new Date(value).toLocaleDateString('en-US', mobile ? {
+              timeZone: 'UTC',
+              year: '2-digit',
+              month: '2-digit',
+              day: '2-digit'
+            } : {
               timeZone: 'UTC',
               year: 'numeric',
               month: 'short',
