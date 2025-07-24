@@ -90,13 +90,19 @@
   #totals-panel {
     padding: 4px 12px;
     margin-bottom: 8px;
-    margin-left: 19px;
     background: #3a3a3a;
     color: #fff;
     border-radius: 4px;
     font-size: 1em;
     display: inline-block;
     white-space: nowrap;
+  }
+
+  @media (max-width: 767px) {
+    /* only on screens 767px and narrower */
+    #totals-panel {
+      margin-left: 19px;
+    }
   }
 
   th.date, td.date {
