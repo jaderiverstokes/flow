@@ -118,9 +118,6 @@
     .total_cost_usd {
       display: none;
     }
-    #io-panel {
-      font-size: 0.85em;
-    }
   }
 
 </style>
@@ -133,8 +130,8 @@
     <option value="all">All</option>
   </select>
   <canvas id="btcChart" height="180"></canvas>
-  <span id="io-wrapper">Last 30 days: <span id="io-panel"></span></span>
-  <span id="totals-wrapper">Total Bitcoin: <span id="totals-panel"></span></span>
+  <span id="io-wrapper">30 days: <span id="io-panel"></span></span>
+  <span id="totals-wrapper">Total: <span id="totals-panel"></span></span>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -294,7 +291,7 @@
           ((totalValue - totalCost) / totalCost) * 100 : 0;
         panel.innerHTML =
           `₿${totalBtc.toLocaleString('en-US', {maximumFractionDigits:2})}` +
-          ` | Total Return: ${totalReturnPct.toLocaleString('en-US', {maximumFractionDigits:2})}%`;
+          ` | Return: ${totalReturnPct.toLocaleString('en-US', {maximumFractionDigits:2})}%`;
       }
 
       function updateChart(rows) {
