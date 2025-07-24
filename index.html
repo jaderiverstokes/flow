@@ -290,10 +290,11 @@
         const totalBtc = rows.reduce((sum, r) => sum + Number(r.btc), 0);
         const totalCost = rows.reduce((sum, r) => sum + Number(r.total_cost_usd), 0);
         const totalValue = btcPrice ? totalBtc * btcPrice : 0;
-        const totalReturn = btcPrice ? totalValue - totalCost : 0;
+        const totalReturnPct = btcPrice && totalCost ?
+          ((totalValue - totalCost) / totalCost) * 100 : 0;
         panel.innerHTML =
           `₿${totalBtc.toLocaleString('en-US', {maximumFractionDigits:2})}` +
-          ` | Total Return: ${totalReturn.toLocaleString('en-US', {style:'currency', currency:'USD', maximumFractionDigits:0})}`;
+          ` | Total Return: ${totalReturnPct.toLocaleString('en-US', {maximumFractionDigits:2})}%`;
       }
 
       function updateChart(rows) {
