@@ -80,6 +80,22 @@
     white-space: nowrap;
   }
 
+  #totals-wrapper {
+    display: block;
+    white-space: nowrap;
+  }
+
+  #totals-panel {
+    padding: 4px 12px;
+    margin-bottom: 8px;
+    background: #3a3a3a;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1em;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
   th.date, td.date {
     white-space: nowrap;
   }
@@ -118,6 +134,7 @@
   </select>
   <canvas id="btcChart" height="180"></canvas>
   <span id="io-wrapper">Last 30 days: <span id="io-panel"></span></span>
+  <span id="totals-wrapper">Total Bitcoin: <span id="totals-panel"></span></span>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -217,6 +234,12 @@
 
       const ctx = document.getElementById('btcChart').getContext('2d');
       let chart;
+      let btcPrice = 0;
+
+      fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+        .then(r => r.json())
+        .then(d => { btcPrice = d.bitcoin.usd; updateTotalsPanel(allRows); })
+        .catch(() => {});
 
       function blockReward(date) {
         const schedule = [
@@ -262,6 +285,18 @@
           `Mined:&nbsp;₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})}&nbsp;|&nbsp;Purchased:&nbsp;₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
       }
 
+      function updateTotalsPanel(rows) {
+        const panel = document.getElementById('totals-panel');
+        const totalBtc = rows.reduce((sum, r) => sum + Number(r.btc), 0);
+        const totalCost = rows.reduce((sum, r) => sum + Number(r.total_cost_usd), 0);
+        const totalValue = btcPrice ? totalBtc * btcPrice : 0;
+        const totalReturnPct = btcPrice && totalCost ?
+          ((totalValue - totalCost) / totalCost) * 100 : 0;
+        panel.innerHTML =
+          `₿${totalBtc.toLocaleString('en-US', {maximumFractionDigits:2})}` +
+          ` | Total Return: ${totalReturnPct.toLocaleString('en-US', {maximumFractionDigits:2})}%`;
+      }
+
       function updateChart(rows) {
         const sorted = rows.slice().sort((a, b) => new Date(a.date) - new Date(b.date));
         const points = [];
@@ -303,6 +338,7 @@
         render('purchases', rows);
         updateChart(rows);
         updateInOutPanel(rows);
+        updateTotalsPanel(rows);
       }
 
       renderFiltered();
