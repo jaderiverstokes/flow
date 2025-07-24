@@ -80,6 +80,11 @@
     white-space: nowrap;
   }
 
+  #totals-wrapper {
+    display: block;
+    white-space: nowrap;
+  }
+
   #totals-panel {
     padding: 4px 12px;
     margin-bottom: 8px;
@@ -129,7 +134,7 @@
   </select>
   <canvas id="btcChart" height="180"></canvas>
   <span id="io-wrapper">Last 30 days: <span id="io-panel"></span></span>
-  <div id="totals-panel"></div>
+  <span id="totals-wrapper">Total Bitcoin: <span id="totals-panel"></span></span>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -231,9 +236,9 @@
       let chart;
       let btcPrice = 0;
 
-      fetch('https://api.coindesk.com/v1/bpi/currentprice/USD.json')
+      fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
         .then(r => r.json())
-        .then(d => { btcPrice = d.bpi.USD.rate_float; updateTotalsPanel(allRows); })
+        .then(d => { btcPrice = d.bitcoin.usd; updateTotalsPanel(allRows); })
         .catch(() => {});
 
       function blockReward(date) {
@@ -287,7 +292,7 @@
         const totalValue = btcPrice ? totalBtc * btcPrice : 0;
         const totalReturn = btcPrice ? totalValue - totalCost : 0;
         panel.innerHTML =
-          `Total Bitcoin: ₿${totalBtc.toLocaleString('en-US', {maximumFractionDigits:2})}` +
+          `₿${totalBtc.toLocaleString('en-US', {maximumFractionDigits:2})}` +
           ` | Total Return: ${totalReturn.toLocaleString('en-US', {style:'currency', currency:'USD', maximumFractionDigits:0})}`;
       }
 
