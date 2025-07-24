@@ -8,6 +8,11 @@ on:
       - synchronize
       - closed
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 concurrency: preview-${{ github.ref }}
 
 jobs:
@@ -17,13 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install and Build
-        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
-        run: |
-          npm install
-          npm run build
-
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-		  preview-branch: main
+          preview-branch: main
