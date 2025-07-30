@@ -825,6 +825,12 @@
       "btc": 917.4736061200019,
       "avg_price_usd": 105921.195,
       "total_cost_usd": 97179900.74118993
+    },
+    {
+      "date": "2025-07-30",
+      "btc": 6284.3060967799975,
+      "avg_price_usd": 118072.51,
+      "total_cost_usd": 742003794.4551172
     }
   ],
   "bitcoin-standard-treasury-company": [
