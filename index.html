@@ -194,11 +194,11 @@
           else if (key === 'btc') {
             if (value < 0) {
               return "-₿" + Math.abs(value).toLocaleString('en-US', {
-                maximumFractionDigits: 2
+                maximumFractionDigits: 0
               });
             }
             return "₿" + value.toLocaleString('en-US', {
-              maximumFractionDigits: 2
+              maximumFractionDigits: 0
             });
           }
           return typeof value === 'number' ? value.toLocaleString('en-US', {
