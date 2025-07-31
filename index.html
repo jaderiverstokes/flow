@@ -292,7 +292,7 @@
         });
         const mined = minedLast30Days();
         panel.innerHTML =
-          `Mined:&nbsp;₿${mined.toLocaleString('en-US', {maximumFractionDigits:2})}&nbsp;|&nbsp;Purchased:&nbsp;₿${purchased.toLocaleString('en-US', {maximumFractionDigits:2})}`;
+          `Mined:&nbsp;₿${mined.toLocaleString('en-US', {maximumFractionDigits:0})}&nbsp;|&nbsp;Purchased:&nbsp;₿${purchased.toLocaleString('en-US', {maximumFractionDigits:0})}`;
       }
 
       function updateTotalsPanel(rows) {
