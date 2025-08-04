@@ -1331,6 +1331,12 @@
       "btc": 780.0,
       "avg_price_usd": 117981.735,
       "total_cost_usd": 92025753.3
+    },
+    {
+      "date": "2025-08-04",
+      "btc": 463.0,
+      "avg_price_usd": 112551.935,
+      "total_cost_usd": 52111545.905
     }
   ],
   "galaxy-digital-holdings": [
