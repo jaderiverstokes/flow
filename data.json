@@ -1063,6 +1063,12 @@
       "btc": 14.0,
       "avg_price_usd": 104033.13,
       "total_cost_usd": 1456463.82
+    },
+    {
+      "date": "2025-08-05",
+      "btc": 14.0,
+      "avg_price_usd": 114215.355,
+      "total_cost_usd": 1599014.97
     }
   ],
   "trump-media": [
@@ -1503,6 +1509,12 @@
       "btc": 106.0,
       "avg_price_usd": 108389.945,
       "total_cost_usd": 11489334.17
+    },
+    {
+      "date": "2025-08-05",
+      "btc": 95.0,
+      "avg_price_usd": 114215.355,
+      "total_cost_usd": 10850458.725
     }
   ],
   "coinbase": [
