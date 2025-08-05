@@ -1369,6 +1369,12 @@
       "btc": -874.0,
       "avg_price_usd": 82381.02823756014,
       "total_cost_usd": -72001018.67962757
+    },
+    {
+      "date": "2025-08-05",
+      "btc": 4272.0,
+      "avg_price_usd": 114215.355,
+      "total_cost_usd": 487927996.56
     }
   ],
   "cleanspark": [
