@@ -1067,8 +1067,8 @@
     {
       "date": "2025-08-05",
       "btc": 14.0,
-      "avg_price_usd": 114215.355,
-      "total_cost_usd": 1599014.97
+      "avg_price_usd": 115053.995,
+      "total_cost_usd": 1610755.93
     }
   ],
   "trump-media": [
@@ -1379,8 +1379,8 @@
     {
       "date": "2025-08-05",
       "btc": 13952.0,
-      "avg_price_usd": 114215.355,
-      "total_cost_usd": 1593532632.96
+      "avg_price_usd": 115053.995,
+      "total_cost_usd": 1605233338.24
     }
   ],
   "cleanspark": [
@@ -1525,8 +1525,8 @@
     {
       "date": "2025-08-05",
       "btc": 95.0,
-      "avg_price_usd": 114215.355,
-      "total_cost_usd": 10850458.725
+      "avg_price_usd": 115053.995,
+      "total_cost_usd": 10930129.525
     }
   ],
   "coinbase": [
