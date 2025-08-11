@@ -1083,14 +1083,6 @@
       "total_cost_usd": 1610755.93
     }
   ],
-  "trump-media": [
-    {
-      "date": "2025-07-21",
-      "btc": 18430.0,
-      "avg_price_usd": 117323.125,
-      "total_cost_usd": 2162265193.75
-    }
-  ],
   "metaplanet": [
     {
       "date": "2024-04-23",
@@ -1355,6 +1347,14 @@
       "btc": 463.0,
       "avg_price_usd": 114215.355,
       "total_cost_usd": 52881709.364999995
+    }
+  ],
+  "trump-media": [
+    {
+      "date": "2025-07-21",
+      "btc": 15000.0,
+      "avg_price_usd": 117323.125,
+      "total_cost_usd": 1759846875.0
     }
   ],
   "cleanspark": [
