@@ -1,4 +1,5 @@
 import json
+import fileinput
 from datetime import datetime
 
 import cloudscraper
@@ -153,6 +154,20 @@ def main():
 
     with open('data.json', 'w') as f:
         json.dump(data, f, indent=2)
+
+    all_rows = []
+    for company, rows in data.items():
+        all_rows += [{**row, 'company': company} for row in rows]
+    all_rows.sort(key=lambda x: datetime.fromisoformat(x['date'].replace("Z", "+00:00")))
+    last_row = all_rows[-1]
+    for line in fileinput.input(['index.html'], inplace=True):
+        print(line, end="")
+        if "<head>" in line:
+            print(f'<meta property="og:title" content="'\
+                  f'{" ".join(map(str.capitalize, last_row["company"].split("-")))}'\
+                  f' has acquired {int(last_row["btc"]):,} BTC at ~$'\
+                  f'{int(last_row["avg_price_usd"]):,} per bitcoin" />')
+
 
 if __name__ == '__main__':
     main()
