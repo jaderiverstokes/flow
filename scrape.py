@@ -161,12 +161,13 @@ def main():
     all_rows.sort(key=lambda x: datetime.fromisoformat(x['date'].replace("Z", "+00:00")))
     last_row = all_rows[-1]
     for line in fileinput.input(['index.html'], inplace=True):
-        print(line, end="")
-        if "<head>" in line:
+        if "og:title" in line:
             print(f'<meta property="og:title" content="'\
                   f'{" ".join(map(str.capitalize, last_row["company"].split("-")))}'\
                   f' has acquired {int(last_row["btc"]):,} BTC at ~$'\
                   f'{int(last_row["avg_price_usd"]):,} per bitcoin" />')
+        else:
+            print(line, end="")
 
 
 if __name__ == '__main__':
