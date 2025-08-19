@@ -443,6 +443,12 @@
       "btc": 155,
       "avg_price_usd": 116401,
       "total_cost_usd": 18000000
+    },
+    {
+      "date": "2025-08-18",
+      "btc": 430,
+      "avg_price_usd": 119666,
+      "total_cost_usd": 51000000
     }
   ],
   "mara": [
