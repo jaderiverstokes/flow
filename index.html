@@ -321,7 +321,7 @@
           type: 'line',
           data: {
             datasets: [{
-              label: 'Cumulative BTC',
+              label: 'BTC',
               data: points,
               borderColor: '#F7931A',
               backgroundColor: 'rgba(247,147,26,0.2)',
@@ -333,7 +333,7 @@
               legend: { labels: { color: '#eee' } }
             },
             scales: {
-              x: { type: 'time', ticks: { color: '#eee' } },
+              x: { type: 'time', time: { tooltipFormat: 'MMM d, yyyy' }, ticks: { color: '#eee' } },
               y: { ticks: { color: '#eee' } }
             }
           }
