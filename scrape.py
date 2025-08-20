@@ -1,7 +1,6 @@
 import cloudscraper
 import fileinput
 import json
-import locale
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -12,11 +11,10 @@ os.environ['TZ'] = 'UTC'
 STRATEGY_URL = "https://www.strategy.com/purchases"
 COMPANIES_URL = "https://bitbo.io/treasuries"
 DATE_FORMAT = "%Y-%m-%d"
+SCRAPER = cloudscraper.create_scraper(delay=10)
 
-scraper = cloudscraper.create_scraper(delay=10)
-
-def fetch_strategy():
-    html = scraper.get(STRATEGY_URL).text
+def strategy():
+    html = SCRAPER.get(STRATEGY_URL).text
     start = html.find("__NEXT_DATA__")
     json_start = html.index('>', start) + 1
     json_end = html.index('</script>', json_start)
@@ -28,17 +26,15 @@ def fetch_strategy():
         'total_cost_usd': item.get('total_purchase_price')
     } for item in data['props']['pageProps']['bitcoinData']]
 
-def fetch_top_companies(limit: int = 10):
-    url = f"{COMPANIES_URL}/#public"
-    html = scraper.get(url).text
+def top_companies(limit: int = 10):
+    html = SCRAPER.get(f"{COMPANIES_URL}/#public").text
     soup = BeautifulSoup(html, "html.parser")
     table = soup.find_all('table', class_="treasuries-table")[2]
     return [row.find('td', class_="td-company").find('a')["href"].split('/')[-2]
             for row in table.find_all('tr')[1:limit+1]]
 
-def fetch_company(name, prices):
-    url = f"{COMPANIES_URL}/{name}"
-    html = scraper.get(url).text
+def company(name, prices):
+    html = SCRAPER.get(f"{COMPANIES_URL}/{name}").text
     soup = BeautifulSoup(html, "html.parser")
     table = soup.find('table', class_='stats-table')
     if table is None:
@@ -46,13 +42,12 @@ def fetch_company(name, prices):
     data = []
     for row in table.find_all('tr')[1:]:
         cols = list(map(lambda x: x.find('span').text, row.find_all('td')))
-        date = parser.parse(cols[0])
-        date_key = date.strftime(DATE_FORMAT)
+        date = parser.parse(cols[0]).strftime(DATE_FORMAT)
         parse_number = lambda x: int(float(x.replace(',','')))
-        bitcoin_price_usd = prices[date_key]
+        bitcoin_price_usd = prices[date]
         btc = parse_number(cols[2]) or parse_number(cols[1])
         data.append({
-            "date": date_key,
+            "date": date,
             "btc": btc,
             "avg_price_usd": round(bitcoin_price_usd, 2),
             "total_cost_usd": round(bitcoin_price_usd * btc, 2),
@@ -62,8 +57,7 @@ def fetch_company(name, prices):
 def get_prices():
     with open('prices.json', 'r') as file:
         past_prices = json.load(file)
-    url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365&interval=daily&x_cg_demo_api_key=CG-HBtC1HrokNu33xXQzrj7S49t"
-    response = requests.get(url)
+    response = requests.get("https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365&interval=daily&x_cg_demo_api_key=CG-HBtC1HrokNu33xXQzrj7S49t")
     if response.status_code == 200:
         new_prices = dict([(datetime.fromtimestamp(x[0]/1000).strftime(DATE_FORMAT), round(x[1],2)) for x in response.json()['prices']])
     return past_prices | new_prices
@@ -75,9 +69,9 @@ def main():
 
     with open('data.json', 'r') as file:
         data = json.load(file)
-    data['strategy'] = fetch_strategy()
-    for name in [slug for slug in fetch_top_companies(13) if not 'microstrategy' in slug]:
-        results = fetch_company(name, prices)
+    data['strategy'] = strategy()
+    for name in [slug for slug in top_companies(13) if not 'microstrategy' in slug]:
+        results = company(name, prices)
         if results:
             data[name] = results
     with open('data.json', 'w') as f:
