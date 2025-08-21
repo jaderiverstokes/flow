@@ -8,13 +8,19 @@ from datetime import datetime
 from dateutil import parser
 os.environ['TZ'] = 'UTC'
 
-STRATEGY_URL = "https://www.strategy.com/purchases"
 COMPANIES_URL = "https://bitbo.io/treasuries"
 DATE_FORMAT = "%Y-%m-%d"
 SCRAPER = cloudscraper.create_scraper()
 
+def parse_number(x):
+    if x[-1] == 'M':
+        return parse_number(x[:-1]) * 1_000_000
+    if x[-1] == 'B':
+        return parse_number(x[:-1]) * 1_000_000_000
+    return int(float(x.replace(',','')))
+
 def strategy():
-    html = SCRAPER.get(STRATEGY_URL).text
+    html = SCRAPER.get("https://www.strategy.com/purchases").text
     start = html.find("__NEXT_DATA__")
     json_start = html.index('>', start) + 1
     json_end = html.index('</script>', json_start)
@@ -27,7 +33,25 @@ def strategy():
         'company': 'strategy'
     } for item in data['props']['pageProps']['bitcoinData']]
 
-def top_companies(limit: int = 10):
+def metaplanet():
+    html = SCRAPER.get( "https://metaplanet.jp/en/analytics").text
+    soup = BeautifulSoup(html, "html.parser")
+    for table in soup.find_all('table'):
+        if table.find('th', string='BTC Acquisitions'):
+            break
+    data = []
+    for row in table.find_all('tr')[2:]:
+        cols = [x.text for x in row.find_all('td')]
+        data.append({
+                'date': parser.parse(cols[1]).strftime(DATE_FORMAT),
+                'btc': parse_number(cols[2][1:]),
+                'avg_price_usd': parse_number(cols[3][1:]),
+                'total_cost_usd': parse_number(cols[4][1:]),
+                'company': 'metaplanet'
+                })
+    return data
+
+def top_companies(limit):
     html = SCRAPER.get(f"{COMPANIES_URL}/#public").text
     soup = BeautifulSoup(html, "html.parser")
     table = soup.find_all('table', class_="treasuries-table")[2]
@@ -44,7 +68,6 @@ def company(name, prices):
     for row in table.find_all('tr')[1:]:
         cols = list(map(lambda x: x.find('span').text, row.find_all('td')))
         date = parser.parse(cols[0]).strftime(DATE_FORMAT)
-        parse_number = lambda x: int(float(x.replace(',','')))
         bitcoin_price_usd = prices[date]
         btc = parse_number(cols[2]) or parse_number(cols[1])
         data.append({
@@ -83,11 +106,15 @@ def main():
         all_purchases = json.load(file)
     companies = set(row['company'] for row in all_purchases)
     last_updated = {company: next(row for row in reversed(all_purchases) if row['company'] == company)['date'] for company in companies}
-    new_rows = sum([company(name,prices) for name in top_companies(13) if not 'microstrategy' in name], strategy())
+    direct_source = ['microstrategy', 'metaplanet']
+    new_rows = sum([company(name,prices) for name in top_companies(13) if not name in direct_source], strategy() + metaplanet())
+    count = 0
     for row in new_rows:
         if row['company'] in last_updated and row['date'] <= last_updated[row['company']]:
             continue
         all_purchases.append(row)
+        count += 1
+    print('new rows: ', count)
     all_purchases.sort(key=lambda x: datetime.fromisoformat(x['date']))
     with open('purchases.json', 'w') as f:
         json.dump(all_purchases, f, indent=2)
