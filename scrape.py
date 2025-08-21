@@ -11,7 +11,7 @@ os.environ['TZ'] = 'UTC'
 STRATEGY_URL = "https://www.strategy.com/purchases"
 COMPANIES_URL = "https://bitbo.io/treasuries"
 DATE_FORMAT = "%Y-%m-%d"
-SCRAPER = cloudscraper.create_scraper(delay=10)
+SCRAPER = cloudscraper.create_scraper()
 
 def strategy():
     html = SCRAPER.get(STRATEGY_URL).text
@@ -23,7 +23,8 @@ def strategy():
         'date': item['date_of_purchase'],
         'btc': item['count'],
         'avg_price_usd': item['purchase_price'],
-        'total_cost_usd': item.get('total_purchase_price')
+        'total_cost_usd': item.get('total_purchase_price'),
+        'company': 'strategy'
     } for item in data['props']['pageProps']['bitcoinData']]
 
 def top_companies(limit: int = 10):
@@ -51,6 +52,7 @@ def company(name, prices):
             "btc": btc,
             "avg_price_usd": round(bitcoin_price_usd, 2),
             "total_cost_usd": round(bitcoin_price_usd * btc, 2),
+            "company": name
         })
     return data
 
@@ -62,32 +64,35 @@ def get_prices():
         new_prices = dict([(datetime.fromtimestamp(x[0]/1000).strftime(DATE_FORMAT), round(x[1],2)) for x in response.json()['prices']])
     return past_prices | new_prices
 
-def main():
-    prices = get_prices()
-    with open('prices.json', 'w') as f:
-        json.dump(prices, f, indent=2)
-
-    with open('data.json', 'r') as file:
-        data = json.load(file)
-    data['strategy'] = strategy()
-    for name in [slug for slug in top_companies(13) if not 'microstrategy' in slug]:
-        results = company(name, prices)
-        if results:
-            data[name] = results
-    with open('data.json', 'w') as f:
-        json.dump(data, f, indent=2)
-
-    all_rows = sum([[{**row, 'company': company} for row in rows] for company, rows in data.items()], [])
-    all_rows.sort(key=lambda x: datetime.fromisoformat(x['date'].replace("Z", "+00:00")))
-    last_row = all_rows[-1]
+def og(purchases):
+    last_purchase = purchases[-1]
     for line in fileinput.input(['index.html'], inplace=True):
         if "og:title" in line:
             print(f'<meta property="og:title" content="'\
-                  f'{" ".join(map(str.capitalize, last_row["company"].split("-")))}'\
-                  f' has acquired {int(last_row["btc"]):,} BTC at ~$'\
-                  f'{int(last_row["avg_price_usd"]):,} per bitcoin" />')
+                  f'{" ".join(map(str.capitalize, last_purchase["company"].split("-")))}'\
+                  f' has acquired {int(last_purchase["btc"]):,} BTC at ~$'\
+                  f'{int(last_purchase["avg_price_usd"]):,} per bitcoin" />')
         else:
             print(line, end="")
+
+def main():
+    prices = get_prices()
+    with open('prices.json', 'w') as file:
+        json.dump(prices, file, indent=2)
+    with open('purchases.json', 'r') as file:
+        all_purchases = json.load(file)
+    companies = set(row['company'] for row in all_purchases)
+    last_updated = {company: next(row for row in reversed(all_purchases) if row['company'] == company)['date'] for company in companies}
+    new_rows = sum([company(name,prices) for name in top_companies(13) if not 'microstrategy' in name], strategy())
+    for row in new_rows:
+        if row['company'] in last_updated and row['date'] <= last_updated[row['company']]:
+            continue
+        all_purchases.append(row)
+    all_purchases.sort(key=lambda x: datetime.fromisoformat(x['date']))
+    with open('purchases.json', 'w') as f:
+        json.dump(all_purchases, f, indent=2)
+    og(all_purchases)
+
 
 if __name__ == '__main__':
     main()

@@ -151,7 +151,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
 <script>
-  fetch('data.json')
+  fetch('purchases.json')
     .then(r => r.json())
     .then(data => {
       const headerMap = {
@@ -161,13 +161,24 @@
         total_cost_usd: 'Total Cost',
         company: 'Company'
       };
+      function formatName(company){
+        if (company.includes('twenty')) return 'XXI';
+        return company.length <= 3 ? company.toUpperCase() :
+          // if there are any dashes, replace with space and capitalize
+          company.replace(/-/g, ' ')
+            .split(' ')
+            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+            .slice(0, 2)
+            .join(' ');
+      }
 
-      function render(tableId, rows) {
-        const table = document.getElementById(tableId);
+      function renderTable(rows) {
+        const table = document.getElementById('purchases');
         if (!rows.length) {
           table.innerHTML = '<tr><td>No data</td></tr>';
           return;
         }
+
 
         const headers = Object.keys(rows[0]);
 
@@ -202,6 +213,9 @@
               maximumFractionDigits: 0
             });
           }
+          else if (key === 'company') {
+            return formatName(value);
+          }
           return typeof value === 'number' ? value.toLocaleString('en-US', {
               maximumFractionDigits: 2
           }) : value;
@@ -223,20 +237,12 @@
       }
 
       const filterEl = document.getElementById('company-filter');
-      const allRows = [];
-      Object.keys(data).forEach(key => {
-        const name = key.length <= 3 ? key.toUpperCase() :
-          // if there are any dashes, replace with space and capitalize
-          key.replace(/-/g, ' ')
-            .split(' ')
-            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-            .slice(0, 2)
-            .join(' ');
-        (data[key] || []).forEach(r => {
-          allRows.push({ ...r, company: name });
-        });
+      const allRows = data;
+      const companies = data.reduce((set, row) => { set.add(row.company); return set}, new Set())
+      companies.forEach(company => {
+        const name = formatName(company);
         const opt = document.createElement('option');
-        opt.value = name;
+        opt.value = company;
         opt.textContent = name;
         filterEl.appendChild(opt);
       });
@@ -346,7 +352,7 @@
         if (val !== 'all') {
           rows = rows.filter(r => r.company === val);
         }
-        render('purchases', rows);
+        renderTable(rows);
         updateChart(rows);
         updateInOutPanel(rows);
         updateTotalsPanel(rows);
