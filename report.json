@@ -1,0 +1,18 @@
+[
+  {
+    "company": "twenty-one-capital",
+    "addresses": true
+  },
+  {
+    "company": "strategy",
+    "purchases": true
+  },
+  {
+    "company": "metaplanet",
+    "purchases": true
+  },
+  {
+    "company": "semler",
+    "purchases": true
+  }
+]

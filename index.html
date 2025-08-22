@@ -65,30 +65,29 @@
     -webkit-appearance: none;
   }
 
-  #io-wrapper {
+  .wrapper {
     display: inline-block;
     white-space: nowrap;
     margin-right: 10px;
   }
 
-  #io-panel {
-    padding: 4px 12px;
-    margin-bottom: 8px;
-    background: #3a3a3a;
-    color: #fff;
+  .grade:hover .gradetooltip {
+    display: block;
+  }
+
+  .gradetooltip {
+    display: none;
+    background: #A8A8A8;
+    position: absolute;
+    z-index: 1000;
+    width: 300px;
+    height: 5em;
     border-radius: 4px;
-    font-size: 1em;
-    display: inline-block;
-    white-space: nowrap;
+    padding: 10px;
+    text-wrap: balance;
   }
 
-  #totals-wrapper {
-    display: inline-block;
-    white-space: nowrap;
-    margin-right: 10px;
-  }
-
-  #totals-panel {
+  .panel {
     padding: 4px 12px;
     margin-bottom: 8px;
     background: #3a3a3a;
@@ -128,8 +127,7 @@
     .total_cost_usd {
       display: none;
     }
-    #io-wrapper,
-    #totals-wrapper {
+    .wrapper {
       display: block;
     }
   }
@@ -144,8 +142,12 @@
     <option value="all">All</option>
   </select>
   <canvas id="btcChart" height="180"></canvas>
-  <span id="totals-wrapper">Total: <span id="totals-panel"></span></span>
-  <span id="io-wrapper">30 days: <span id="io-panel"></span></span>
+  <span class="wrapper">Total: <span id="totals-panel" class="panel"></span></span>
+  <span class="wrapper">30 days: <span id="io-panel" class="panel"></span></span>
+  <span class="grade wrapper">
+    Grade: <span id="report" class="panel"></span>
+    <span class="gradetooltip">Boost your grade by publishing treasury addresses, proof of reserves, purchase history and offering in kind redemption.</span>
+  </span>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -237,7 +239,10 @@
 
       const filterEl = document.getElementById('company-filter');
       const allRows = data;
-      const companies = data.reduce((set, row) => { set.add(row.company); return set}, new Set())
+      const companies = Array.from(data.reduce((set, row) => { set.add(row.company); return set}, new Set())).map((company) => {return {
+        'company': company,
+        'total': allRows.filter(r => r.company === company).reduce((sum, r) => sum + Number(r.btc), 0)
+      }}).sort((a,b) => b.total - a.total).map((x) => x.company);
       companies.forEach(company => {
         const name = formatName(company);
         const opt = document.createElement('option');
@@ -256,6 +261,13 @@
         .then(r => r.json())
         .then(d => { btcPrice = d.bitcoin.usd; updateTotalsPanel(allRows); })
         .catch(() => {});
+
+      let reports = []
+      fetch('report.json')
+        .then(r => r.json())
+        .then(d => { reports= d;updateReport(d); })
+        .catch(() => {});
+
 
       function blockReward(date) {
         const schedule = [
@@ -283,6 +295,18 @@
           total += blockReward(d) * blocksPerDay;
         }
         return total;
+      }
+
+      function updateReport(reports){
+        const companyReport = reports.find((x) => x.company == filterEl.value) || {'company': filterEl.value}
+        const grades = ['F', 'D', 'C', 'B', 'A']
+        const panel = document.getElementById('report');
+        if (filterEl.value == 'all'){
+          panel.parentElement.style.visibility = 'hidden'
+        } else {
+          panel.parentElement.style.visibility = 'visible'
+        }
+        panel.innerHTML = `${grades[Object.keys(companyReport).length - 1]}`;
       }
 
       function updateInOutPanel(rows) {
@@ -355,6 +379,7 @@
         updateChart(rows);
         updateInOutPanel(rows);
         updateTotalsPanel(rows);
+        updateReport(reports);
       }
 
       renderFiltered();
