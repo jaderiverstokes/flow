@@ -164,7 +164,6 @@
       function formatName(company){
         if (company.includes('twenty')) return 'XXI';
         return company.length <= 3 ? company.toUpperCase() :
-          // if there are any dashes, replace with space and capitalize
           company.replace(/-/g, ' ')
             .split(' ')
             .map(part => part.charAt(0).toUpperCase() + part.slice(1))

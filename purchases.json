@@ -770,6 +770,13 @@
     "company": "metaplanet"
   },
   {
+    "date": "2024-05-28",
+    "btc": 581,
+    "avg_price_usd": 68882,
+    "total_cost_usd": 40000000,
+    "company": "semler"
+  },
+  {
     "date": "2024-05-31",
     "btc": 226.0,
     "avg_price_usd": 68005.14289484397,
@@ -789,6 +796,13 @@
     "avg_price_usd": 68005.14289484397,
     "total_cost_usd": 28222134.30136025,
     "company": "cleanspark"
+  },
+  {
+    "date": "2024-06-06",
+    "btc": 247,
+    "avg_price_usd": 68889,
+    "total_cost_usd": 17000000,
+    "company": "semler"
   },
   {
     "date": "2024-06-11",
@@ -889,6 +903,13 @@
     "company": "strategy"
   },
   {
+    "date": "2024-08-05",
+    "btc": 101,
+    "avg_price_usd": 59353,
+    "total_cost_usd": 6000000,
+    "company": "semler"
+  },
+  {
     "date": "2024-08-13",
     "btc": 57.10500000000002,
     "avg_price_usd": 59744.12395753319,
@@ -908,6 +929,13 @@
     "avg_price_usd": 60127.11862676297,
     "total_cost_usd": 3443660.4651105935,
     "company": "metaplanet"
+  },
+  {
+    "date": "2024-08-26",
+    "btc": 83,
+    "avg_price_usd": 60103,
+    "total_cost_usd": 5000000,
+    "company": "semler"
   },
   {
     "date": "2024-08-31",
@@ -1085,11 +1113,25 @@
     "company": "cleanspark"
   },
   {
+    "date": "2024-11-04",
+    "btc": 47,
+    "avg_price_usd": 64333,
+    "total_cost_usd": 3000000,
+    "company": "semler"
+  },
+  {
     "date": "2024-11-11",
     "btc": 27200,
     "avg_price_usd": 74463,
     "total_cost_usd": 2025407757.59,
     "company": "strategy"
+  },
+  {
+    "date": "2024-11-15",
+    "btc": 215,
+    "avg_price_usd": 82502,
+    "total_cost_usd": 17700000,
+    "company": "semler"
   },
   {
     "date": "2024-11-18",
@@ -1118,6 +1160,13 @@
     "avg_price_usd": 97862,
     "total_cost_usd": 5400000000,
     "company": "strategy"
+  },
+  {
+    "date": "2024-11-25",
+    "btc": 297,
+    "avg_price_usd": 97995,
+    "total_cost_usd": 29100000,
+    "company": "semler"
   },
   {
     "date": "2024-11-27",
@@ -1155,6 +1204,13 @@
     "company": "strategy"
   },
   {
+    "date": "2024-12-05",
+    "btc": 303,
+    "avg_price_usd": 96779,
+    "total_cost_usd": 29300000,
+    "company": "semler"
+  },
+  {
     "date": "2024-12-06",
     "btc": 1423.0,
     "avg_price_usd": 98985.81811454822,
@@ -1181,6 +1237,13 @@
     "avg_price_usd": 98880.22157757383,
     "total_cost_usd": 524361815.025874,
     "company": "riot"
+  },
+  {
+    "date": "2024-12-15",
+    "btc": 211,
+    "avg_price_usd": 101890,
+    "total_cost_usd": 21500000,
+    "company": "semler"
   },
   {
     "date": "2024-12-16",
@@ -1281,6 +1344,13 @@
     "company": "strategy"
   },
   {
+    "date": "2025-01-13",
+    "btc": 237,
+    "avg_price_usd": 98267,
+    "total_cost_usd": 23300000,
+    "company": "semler"
+  },
+  {
     "date": "2025-01-21",
     "btc": 11000,
     "avg_price_usd": 101191,
@@ -1300,6 +1370,13 @@
     "avg_price_usd": 96897.5971140436,
     "total_cost_usd": 74223559.3893574,
     "company": "marathon"
+  },
+  {
+    "date": "2025-02-04",
+    "btc": 871,
+    "avg_price_usd": 101616,
+    "total_cost_usd": 88500000,
+    "company": "semler"
   },
   {
     "date": "2025-02-05",
@@ -1540,6 +1617,13 @@
     "company": "metaplanet"
   },
   {
+    "date": "2025-04-25",
+    "btc": 111,
+    "avg_price_usd": 90124,
+    "total_cost_usd": 10000000,
+    "company": "semler"
+  },
+  {
     "date": "2025-04-28",
     "btc": 15355,
     "avg_price_usd": 92737,
@@ -1568,11 +1652,25 @@
     "company": "cleanspark"
   },
   {
+    "date": "2025-04-30",
+    "btc": 165,
+    "avg_price_usd": 94931,
+    "total_cost_usd": 15650000,
+    "company": "semler"
+  },
+  {
     "date": "2025-05-05",
     "btc": 1895,
     "avg_price_usd": 95167,
     "total_cost_usd": 180000000,
     "company": "strategy"
+  },
+  {
+    "date": "2025-05-05",
+    "btc": 167,
+    "avg_price_usd": 97093,
+    "total_cost_usd": 16200000,
+    "company": "semler"
   },
   {
     "date": "2025-05-06",
@@ -1603,6 +1701,13 @@
     "company": "strategy"
   },
   {
+    "date": "2025-05-12",
+    "btc": 174,
+    "avg_price_usd": 102047,
+    "total_cost_usd": 17750000,
+    "company": "semler"
+  },
+  {
     "date": "2025-05-16",
     "btc": -100.0,
     "avg_price_usd": 103781.01,
@@ -1622,6 +1727,13 @@
     "avg_price_usd": 106502.38,
     "total_cost_usd": 106928389.52000001,
     "company": "metaplanet"
+  },
+  {
+    "date": "2025-05-22",
+    "btc": 455,
+    "avg_price_usd": 109801,
+    "total_cost_usd": 50000000,
+    "company": "semler"
   },
   {
     "date": "2025-05-26",
@@ -1720,6 +1832,13 @@
     "avg_price_usd": 105921.195,
     "total_cost_usd": 97179900.74118993,
     "company": "twenty-one-capital"
+  },
+  {
+    "date": "2025-06-03",
+    "btc": 185,
+    "avg_price_usd": 107974,
+    "total_cost_usd": 20000000,
+    "company": "semler"
   },
   {
     "date": "2025-06-05",
@@ -1841,6 +1960,13 @@
     "company": "marathon"
   },
   {
+    "date": "2025-07-02",
+    "btc": 187,
+    "avg_price_usd": 106906,
+    "total_cost_usd": 20000000,
+    "company": "semler"
+  },
+  {
     "date": "2025-07-03",
     "btc": 60.0,
     "avg_price_usd": 108887.035,
@@ -1869,6 +1995,13 @@
     "company": "metaplanet"
   },
   {
+    "date": "2025-07-16",
+    "btc": 210,
+    "avg_price_usd": 118974,
+    "total_cost_usd": 25000000,
+    "company": "semler"
+  },
+  {
     "date": "2025-07-21",
     "btc": 6220,
     "avg_price_usd": 118940,
@@ -1888,6 +2021,13 @@
     "avg_price_usd": 117428.785,
     "total_cost_usd": 3525329554.485,
     "company": "bitcoin-standard-treasury-company"
+  },
+  {
+    "date": "2025-07-23",
+    "btc": 175,
+    "avg_price_usd": 119230,
+    "total_cost_usd": 20836000,
+    "company": "semler"
   },
   {
     "date": "2025-07-27",
