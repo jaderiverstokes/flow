@@ -141,13 +141,12 @@
   <select id="company-filter">
     <option value="all">All</option>
   </select>
-  <canvas id="btcChart" height="180"></canvas>
   <span class="wrapper">Total: <span id="totals-panel" class="panel"></span></span>
-  <span class="wrapper">30 days: <span id="io-panel" class="panel"></span></span>
   <span class="grade wrapper">
     Grade: <span id="report" class="panel"></span>
     <span class="gradetooltip">Boost your grade by publishing treasury addresses, proof of reserves, purchase history and offering in kind redemption.</span>
   </span>
+  <canvas id="btcChart" height="180"></canvas>
   <table id="purchases"></table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -165,6 +164,7 @@
       };
       function formatName(company){
         if (company.includes('twenty')) return 'XXI';
+        company = company.replace('bitcoin', 'BTC');
         return company.length <= 3 ? company.toUpperCase() :
           company.replace(/-/g, ' ')
             .split(' ')
@@ -302,27 +302,11 @@
         const grades = ['F', 'D', 'C', 'B', 'A']
         const panel = document.getElementById('report');
         if (filterEl.value == 'all'){
-          panel.parentElement.style.visibility = 'hidden'
+          panel.parentElement.style.display = 'none'
         } else {
-          panel.parentElement.style.visibility = 'visible'
+          panel.parentElement.style.display = ''
         }
         panel.innerHTML = `${grades[Object.keys(companyReport).length - 1]}`;
-      }
-
-      function updateInOutPanel(rows) {
-        const panel = document.getElementById('io-panel');
-        const start = new Date();
-        start.setDate(start.getDate() - 30);
-        let purchased = 0;
-        rows.forEach(r => {
-          const d = new Date(r.date);
-          if (d >= start) {
-            purchased += Number(r.btc);
-          }
-        });
-        const mined = minedLast30Days();
-        panel.innerHTML =
-          `Mined:&nbsp;₿${mined.toLocaleString('en-US', {maximumFractionDigits:0})}&nbsp;|&nbsp;Purchased:&nbsp;₿${purchased.toLocaleString('en-US', {maximumFractionDigits:0})}`;
       }
 
       function updateTotalsPanel(rows) {
@@ -377,7 +361,6 @@
         }
         renderTable(rows);
         updateChart(rows);
-        updateInOutPanel(rows);
         updateTotalsPanel(rows);
         updateReport(reports);
       }
