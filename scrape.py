@@ -13,12 +13,15 @@ DATE_FORMAT = "%Y-%m-%d"
 SCRAPER = cloudscraper.create_scraper()
 
 
-def parse_number(x):
+def parse_number(x, round=True):
     if x[-1] == 'M':
-        return parse_number(x[:-1]) * 1_000_000
+        return parse_number(x[:-1], False) * 1_000_000
     if x[-1] == 'B':
-        return parse_number(x[:-1]) * 1_000_000_000
-    return int(float(x.replace(',', '')))
+        return parse_number(x[:-1], False) * 1_000_000_000
+    number = float(x.replace(',', ''))
+    if round:
+        return int(number)
+    return number
 
 
 def strategy():
@@ -95,7 +98,7 @@ def company(name, prices):
         data.append({
             "date": date,
             "btc": btc,
-            "avg_price_usd": round(bitcoin_price_usd, 2),
+            "avg_price_usd": round(bitcoin_price_usd, 3),
             "total_cost_usd": round(bitcoin_price_usd * btc, 2),
             "company": name
         })
