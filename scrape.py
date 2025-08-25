@@ -113,7 +113,7 @@ def get_prices():
     if response.status_code == 200:
         new_prices = dict([(datetime.fromtimestamp(
             x[0]/1000).strftime(DATE_FORMAT), round(x[1], 2)) for x in response.json()['prices']])
-    return past_prices | new_prices
+    return new_prices | past_prices
 
 
 def og(purchases):
