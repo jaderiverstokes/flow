@@ -2135,6 +2135,13 @@
     "company": "strategy"
   },
   {
+    "date": "2025-08-29",
+    "btc": 124,
+    "avg_price_usd": 112424.87,
+    "total_cost_usd": 13940683.88,
+    "company": "cleanspark"
+  },
+  {
     "date": "2025-08-31",
     "btc": 1009,
     "avg_price_usd": 111162,
