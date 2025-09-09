@@ -2121,6 +2121,13 @@
     "company": "metaplanet"
   },
   {
+    "date": "2025-08-22",
+    "btc": -389,
+    "avg_price_usd": 112414.4,
+    "total_cost_usd": -43729201.6,
+    "company": "hut-8"
+  },
+  {
     "date": "2025-08-24",
     "btc": 103,
     "avg_price_usd": 113491,
