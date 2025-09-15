@@ -1925,6 +1925,20 @@
     "company": "hut-8"
   },
   {
+    "date": "2025-06-27",
+    "btc": -4272,
+    "avg_price_usd": 106984.01,
+    "total_cost_usd": -457035690.72,
+    "company": "galaxy"
+  },
+  {
+    "date": "2025-06-27",
+    "btc": 4272,
+    "avg_price_usd": 106984.01,
+    "total_cost_usd": 457035690.72,
+    "company": "galaxy"
+  },
+  {
     "date": "2025-06-29",
     "btc": 181.0,
     "avg_price_usd": 107352.195,
