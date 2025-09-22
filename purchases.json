@@ -2224,5 +2224,12 @@
     "avg_price_usd": 116724,
     "total_cost_usd": 632530000.0,
     "company": "metaplanet"
+  },
+  {
+    "date": "2025-09-22",
+    "btc": 850,
+    "avg_price_usd": 117344,
+    "total_cost_usd": 100000000,
+    "company": "strategy"
   }
 ]
