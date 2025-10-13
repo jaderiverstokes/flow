@@ -2252,5 +2252,12 @@
     "avg_price_usd": 114119,
     "total_cost_usd": 3110000,
     "company": "semler"
+  },
+  {
+    "date": "2025-10-13",
+    "btc": 220,
+    "avg_price_usd": 123561,
+    "total_cost_usd": 27000000,
+    "company": "strategy"
   }
 ]
