@@ -2259,5 +2259,12 @@
     "avg_price_usd": 123561,
     "total_cost_usd": 27000000,
     "company": "strategy"
+  },
+  {
+    "date": "2025-10-20",
+    "btc": 168,
+    "avg_price_usd": 112051,
+    "total_cost_usd": 19000000,
+    "company": "strategy"
   }
 ]
