@@ -2240,6 +2240,20 @@
     "company": "strategy"
   },
   {
+    "date": "2025-09-29",
+    "btc": -22,
+    "avg_price_usd": 112146.96,
+    "total_cost_usd": -2467233.12,
+    "company": "riot"
+  },
+  {
+    "date": "2025-09-29",
+    "btc": 184,
+    "avg_price_usd": 112146.96,
+    "total_cost_usd": 20635040.64,
+    "company": "cleanspark"
+  },
+  {
     "date": "2025-09-30",
     "btc": 5268,
     "avg_price_usd": 116870,
@@ -2252,6 +2266,13 @@
     "avg_price_usd": 114119,
     "total_cost_usd": 3110000,
     "company": "semler"
+  },
+  {
+    "date": "2025-10-02",
+    "btc": 373,
+    "avg_price_usd": 119234.73,
+    "total_cost_usd": 44474554.29,
+    "company": "marathon"
   },
   {
     "date": "2025-10-13",
