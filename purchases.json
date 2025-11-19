@@ -2254,6 +2254,13 @@
     "company": "cleanspark"
   },
   {
+    "date": "2025-09-29",
+    "btc": 3418,
+    "avg_price_usd": 112146.96,
+    "total_cost_usd": 383318309.28,
+    "company": "hut-8"
+  },
+  {
     "date": "2025-09-30",
     "btc": 5268,
     "avg_price_usd": 116870,
@@ -2322,5 +2329,12 @@
     "avg_price_usd": 102171.31,
     "total_cost_usd": 836000000,
     "company": "strategy"
+  },
+  {
+    "date": "2025-11-18",
+    "btc": 22,
+    "avg_price_usd": 92084.72,
+    "total_cost_usd": 2025863.84,
+    "company": "cleanspark"
   }
 ]
