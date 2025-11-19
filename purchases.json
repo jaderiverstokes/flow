@@ -2310,6 +2310,13 @@
     "company": "coinbase"
   },
   {
+    "date": "2025-10-30",
+    "btc": 37,
+    "avg_price_usd": 110442.38,
+    "total_cost_usd": 4086368.06,
+    "company": "riot"
+  },
+  {
     "date": "2025-11-03",
     "btc": 397,
     "avg_price_usd": 114771,
