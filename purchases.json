@@ -2539,5 +2539,19 @@
     "avg_price_usd": 95643.49,
     "total_cost_usd": 743723778.24,
     "company": "semler-scientific"
+  },
+  {
+    "date": "2026-01-16",
+    "btc": 5272,
+    "avg_price_usd": 95643.49,
+    "total_cost_usd": 504232479.28,
+    "company": "strive"
+  },
+  {
+    "date": "2026-01-16",
+    "btc": 7525,
+    "avg_price_usd": 95643.49,
+    "total_cost_usd": 719717262.25,
+    "company": "strive"
   }
 ]
