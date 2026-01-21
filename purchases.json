@@ -2478,6 +2478,13 @@
     "company": "cleanspark"
   },
   {
+    "date": "2025-11-28",
+    "btc": 21,
+    "avg_price_usd": 91148.04,
+    "total_cost_usd": 1914108.84,
+    "company": "cleanspark"
+  },
+  {
     "date": "2025-12-01",
     "btc": 130,
     "avg_price_usd": 89959.98,
@@ -2511,6 +2518,13 @@
     "avg_price_usd": 105412,
     "total_cost_usd": 451060000.0,
     "company": "metaplanet"
+  },
+  {
+    "date": "2025-12-30",
+    "btc": 45,
+    "avg_price_usd": 87149.72,
+    "total_cost_usd": 3921737.4,
+    "company": "cleanspark"
   },
   {
     "date": "2025-12-31",
