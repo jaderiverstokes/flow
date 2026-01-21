@@ -2560,5 +2560,12 @@
     "avg_price_usd": 95284,
     "total_cost_usd": 2125000000,
     "company": "strategy"
+  },
+  {
+    "date": "2026-01-20",
+    "btc": 44,
+    "avg_price_usd": 92675.5,
+    "total_cost_usd": 4077722.0,
+    "company": "riot"
   }
 ]
