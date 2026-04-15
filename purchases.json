@@ -14138,5 +14138,33 @@
     "avg_price_usd": 70756.75,
     "total_cost_usd": 8703080.25,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-14",
+    "btc": 2879,
+    "avg_price_usd": 74514.63,
+    "total_cost_usd": 214527619.77,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-04-14",
+    "btc": 609,
+    "avg_price_usd": 74514.63,
+    "total_cost_usd": 45379409.67,
+    "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-04-14",
+    "btc": -527,
+    "avg_price_usd": 74514.63,
+    "total_cost_usd": -39269210.01,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-04-14",
+    "btc": -150,
+    "avg_price_usd": 74514.63,
+    "total_cost_usd": -11177194.5,
+    "company": "grayscale-mini"
   }
 ]
