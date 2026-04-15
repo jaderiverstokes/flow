@@ -26,7 +26,6 @@ def parse_number(x, round=True):
 
 def strategy():
     html = SCRAPER.get("https://www.strategy.com/purchases").text
-
     start = html.find("__NEXT_DATA__")
     json_start = html.index('>', start) + 1
     json_end = html.index('</script>', json_start)
@@ -139,7 +138,7 @@ def main():
         all_purchases) if row['company'] == company)['date'] for company in companies}
     direct_source = ['microstrategy', 'metaplanet']
     new_rows = sum([company(name, prices) for name in top_companies(
-        13) if not name in direct_source], strategy() + metaplanet() + semler())
+        13) if not name in direct_source], strategy() + semler())
     count = 0
     for row in new_rows:
         if row['company'] in last_updated and row['date'] <= last_updated[row['company']]:
