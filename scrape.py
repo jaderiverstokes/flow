@@ -138,7 +138,7 @@ def main():
         all_purchases) if row['company'] == company)['date'] for company in companies}
     direct_source = ['microstrategy', 'metaplanet']
     new_rows = sum([company(name, prices) for name in top_companies(
-        13) if not name in direct_source], strategy() + semler())
+        13) if not name in direct_source], strategy())
     count = 0
     for row in new_rows:
         if row['company'] in last_updated and row['date'] <= last_updated[row['company']]:
