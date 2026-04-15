@@ -93,7 +93,7 @@ def company(name, prices):
         cols = list(map(lambda x: x.find('span').text, row.find_all('td')))
         date = parser.parse(cols[0]).strftime(DATE_FORMAT)
         bitcoin_price_usd = prices[date]
-        btc = parse_number(cols[2]) or parse_number(cols[1])
+        btc = parse_number(cols[2])
         data.append({
             "date": date,
             "btc": btc,
