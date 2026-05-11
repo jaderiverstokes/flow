@@ -14579,5 +14579,12 @@
     "avg_price_usd": 81430.68,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-11",
+    "btc": 535,
+    "avg_price_usd": 80340,
+    "total_cost_usd": 43000000,
+    "company": "strategy"
   }
 ]
