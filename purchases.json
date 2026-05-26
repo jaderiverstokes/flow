@@ -14796,5 +14796,12 @@
     "avg_price_usd": 77453.21,
     "total_cost_usd": -70172608.26,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-05-25",
+    "btc": -478,
+    "avg_price_usd": 77029.32,
+    "total_cost_usd": -36820014.96,
+    "company": "fidelity-fbtc"
   }
 ]
