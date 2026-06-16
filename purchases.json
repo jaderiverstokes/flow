@@ -959,6 +959,13 @@
     "company": "bitmex"
   },
   {
+    "date": "2024-02-28",
+    "btc": 0,
+    "avg_price_usd": 62488.524,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-02-29",
     "btc": 19869,
     "avg_price_usd": 61259.934,
@@ -1057,6 +1064,27 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-04",
+    "btc": 55,
+    "avg_price_usd": 68337.878,
+    "total_cost_usd": 3758583.29,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-03-04",
+    "btc": -55,
+    "avg_price_usd": 68337.878,
+    "total_cost_usd": -3758583.29,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-03-04",
+    "btc": 55,
+    "avg_price_usd": 68337.878,
+    "total_cost_usd": 3758583.29,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-05",
     "btc": 12623,
     "avg_price_usd": 63858.192,
@@ -1099,6 +1127,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-06",
+    "btc": 605,
+    "avg_price_usd": 66041.42,
+    "total_cost_usd": 39955059.1,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-07",
     "btc": 3600,
     "avg_price_usd": 66794.334,
@@ -1111,6 +1146,13 @@
     "avg_price_usd": 66794.334,
     "total_cost_usd": 465823685.32,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2024-03-07",
+    "btc": 616,
+    "avg_price_usd": 66794.334,
+    "total_cost_usd": 41145309.74,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-08",
@@ -1141,6 +1183,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-08",
+    "btc": 598,
+    "avg_price_usd": 68160.007,
+    "total_cost_usd": 40759684.19,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-11",
     "btc": 12000,
     "avg_price_usd": 68477,
@@ -1169,6 +1218,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-11",
+    "btc": 599,
+    "avg_price_usd": 72149.546,
+    "total_cost_usd": 43217578.05,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-12",
     "btc": 11870,
     "avg_price_usd": 71486.904,
@@ -1188,6 +1244,13 @@
     "avg_price_usd": 71486.904,
     "total_cost_usd": -80208306.29,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-03-12",
+    "btc": 554,
+    "avg_price_usd": 71486.904,
+    "total_cost_usd": 39603744.82,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-13",
@@ -1211,11 +1274,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-13",
+    "btc": 56,
+    "avg_price_usd": 72995.371,
+    "total_cost_usd": 4087740.78,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-14",
     "btc": 4967,
     "avg_price_usd": 71401.692,
     "total_cost_usd": 354652204.16,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2024-03-14",
+    "btc": 134,
+    "avg_price_usd": 71401.692,
+    "total_cost_usd": 9567826.73,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-15",
@@ -1239,6 +1316,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-15",
+    "btc": 17,
+    "avg_price_usd": 69383.36,
+    "total_cost_usd": 1179517.12,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-18",
     "btc": 8726,
     "avg_price_usd": 67656.269,
@@ -1258,6 +1342,13 @@
     "avg_price_usd": 67656.269,
     "total_cost_usd": -650176745.09,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-03-18",
+    "btc": 70,
+    "avg_price_usd": 67656.269,
+    "total_cost_usd": 4735938.83,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-19",
@@ -1309,11 +1400,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-20",
+    "btc": 43,
+    "avg_price_usd": 67894.237,
+    "total_cost_usd": 2919452.19,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-21",
     "btc": 43,
     "avg_price_usd": 65516.461,
     "total_cost_usd": 2817207.82,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2024-03-21",
+    "btc": 72,
+    "avg_price_usd": 65516.461,
+    "total_cost_usd": 4717185.19,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-22",
@@ -1344,6 +1449,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-22",
+    "btc": 399,
+    "avg_price_usd": 63761.47,
+    "total_cost_usd": 25440826.53,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-25",
     "btc": 501,
     "avg_price_usd": 69932.089,
@@ -1365,6 +1477,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-25",
+    "btc": 158,
+    "avg_price_usd": 69932.089,
+    "total_cost_usd": 11049270.06,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-26",
     "btc": 2323,
     "avg_price_usd": 70011.606,
@@ -1377,6 +1496,13 @@
     "avg_price_usd": 70011.606,
     "total_cost_usd": 280046424.0,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2024-03-26",
+    "btc": 428,
+    "avg_price_usd": 70011.606,
+    "total_cost_usd": 29964967.37,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-27",
@@ -1393,6 +1519,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-03-27",
+    "btc": 73,
+    "avg_price_usd": 69504.452,
+    "total_cost_usd": 5073825.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-03-28",
     "btc": 6060,
     "avg_price_usd": 70768.728,
@@ -1405,6 +1538,13 @@
     "avg_price_usd": 70768.728,
     "total_cost_usd": -310108566.1,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-03-28",
+    "btc": 85,
+    "avg_price_usd": 70768.728,
+    "total_cost_usd": 6015341.88,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-03-29",
@@ -1484,6 +1624,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-02",
+    "btc": 55,
+    "avg_price_usd": 65462.186,
+    "total_cost_usd": 3600420.23,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-03",
     "btc": 637,
     "avg_price_usd": 65985.647,
@@ -1524,6 +1671,13 @@
     "avg_price_usd": 68366.897,
     "total_cost_usd": -78895399.14,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-04",
+    "btc": 49,
+    "avg_price_usd": 68366.897,
+    "total_cost_usd": 3349977.95,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-05",
@@ -1610,6 +1764,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-10",
+    "btc": 0,
+    "avg_price_usd": 70571.291,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-11",
     "btc": 2733,
     "avg_price_usd": 70012.652,
@@ -1629,6 +1790,13 @@
     "avg_price_usd": 70012.652,
     "total_cost_usd": -18343314.82,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-11",
+    "btc": 119,
+    "avg_price_usd": 70012.652,
+    "total_cost_usd": 8331505.59,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-12",
@@ -1659,6 +1827,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-15",
+    "btc": 0,
+    "avg_price_usd": 63427.349,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-16",
     "btc": 410,
     "avg_price_usd": 63807.091,
@@ -1680,6 +1855,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-16",
+    "btc": 26,
+    "avg_price_usd": 63807.091,
+    "total_cost_usd": 1658984.37,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-17",
     "btc": 296,
     "avg_price_usd": 61287.494,
@@ -1692,6 +1874,13 @@
     "avg_price_usd": 61287.494,
     "total_cost_usd": -78264129.84,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-17",
+    "btc": 0,
+    "avg_price_usd": 61287.494,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-18",
@@ -1715,6 +1904,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-18",
+    "btc": 0,
+    "avg_price_usd": 63482.463,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-19",
     "btc": 455,
     "avg_price_usd": 63813.371,
@@ -1727,6 +1923,13 @@
     "avg_price_usd": 63813.371,
     "total_cost_usd": -91125493.79,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-19",
+    "btc": 0,
+    "avg_price_usd": 63813.371,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-23",
@@ -1750,6 +1953,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-23",
+    "btc": 0,
+    "avg_price_usd": 66347.528,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-24",
     "btc": 87,
     "avg_price_usd": 64277.282,
@@ -1762,6 +1972,13 @@
     "avg_price_usd": 64277.282,
     "total_cost_usd": -65434273.08,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-24",
+    "btc": 0,
+    "avg_price_usd": 64277.282,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-25",
@@ -1778,6 +1995,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-04-25",
+    "btc": 311,
+    "avg_price_usd": 64542.757,
+    "total_cost_usd": 20072797.43,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-04-26",
     "btc": -43,
     "avg_price_usd": 63808.119,
@@ -1790,6 +2014,13 @@
     "avg_price_usd": 63808.119,
     "total_cost_usd": -138272193.87,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-26",
+    "btc": -623,
+    "avg_price_usd": 63808.119,
+    "total_cost_usd": -39752458.14,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-29",
@@ -1811,6 +2042,13 @@
     "avg_price_usd": 63873.05,
     "total_cost_usd": -84759537.35,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-04-29",
+    "btc": 42,
+    "avg_price_usd": 63873.05,
+    "total_cost_usd": 2682668.1,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-04-30",
@@ -1848,6 +2086,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-01",
+    "btc": -167,
+    "avg_price_usd": 58397.71,
+    "total_cost_usd": -9752417.57,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-02",
     "btc": 0,
     "avg_price_usd": 59228.497,
@@ -1860,6 +2105,13 @@
     "avg_price_usd": 59228.497,
     "total_cost_usd": -174664837.65,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-02",
+    "btc": 39,
+    "avg_price_usd": 59228.497,
+    "total_cost_usd": 2309911.38,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-03",
@@ -1881,6 +2133,13 @@
     "avg_price_usd": 62957.078,
     "total_cost_usd": -58990782.09,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-03",
+    "btc": 576,
+    "avg_price_usd": 62957.078,
+    "total_cost_usd": 36263276.93,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-06",
@@ -1925,11 +2184,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-07",
+    "btc": 0,
+    "avg_price_usd": 62332.571,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-08",
     "btc": -465,
     "avg_price_usd": 61202.974,
     "total_cost_usd": -28459382.91,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-08",
+    "btc": 0,
+    "avg_price_usd": 61202.974,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-09",
@@ -1951,6 +2224,13 @@
     "avg_price_usd": 63064.864,
     "total_cost_usd": -756778.37,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-09",
+    "btc": 0,
+    "avg_price_usd": 63064.864,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-10",
@@ -1988,6 +2268,20 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-13",
+    "btc": 19,
+    "avg_price_usd": 62919.299,
+    "total_cost_usd": 1195466.68,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-05-13",
+    "btc": 0,
+    "avg_price_usd": 62919.299,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-14",
     "btc": 131,
     "avg_price_usd": 61565.112,
@@ -2000,6 +2294,13 @@
     "avg_price_usd": 61565.112,
     "total_cost_usd": -51653128.97,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-14",
+    "btc": 56,
+    "avg_price_usd": 61565.112,
+    "total_cost_usd": 3447646.27,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-15",
@@ -2023,11 +2324,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-15",
+    "btc": 283,
+    "avg_price_usd": 66247.486,
+    "total_cost_usd": 18748038.54,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-16",
     "btc": 59,
     "avg_price_usd": 65237.448,
     "total_cost_usd": 3849009.43,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-16",
+    "btc": 96,
+    "avg_price_usd": 65237.448,
+    "total_cost_usd": 6262795.01,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-17",
@@ -2065,6 +2380,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-17",
+    "btc": 0,
+    "avg_price_usd": 66770.774,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-20",
     "btc": 4167,
     "avg_price_usd": 71428.204,
@@ -2084,6 +2406,13 @@
     "avg_price_usd": 71428.204,
     "total_cost_usd": 8642812.68,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-20",
+    "btc": 0,
+    "avg_price_usd": 71428.204,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-21",
@@ -2107,6 +2436,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-21",
+    "btc": 0,
+    "avg_price_usd": 70146.375,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-22",
     "btc": 1321,
     "avg_price_usd": 69185.143,
@@ -2126,6 +2462,13 @@
     "avg_price_usd": 69185.143,
     "total_cost_usd": -16811989.75,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-22",
+    "btc": 0,
+    "avg_price_usd": 69185.143,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-23",
@@ -2156,6 +2499,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-24",
+    "btc": 0,
+    "avg_price_usd": 68548.866,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-27",
     "btc": 1503,
     "avg_price_usd": 69450.03,
@@ -2175,6 +2525,13 @@
     "avg_price_usd": 69450.03,
     "total_cost_usd": -3264151.41,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-27",
+    "btc": 16,
+    "avg_price_usd": 69450.03,
+    "total_cost_usd": 1111200.48,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-28",
@@ -2198,6 +2555,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-28",
+    "btc": 0,
+    "avg_price_usd": 68361.646,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-29",
     "btc": 22,
     "avg_price_usd": 67656.955,
@@ -2219,11 +2583,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-29",
+    "btc": 0,
+    "avg_price_usd": 67656.955,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-05-30",
     "btc": -11,
     "avg_price_usd": 68381.271,
     "total_cost_usd": -752193.98,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-05-30",
+    "btc": 0,
+    "avg_price_usd": 68381.271,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-05-31",
@@ -2247,6 +2625,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-05-31",
+    "btc": 0,
+    "avg_price_usd": 67553.078,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-03",
     "btc": 3894,
     "avg_price_usd": 68819.301,
@@ -2268,6 +2653,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-03",
+    "btc": 22,
+    "avg_price_usd": 68819.301,
+    "total_cost_usd": 1514024.62,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-04",
     "btc": 2186,
     "avg_price_usd": 70551.83,
@@ -2280,6 +2672,13 @@
     "avg_price_usd": 70551.83,
     "total_cost_usd": 27374110.04,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-04",
+    "btc": 0,
+    "avg_price_usd": 70551.83,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-05",
@@ -2303,11 +2702,25 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-05",
+    "btc": 0,
+    "avg_price_usd": 71080.329,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-06",
     "btc": -545,
     "avg_price_usd": 70761.171,
     "total_cost_usd": -38564838.2,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-06",
+    "btc": 0,
+    "avg_price_usd": 70761.171,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-07",
@@ -2338,6 +2751,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-07",
+    "btc": -226,
+    "avg_price_usd": 69352.341,
+    "total_cost_usd": -15673629.07,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-10",
     "btc": 501,
     "avg_price_usd": 69557.699,
@@ -2357,6 +2777,13 @@
     "avg_price_usd": 69557.699,
     "total_cost_usd": -166799362.2,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-10",
+    "btc": 0,
+    "avg_price_usd": 69557.699,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-13",
@@ -2394,11 +2821,32 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-14",
+    "btc": 0,
+    "avg_price_usd": 66053.587,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-06-14",
+    "btc": 0,
+    "avg_price_usd": 66053.587,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-17",
     "btc": -55,
     "avg_price_usd": 66503.205,
     "total_cost_usd": -3657676.27,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-17",
+    "btc": 0,
+    "avg_price_usd": 66503.205,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-18",
@@ -2429,6 +2877,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-19",
+    "btc": 0,
+    "avg_price_usd": 64977.562,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-20",
     "btc": 11931,
     "avg_price_usd": 65883,
@@ -2448,6 +2903,13 @@
     "avg_price_usd": 64853.61,
     "total_cost_usd": -53698789.08,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-20",
+    "btc": 0,
+    "avg_price_usd": 64853.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-21",
@@ -2471,6 +2933,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-21",
+    "btc": 0,
+    "avg_price_usd": 64106.836,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-24",
     "btc": 765,
     "avg_price_usd": 60304.493,
@@ -2483,6 +2952,13 @@
     "avg_price_usd": 60304.493,
     "total_cost_usd": -92808614.73,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-24",
+    "btc": 0,
+    "avg_price_usd": 60304.493,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-25",
@@ -2499,6 +2975,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-25",
+    "btc": 0,
+    "avg_price_usd": 61808.032,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-26",
     "btc": 109,
     "avg_price_usd": 60837.44,
@@ -2513,6 +2996,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-06-26",
+    "btc": 0,
+    "avg_price_usd": 60837.44,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-06-27",
     "btc": 1366,
     "avg_price_usd": 61668.215,
@@ -2525,6 +3015,13 @@
     "avg_price_usd": 61668.215,
     "total_cost_usd": -12148638.35,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-27",
+    "btc": 0,
+    "avg_price_usd": 61668.215,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-06-28",
@@ -2546,6 +3043,13 @@
     "avg_price_usd": 60403.458,
     "total_cost_usd": -29356080.59,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-06-28",
+    "btc": 0,
+    "avg_price_usd": 60403.458,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-02",
@@ -2574,6 +3078,20 @@
     "avg_price_usd": 62092.909,
     "total_cost_usd": -683022.0,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-02",
+    "btc": 0,
+    "avg_price_usd": 62092.909,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-07-02",
+    "btc": 0,
+    "avg_price_usd": 62092.909,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-05",
@@ -2625,6 +3143,20 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-05",
+    "btc": 0,
+    "avg_price_usd": 56660.961,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-07-05",
+    "btc": 0,
+    "avg_price_usd": 56660.961,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-08",
     "btc": 5418,
     "avg_price_usd": 56717.784,
@@ -2667,6 +3199,20 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-08",
+    "btc": 0,
+    "avg_price_usd": 56717.784,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-07-08",
+    "btc": 0,
+    "avg_price_usd": 56717.784,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-09",
     "btc": 387,
     "avg_price_usd": 58018.211,
@@ -2686,6 +3232,13 @@
     "avg_price_usd": 58018.211,
     "total_cost_usd": -38234001.05,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-09",
+    "btc": 359,
+    "avg_price_usd": 58018.211,
+    "total_cost_usd": 20828537.75,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-10",
@@ -2709,6 +3262,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-10",
+    "btc": 0,
+    "avg_price_usd": 57755.223,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-11",
     "btc": 2071,
     "avg_price_usd": 57357.339,
@@ -2721,6 +3281,13 @@
     "avg_price_usd": 57357.339,
     "total_cost_usd": -38314702.45,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-11",
+    "btc": 0,
+    "avg_price_usd": 57357.339,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-12",
@@ -2751,6 +3318,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-12",
+    "btc": 0,
+    "avg_price_usd": 57894.322,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-15",
     "btc": 4005,
     "avg_price_usd": 64783.835,
@@ -2772,6 +3346,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-15",
+    "btc": 33,
+    "avg_price_usd": 64783.835,
+    "total_cost_usd": 2137866.56,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-16",
     "btc": 1707,
     "avg_price_usd": 65081.007,
@@ -2791,6 +3372,13 @@
     "avg_price_usd": 65081.007,
     "total_cost_usd": -715891.08,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-16",
+    "btc": 0,
+    "avg_price_usd": 65081.007,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-18",
@@ -2819,6 +3407,20 @@
     "avg_price_usd": 63984.881,
     "total_cost_usd": -54067224.45,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-18",
+    "btc": 113,
+    "avg_price_usd": 63984.881,
+    "total_cost_usd": 7230291.55,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-07-18",
+    "btc": 0,
+    "avg_price_usd": 63984.881,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-19",
@@ -2877,6 +3479,20 @@
     "company": "wrapped-bitcoin"
   },
   {
+    "date": "2024-07-19",
+    "btc": 0,
+    "avg_price_usd": 66672.833,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-07-19",
+    "btc": 0,
+    "avg_price_usd": 66672.833,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-22",
     "btc": 1092,
     "avg_price_usd": 67561.383,
@@ -2889,6 +3505,13 @@
     "avg_price_usd": 67561.383,
     "total_cost_usd": 2207500628.14,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-22",
+    "btc": 0,
+    "avg_price_usd": 67561.383,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-23",
@@ -2912,6 +3535,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-23",
+    "btc": 0,
+    "avg_price_usd": 65940.181,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-24",
     "btc": 1092,
     "avg_price_usd": 65397.82,
@@ -2926,6 +3556,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-07-24",
+    "btc": 0,
+    "avg_price_usd": 65397.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-25",
     "btc": 341,
     "avg_price_usd": 65801.182,
@@ -2938,6 +3575,13 @@
     "avg_price_usd": 65801.182,
     "total_cost_usd": -40994136.39,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-25",
+    "btc": 0,
+    "avg_price_usd": 65801.182,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-26",
@@ -2966,6 +3610,13 @@
     "avg_price_usd": 67916.755,
     "total_cost_usd": -28728787.37,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-26",
+    "btc": 0,
+    "avg_price_usd": 67916.755,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-07-29",
@@ -3017,6 +3668,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-07-30",
+    "btc": 0,
+    "avg_price_usd": 66209.804,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-07-31",
     "btc": 409,
     "avg_price_usd": 64658.049,
@@ -3036,6 +3694,13 @@
     "avg_price_usd": 64658.049,
     "total_cost_usd": -581922.44,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-07-31",
+    "btc": 0,
+    "avg_price_usd": 64658.049,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-01",
@@ -3066,6 +3731,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-01",
+    "btc": 0,
+    "avg_price_usd": 65383.39,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-02",
     "btc": -1093,
     "avg_price_usd": 61460.115,
@@ -3085,6 +3757,13 @@
     "avg_price_usd": 61460.115,
     "total_cost_usd": -46894067.74,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-02",
+    "btc": 0,
+    "avg_price_usd": 61460.115,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-05",
@@ -3136,6 +3815,27 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-05",
+    "btc": 0,
+    "avg_price_usd": 53773.955,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-08-05",
+    "btc": 0,
+    "avg_price_usd": 53773.955,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-08-05",
+    "btc": 0,
+    "avg_price_usd": 53773.955,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-06",
     "btc": 956,
     "avg_price_usd": 55832.961,
@@ -3148,6 +3848,13 @@
     "avg_price_usd": 55832.961,
     "total_cost_usd": -104854300.76,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-06",
+    "btc": 0,
+    "avg_price_usd": 55832.961,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-07",
@@ -3192,6 +3899,20 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-08-08",
+    "btc": 0,
+    "avg_price_usd": 61735.55,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-08-08",
+    "btc": 0,
+    "avg_price_usd": 61735.55,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-09",
     "btc": 796,
     "avg_price_usd": 60705.411,
@@ -3218,6 +3939,13 @@
     "avg_price_usd": 60705.411,
     "total_cost_usd": 15601290.63,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-08-09",
+    "btc": 0,
+    "avg_price_usd": 60705.411,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-12",
@@ -3248,6 +3976,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-08-13",
+    "btc": 0,
+    "avg_price_usd": 60335.75,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-14",
     "btc": 284,
     "avg_price_usd": 58687.483,
@@ -3260,6 +3995,13 @@
     "avg_price_usd": 58687.483,
     "total_cost_usd": -57161608.44,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-14",
+    "btc": 0,
+    "avg_price_usd": 58687.483,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-15",
@@ -3281,6 +4023,13 @@
     "avg_price_usd": 57436.408,
     "total_cost_usd": 13727301.51,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-08-15",
+    "btc": 0,
+    "avg_price_usd": 57436.408,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-16",
@@ -3311,6 +4060,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2024-08-16",
+    "btc": 0,
+    "avg_price_usd": 58694.173,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-19",
     "btc": 933,
     "avg_price_usd": 59266.109,
@@ -3323,6 +4079,13 @@
     "avg_price_usd": 59266.109,
     "total_cost_usd": -533394.98,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-19",
+    "btc": 0,
+    "avg_price_usd": 59266.109,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-20",
@@ -3344,6 +4107,13 @@
     "avg_price_usd": 58956.892,
     "total_cost_usd": -13206343.81,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-20",
+    "btc": 0,
+    "avg_price_usd": 58956.892,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-21",
@@ -3374,6 +4144,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-21",
+    "btc": 0,
+    "avg_price_usd": 59060.13,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-22",
     "btc": 1365,
     "avg_price_usd": 61144.69,
@@ -3386,6 +4163,13 @@
     "avg_price_usd": 61144.69,
     "total_cost_usd": -29288306.51,
     "company": "grayscale"
+  },
+  {
+    "date": "2024-08-22",
+    "btc": 35,
+    "avg_price_usd": 61144.69,
+    "total_cost_usd": 2140064.15,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-23",
@@ -3430,6 +4214,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-23",
+    "btc": 0,
+    "avg_price_usd": 60387.54,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-26",
     "btc": -9,
     "avg_price_usd": 64265.82,
@@ -3444,6 +4235,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-26",
+    "btc": 0,
+    "avg_price_usd": 64265.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-27",
     "btc": -174,
     "avg_price_usd": 62922.59,
@@ -3456,6 +4254,13 @@
     "avg_price_usd": 62922.59,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-08-27",
+    "btc": 0,
+    "avg_price_usd": 62922.59,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-28",
@@ -3486,6 +4291,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-08-28",
+    "btc": -28,
+    "avg_price_usd": 59526.56,
+    "total_cost_usd": -1666743.68,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-08-29",
     "btc": -392,
     "avg_price_usd": 59015.3,
@@ -3505,6 +4317,13 @@
     "avg_price_usd": 59015.3,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-08-29",
+    "btc": 0,
+    "avg_price_usd": 59015.3,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-08-30",
@@ -3542,6 +4361,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-02",
+    "btc": -44,
+    "avg_price_usd": 57357.72,
+    "total_cost_usd": -2523739.68,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-03",
     "btc": -131,
     "avg_price_usd": 59108.73,
@@ -3570,6 +4396,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-03",
+    "btc": 0,
+    "avg_price_usd": 59108.73,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-05",
     "btc": -2666,
     "avg_price_usd": 57987.85,
@@ -3596,6 +4429,13 @@
     "avg_price_usd": 57987.85,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-05",
+    "btc": 0,
+    "avg_price_usd": 57987.85,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-06",
@@ -3647,6 +4487,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-06",
+    "btc": -85,
+    "avg_price_usd": 56132.4,
+    "total_cost_usd": -4771254.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-09",
     "btc": -159,
     "avg_price_usd": 54792.41,
@@ -3682,6 +4529,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-09",
+    "btc": 0,
+    "avg_price_usd": 54792.41,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-10",
     "btc": 1092,
     "avg_price_usd": 57049.12,
@@ -3708,6 +4562,13 @@
     "avg_price_usd": 57049.12,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-10",
+    "btc": 0,
+    "avg_price_usd": 57049.12,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-11",
@@ -3738,6 +4599,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-11",
+    "btc": 0,
+    "avg_price_usd": 57624.16,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-12",
     "btc": 196,
     "avg_price_usd": 57381.76,
@@ -3757,6 +4625,13 @@
     "avg_price_usd": 57381.76,
     "total_cost_usd": -516435.84,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-12",
+    "btc": 0,
+    "avg_price_usd": 57381.76,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-13",
@@ -3801,6 +4676,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-13",
+    "btc": 28,
+    "avg_price_usd": 58106.95,
+    "total_cost_usd": 1626994.6,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-16",
     "btc": 273,
     "avg_price_usd": 59214.8,
@@ -3829,6 +4711,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-16",
+    "btc": 0,
+    "avg_price_usd": 59214.8,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-17",
     "btc": 939,
     "avg_price_usd": 58211.12,
@@ -3850,6 +4739,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-17",
+    "btc": 0,
+    "avg_price_usd": 58211.12,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-18",
     "btc": -9,
     "avg_price_usd": 60317.03,
@@ -3862,6 +4758,13 @@
     "avg_price_usd": 60317.03,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-18",
+    "btc": 0,
+    "avg_price_usd": 60317.03,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-19",
@@ -3890,6 +4793,13 @@
     "avg_price_usd": 61440.41,
     "total_cost_usd": 2703378.04,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-19",
+    "btc": 0,
+    "avg_price_usd": 61440.41,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-20",
@@ -3934,6 +4844,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-20",
+    "btc": 81,
+    "avg_price_usd": 62966.53,
+    "total_cost_usd": 5100288.93,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-23",
     "btc": 182,
     "avg_price_usd": 63582.6,
@@ -3967,6 +4884,13 @@
     "avg_price_usd": 63582.6,
     "total_cost_usd": 13479511.2,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-23",
+    "btc": 0,
+    "avg_price_usd": 63582.6,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-24",
@@ -4004,6 +4928,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-24",
+    "btc": 0,
+    "avg_price_usd": 63327.03,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-25",
     "btc": 2912,
     "avg_price_usd": 64334.14,
@@ -4039,6 +4970,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-25",
+    "btc": 0,
+    "avg_price_usd": 64334.14,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-26",
     "btc": 1433,
     "avg_price_usd": 63151.9,
@@ -4065,6 +5003,13 @@
     "avg_price_usd": 63151.9,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-09-26",
+    "btc": 70,
+    "avg_price_usd": 63151.9,
+    "total_cost_usd": 4420633.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-09-27",
@@ -4102,6 +5047,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-27",
+    "btc": 49,
+    "avg_price_usd": 65130.77,
+    "total_cost_usd": 3191407.73,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-09-30",
     "btc": 1137,
     "avg_price_usd": 65663.69,
@@ -4137,6 +5089,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-09-30",
+    "btc": 0,
+    "avg_price_usd": 65663.69,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-01",
     "btc": -2374,
     "avg_price_usd": 63243.28,
@@ -4163,6 +5122,13 @@
     "avg_price_usd": 63243.28,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-01",
+    "btc": 0,
+    "avg_price_usd": 63243.28,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-03",
@@ -4298,6 +5264,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-08",
+    "btc": 0,
+    "avg_price_usd": 62287.39,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-09",
     "btc": 227,
     "avg_price_usd": 62185.23,
@@ -4324,6 +5297,13 @@
     "avg_price_usd": 62185.23,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-09",
+    "btc": 0,
+    "avg_price_usd": 62185.23,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-10",
@@ -4361,6 +5341,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-10",
+    "btc": 0,
+    "avg_price_usd": 60597.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-11",
     "btc": 1857,
     "avg_price_usd": 60195.18,
@@ -4394,6 +5381,13 @@
     "avg_price_usd": 60195.18,
     "total_cost_usd": -21309093.72,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-11",
+    "btc": 42,
+    "avg_price_usd": 60195.18,
+    "total_cost_usd": 2528197.56,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-14",
@@ -4431,6 +5425,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-14",
+    "btc": 0,
+    "avg_price_usd": 62829.53,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-15",
     "btc": 4323,
     "avg_price_usd": 66049.99,
@@ -4464,6 +5465,13 @@
     "avg_price_usd": 66049.99,
     "total_cost_usd": 4623499.3,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-15",
+    "btc": 28,
+    "avg_price_usd": 66049.99,
+    "total_cost_usd": 1849399.72,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-16",
@@ -4536,6 +5544,20 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-18",
+    "btc": 0,
+    "avg_price_usd": 67328.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-10-18",
+    "btc": 29,
+    "avg_price_usd": 67328.11,
+    "total_cost_usd": 1952515.19,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-21",
     "btc": 4869,
     "avg_price_usd": 68962.83,
@@ -4571,6 +5593,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-21",
+    "btc": 0,
+    "avg_price_usd": 68962.83,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-22",
     "btc": 637,
     "avg_price_usd": 67394.86,
@@ -4597,6 +5626,13 @@
     "avg_price_usd": 67394.86,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-22",
+    "btc": 0,
+    "avg_price_usd": 67394.86,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-23",
@@ -4662,6 +5698,20 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-25",
+    "btc": 0,
+    "avg_price_usd": 68214.05,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2024-10-25",
+    "btc": 0,
+    "avg_price_usd": 68214.05,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-28",
     "btc": 4527,
     "avg_price_usd": 67938.55,
@@ -4695,6 +5745,13 @@
     "avg_price_usd": 67938.55,
     "total_cost_usd": 5978592.4,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-28",
+    "btc": 0,
+    "avg_price_usd": 67938.55,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-10-29",
@@ -4732,6 +5789,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-29",
+    "btc": 84,
+    "avg_price_usd": 69845.3,
+    "total_cost_usd": 5867005.2,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-30",
     "btc": 12127,
     "avg_price_usd": 72781.11,
@@ -4767,6 +5831,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-10-30",
+    "btc": 26,
+    "avg_price_usd": 72781.11,
+    "total_cost_usd": 1892308.86,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-10-31",
     "btc": 4527,
     "avg_price_usd": 72342.62,
@@ -4800,6 +5871,13 @@
     "avg_price_usd": 72342.62,
     "total_cost_usd": 7957688.2,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-10-31",
+    "btc": -24,
+    "avg_price_usd": 72342.62,
+    "total_cost_usd": -1736222.88,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-01",
@@ -4844,6 +5922,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-01",
+    "btc": -85,
+    "avg_price_usd": 70265.0,
+    "total_cost_usd": -5972525.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-04",
     "btc": 568,
     "avg_price_usd": 68803.51,
@@ -4877,6 +5962,13 @@
     "avg_price_usd": 68803.51,
     "total_cost_usd": 13347880.94,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-04",
+    "btc": -18,
+    "avg_price_usd": 68803.51,
+    "total_cost_usd": -1238463.18,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-05",
@@ -4921,6 +6013,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-05",
+    "btc": -34,
+    "avg_price_usd": 67793.3,
+    "total_cost_usd": -2304972.2,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-06",
     "btc": -970,
     "avg_price_usd": 69335.43,
@@ -4956,6 +6055,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-06",
+    "btc": 141,
+    "avg_price_usd": 69335.43,
+    "total_cost_usd": 9776295.63,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-07",
     "btc": 14606,
     "avg_price_usd": 75620.89,
@@ -4989,6 +6095,13 @@
     "avg_price_usd": 75620.89,
     "total_cost_usd": 107911010.03,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-07",
+    "btc": 28,
+    "avg_price_usd": 75620.89,
+    "total_cost_usd": 2117384.92,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-08",
@@ -5040,6 +6153,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-08",
+    "btc": 0,
+    "avg_price_usd": 75987.24,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-11",
     "btc": 27200,
     "avg_price_usd": 74463,
@@ -5082,6 +6202,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-11",
+    "btc": 0,
+    "avg_price_usd": 80466.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-12",
     "btc": 8690,
     "avg_price_usd": 88637.42,
@@ -5115,6 +6242,13 @@
     "avg_price_usd": 88637.42,
     "total_cost_usd": 28629886.66,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-12",
+    "btc": 0,
+    "avg_price_usd": 88637.42,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-13",
@@ -5152,6 +6286,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-13",
+    "btc": 0,
+    "avg_price_usd": 88264.6,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-14",
     "btc": 1433,
     "avg_price_usd": 90488.1,
@@ -5185,6 +6326,13 @@
     "avg_price_usd": 90488.1,
     "total_cost_usd": 61712884.2,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-14",
+    "btc": -18,
+    "avg_price_usd": 90488.1,
+    "total_cost_usd": -1628785.8,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-15",
@@ -5229,6 +6377,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-15",
+    "btc": 0,
+    "avg_price_usd": 87407.51,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-18",
     "btc": 51780,
     "avg_price_usd": 88627,
@@ -5271,6 +6426,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-18",
+    "btc": 0,
+    "avg_price_usd": 89841.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-19",
     "btc": 2320,
     "avg_price_usd": 90534.62,
@@ -5304,6 +6466,13 @@
     "avg_price_usd": 90534.62,
     "total_cost_usd": 53687029.66,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-19",
+    "btc": 83,
+    "avg_price_usd": 90534.62,
+    "total_cost_usd": 7514373.46,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-20",
@@ -5341,6 +6510,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-20",
+    "btc": 0,
+    "avg_price_usd": 92251.65,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-21",
     "btc": 6188,
     "avg_price_usd": 94217.02,
@@ -5374,6 +6550,13 @@
     "avg_price_usd": 94217.02,
     "total_cost_usd": 9139050.94,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-21",
+    "btc": 62,
+    "avg_price_usd": 94217.02,
+    "total_cost_usd": 5841455.24,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-22",
@@ -5425,6 +6608,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-22",
+    "btc": 0,
+    "avg_price_usd": 98509.12,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-25",
     "btc": 55500,
     "avg_price_usd": 97862,
@@ -5467,6 +6657,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-25",
+    "btc": -32,
+    "avg_price_usd": 98015.94,
+    "total_cost_usd": -3136510.08,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-11-26",
     "btc": -1048,
     "avg_price_usd": 93004.7,
@@ -5493,6 +6690,13 @@
     "avg_price_usd": 93004.7,
     "total_cost_usd": 372018.8,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-26",
+    "btc": 0,
+    "avg_price_usd": 93004.7,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-27",
@@ -5528,6 +6732,13 @@
     "avg_price_usd": 95981.18,
     "total_cost_usd": 5087002.54,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-11-28",
+    "btc": 0,
+    "avg_price_usd": 95981.18,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-11-29",
@@ -5579,6 +6790,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-11-29",
+    "btc": 0,
+    "avg_price_usd": 95661.6,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-02",
     "btc": 15400,
     "avg_price_usd": 95976,
@@ -5621,6 +6839,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-02",
+    "btc": 0,
+    "avg_price_usd": 97311.71,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-03",
     "btc": 7256,
     "avg_price_usd": 95833.14,
@@ -5654,6 +6879,13 @@
     "avg_price_usd": 95833.14,
     "total_cost_usd": 6324987.24,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-03",
+    "btc": 0,
+    "avg_price_usd": 95833.14,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-04",
@@ -5691,6 +6923,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-04",
+    "btc": 0,
+    "avg_price_usd": 96031.63,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-05",
     "btc": 7726,
     "avg_price_usd": 98881.47,
@@ -5717,6 +6956,13 @@
     "avg_price_usd": 98881.47,
     "total_cost_usd": 55571386.14,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-05",
+    "btc": 0,
+    "avg_price_usd": 98881.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-06",
@@ -5768,6 +7014,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-06",
+    "btc": 0,
+    "avg_price_usd": 97201.5,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-09",
     "btc": 21550,
     "avg_price_usd": 98783,
@@ -5810,6 +7063,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-09",
+    "btc": -114,
+    "avg_price_usd": 101235.37,
+    "total_cost_usd": -11540832.18,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-10",
     "btc": 3070,
     "avg_price_usd": 97353.95,
@@ -5845,6 +7105,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-10",
+    "btc": -24,
+    "avg_price_usd": 97353.95,
+    "total_cost_usd": -2336494.8,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-11",
     "btc": 1201,
     "avg_price_usd": 96649.71,
@@ -5871,6 +7138,13 @@
     "avg_price_usd": 96649.71,
     "total_cost_usd": 6378880.86,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-11",
+    "btc": 0,
+    "avg_price_usd": 96649.71,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-12",
@@ -5906,6 +7180,13 @@
     "avg_price_usd": 101123.62,
     "total_cost_usd": 15674161.1,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-12",
+    "btc": 0,
+    "avg_price_usd": 101123.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-13",
@@ -5957,6 +7238,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-13",
+    "btc": 0,
+    "avg_price_usd": 100000.81,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-16",
     "btc": 15350,
     "avg_price_usd": 100386,
@@ -5999,6 +7287,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-16",
+    "btc": 0,
+    "avg_price_usd": 104721.5,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-17",
     "btc": 6960,
     "avg_price_usd": 106074.11,
@@ -6034,6 +7329,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-17",
+    "btc": 0,
+    "avg_price_usd": 106074.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-18",
     "btc": 3548,
     "avg_price_usd": 106034.91,
@@ -6062,6 +7364,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-18",
+    "btc": 0,
+    "avg_price_usd": 106034.91,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-19",
     "btc": -2162,
     "avg_price_usd": 100355.58,
@@ -6088,6 +7397,13 @@
     "avg_price_usd": 100355.58,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-19",
+    "btc": -85,
+    "avg_price_usd": 100355.58,
+    "total_cost_usd": -8530224.3,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-20",
@@ -6195,6 +7511,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-24",
+    "btc": 0,
+    "avg_price_usd": 94644.91,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-25",
     "btc": -851,
     "avg_price_usd": 98695.71,
@@ -6242,6 +7565,13 @@
     "avg_price_usd": 99344.95,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-26",
+    "btc": 0,
+    "avg_price_usd": 99344.95,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2024-12-27",
@@ -6300,6 +7630,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-27",
+    "btc": -106,
+    "avg_price_usd": 95678.31,
+    "total_cost_usd": -10141900.86,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-30",
     "btc": 2138,
     "avg_price_usd": 97837,
@@ -6342,6 +7679,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2024-12-30",
+    "btc": -116,
+    "avg_price_usd": 93663.45,
+    "total_cost_usd": -10864960.2,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2024-12-31",
     "btc": -250,
     "avg_price_usd": 92627.28,
@@ -6368,6 +7712,13 @@
     "avg_price_usd": 92627.28,
     "total_cost_usd": -31215393.36,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2024-12-31",
+    "btc": 0,
+    "avg_price_usd": 92627.28,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-01",
@@ -6419,6 +7770,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-02",
+    "btc": 0,
+    "avg_price_usd": 94384.18,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-03",
     "btc": 2570,
     "avg_price_usd": 96852.15,
@@ -6459,6 +7817,13 @@
     "avg_price_usd": 96852.15,
     "total_cost_usd": 6779650.5,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-03",
+    "btc": 55,
+    "avg_price_usd": 96852.15,
+    "total_cost_usd": 5326868.25,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-06",
@@ -6503,6 +7868,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-06",
+    "btc": 82,
+    "avg_price_usd": 98364.59,
+    "total_cost_usd": 8065896.38,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-07",
     "btc": 6077,
     "avg_price_usd": 102229.39,
@@ -6538,6 +7910,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-07",
+    "btc": -26,
+    "avg_price_usd": 102229.39,
+    "total_cost_usd": -2657964.14,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-08",
     "btc": -1319,
     "avg_price_usd": 96952.1,
@@ -6571,6 +7950,13 @@
     "avg_price_usd": 96952.1,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-08",
+    "btc": -150,
+    "avg_price_usd": 96952.1,
+    "total_cost_usd": -14542815.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-09",
@@ -6622,6 +8008,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-10",
+    "btc": 0,
+    "avg_price_usd": 92376.28,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-13",
     "btc": 2530,
     "avg_price_usd": 95972,
@@ -6664,6 +8057,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-13",
+    "btc": 0,
+    "avg_price_usd": 94454.77,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-14",
     "btc": -2274,
     "avg_price_usd": 94456.35,
@@ -6690,6 +8090,13 @@
     "avg_price_usd": 94456.35,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-14",
+    "btc": 0,
+    "avg_price_usd": 94456.35,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-15",
@@ -6727,6 +8134,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-15",
+    "btc": 0,
+    "avg_price_usd": 96574.08,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-16",
     "btc": 5253,
     "avg_price_usd": 100313.15,
@@ -6760,6 +8174,13 @@
     "avg_price_usd": 100313.15,
     "total_cost_usd": 13742901.55,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-16",
+    "btc": 0,
+    "avg_price_usd": 100313.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-17",
@@ -6802,6 +8223,13 @@
     "avg_price_usd": 100044.58,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-17",
+    "btc": 35,
+    "avg_price_usd": 100044.58,
+    "total_cost_usd": 3501560.3,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-20",
@@ -6860,6 +8288,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-21",
+    "btc": 0,
+    "avg_price_usd": 101764.91,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-22",
     "btc": 3297,
     "avg_price_usd": 106182.24,
@@ -6886,6 +8321,13 @@
     "avg_price_usd": 106182.24,
     "total_cost_usd": 136444178.4,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-22",
+    "btc": 0,
+    "avg_price_usd": 106182.24,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-23",
@@ -6921,6 +8363,13 @@
     "avg_price_usd": 103673.54,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-23",
+    "btc": 0,
+    "avg_price_usd": 103673.54,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-24",
@@ -6965,6 +8414,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-24",
+    "btc": 0,
+    "avg_price_usd": 104067.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-27",
     "btc": 10107,
     "avg_price_usd": 105596,
@@ -7007,6 +8463,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-27",
+    "btc": 0,
+    "avg_price_usd": 102552.25,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-28",
     "btc": 295,
     "avg_price_usd": 101958.47,
@@ -7033,6 +8496,13 @@
     "avg_price_usd": 101958.47,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-28",
+    "btc": 0,
+    "avg_price_usd": 101958.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-29",
@@ -7070,6 +8540,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-29",
+    "btc": 0,
+    "avg_price_usd": 101313.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-01-30",
     "btc": 3047,
     "avg_price_usd": 103718.98,
@@ -7103,6 +8580,13 @@
     "avg_price_usd": 103718.98,
     "total_cost_usd": 105689640.62,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-01-30",
+    "btc": 0,
+    "avg_price_usd": 103718.98,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-01-31",
@@ -7161,6 +8645,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-01-31",
+    "btc": 0,
+    "avg_price_usd": 104781.51,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-03",
     "btc": -1790,
     "avg_price_usd": 97568.32,
@@ -7189,6 +8680,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-03",
+    "btc": 0,
+    "avg_price_usd": 97568.32,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-04",
     "btc": 2524,
     "avg_price_usd": 101466.86,
@@ -7215,6 +8713,13 @@
     "avg_price_usd": 101466.86,
     "total_cost_usd": 56212640.44,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-04",
+    "btc": 0,
+    "avg_price_usd": 101466.86,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-05",
@@ -7252,6 +8757,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-05",
+    "btc": 0,
+    "avg_price_usd": 98118.44,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-06",
     "btc": -120,
     "avg_price_usd": 96582.89,
@@ -7285,6 +8797,13 @@
     "avg_price_usd": 96582.89,
     "total_cost_usd": 37763909.99,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-06",
+    "btc": 0,
+    "avg_price_usd": 96582.89,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-07",
@@ -7336,6 +8855,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-07",
+    "btc": 0,
+    "avg_price_usd": 96635.42,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-10",
     "btc": 7633,
     "avg_price_usd": 97255,
@@ -7371,6 +8897,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-10",
+    "btc": 0,
+    "avg_price_usd": 96548.58,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-11",
     "btc": 250,
     "avg_price_usd": 97399.98,
@@ -7397,6 +8930,13 @@
     "avg_price_usd": 97399.98,
     "total_cost_usd": 32531593.32,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-11",
+    "btc": -38,
+    "avg_price_usd": 97399.98,
+    "total_cost_usd": -3701199.24,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-12",
@@ -7427,6 +8967,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-12",
+    "btc": -84,
+    "avg_price_usd": 95739.98,
+    "total_cost_usd": -8042158.32,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-14",
     "btc": 500,
     "avg_price_usd": 96561.66,
@@ -7453,6 +9000,13 @@
     "avg_price_usd": 96561.66,
     "total_cost_usd": 83718959.22,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-14",
+    "btc": -68,
+    "avg_price_usd": 96561.66,
+    "total_cost_usd": -6566192.88,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-17",
@@ -7490,6 +9044,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-18",
+    "btc": -22,
+    "avg_price_usd": 95776.16,
+    "total_cost_usd": -2107075.52,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-19",
     "btc": -502,
     "avg_price_usd": 95495.89,
@@ -7509,6 +9070,13 @@
     "avg_price_usd": 95495.89,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-19",
+    "btc": -73,
+    "avg_price_usd": 95495.89,
+    "total_cost_usd": -6971199.97,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-20",
@@ -7565,6 +9133,13 @@
     "avg_price_usd": 98384.32,
     "total_cost_usd": -60998278.4,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-21",
+    "btc": 0,
+    "avg_price_usd": 98384.32,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-24",
@@ -7630,6 +9205,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-25",
+    "btc": -1134,
+    "avg_price_usd": 91396.77,
+    "total_cost_usd": -103643937.18,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-26",
     "btc": -5001,
     "avg_price_usd": 88755.77,
@@ -7656,6 +9238,13 @@
     "avg_price_usd": 88755.77,
     "total_cost_usd": -86536875.75,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-26",
+    "btc": -38,
+    "avg_price_usd": 88755.77,
+    "total_cost_usd": -3372719.26,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-02-27",
@@ -7686,6 +9275,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-02-27",
+    "btc": -154,
+    "avg_price_usd": 83900.11,
+    "total_cost_usd": -12920616.94,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-02-28",
     "btc": -2910,
     "avg_price_usd": 84709.14,
@@ -7712,6 +9308,13 @@
     "avg_price_usd": 84709.14,
     "total_cost_usd": -5590803.24,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-02-28",
+    "btc": 0,
+    "avg_price_usd": 84709.14,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-03",
@@ -7742,6 +9345,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-03",
+    "btc": 0,
+    "avg_price_usd": 94261.53,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-04",
     "btc": -523,
     "avg_price_usd": 86124.71,
@@ -7761,6 +9371,13 @@
     "avg_price_usd": 86124.71,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-04",
+    "btc": 0,
+    "avg_price_usd": 86124.71,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-05",
@@ -7784,6 +9401,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-05",
+    "btc": -670,
+    "avg_price_usd": 87310.81,
+    "total_cost_usd": -58498242.7,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-06",
     "btc": -688,
     "avg_price_usd": 90604.08,
@@ -7803,6 +9427,13 @@
     "avg_price_usd": 90604.08,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-06",
+    "btc": 0,
+    "avg_price_usd": 90604.08,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-07",
@@ -7833,6 +9464,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-07",
+    "btc": 0,
+    "avg_price_usd": 90001.4,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-10",
     "btc": -1136,
     "avg_price_usd": 80751.14,
@@ -7859,6 +9497,13 @@
     "avg_price_usd": 80751.14,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-10",
+    "btc": -41,
+    "avg_price_usd": 80751.14,
+    "total_cost_usd": -3310796.74,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-11",
@@ -7889,6 +9534,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-11",
+    "btc": -345,
+    "avg_price_usd": 78783.94,
+    "total_cost_usd": -27180459.3,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-12",
     "btc": -568,
     "avg_price_usd": 82799.11,
@@ -7908,6 +9560,13 @@
     "avg_price_usd": 82799.11,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-12",
+    "btc": 0,
+    "avg_price_usd": 82799.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-14",
@@ -7936,6 +9595,13 @@
     "avg_price_usd": 81098.9,
     "total_cost_usd": 5352527.4,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-14",
+    "btc": -102,
+    "avg_price_usd": 81098.9,
+    "total_cost_usd": -8272087.8,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-17",
@@ -7973,6 +9639,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-17",
+    "btc": 0,
+    "avg_price_usd": 82610.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-18",
     "btc": 2659,
     "avg_price_usd": 84075.37,
@@ -7994,6 +9667,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-18",
+    "btc": 0,
+    "avg_price_usd": 84075.37,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-19",
     "btc": -8,
     "avg_price_usd": 82780.03,
@@ -8006,6 +9686,13 @@
     "avg_price_usd": 82780.03,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-19",
+    "btc": 0,
+    "avg_price_usd": 82780.03,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-20",
@@ -8036,6 +9723,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-20",
+    "btc": 0,
+    "avg_price_usd": 86815.44,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-21",
     "btc": 1250,
     "avg_price_usd": 84270.84,
@@ -8055,6 +9749,13 @@
     "avg_price_usd": 84270.84,
     "total_cost_usd": 5140521.24,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-21",
+    "btc": 0,
+    "avg_price_usd": 84270.84,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-24",
@@ -8090,6 +9791,13 @@
     "avg_price_usd": 85787.71,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-24",
+    "btc": -50,
+    "avg_price_usd": 85787.71,
+    "total_cost_usd": -4289385.5,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-25",
@@ -8134,6 +9842,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-26",
+    "btc": 0,
+    "avg_price_usd": 87520.58,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-03-27",
     "btc": 45,
     "avg_price_usd": 86960.86,
@@ -8160,6 +9875,13 @@
     "avg_price_usd": 86960.86,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-03-27",
+    "btc": -83,
+    "avg_price_usd": 86960.86,
+    "total_cost_usd": -7217751.38,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-03-28",
@@ -8204,6 +9926,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-03-31",
+    "btc": -147,
+    "avg_price_usd": 82356.38,
+    "total_cost_usd": -12106387.86,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-01",
     "btc": -1045,
     "avg_price_usd": 82514.09,
@@ -8223,6 +9952,13 @@
     "avg_price_usd": 82514.09,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-01",
+    "btc": 0,
+    "avg_price_usd": 82514.09,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-02",
@@ -8253,6 +9989,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-02",
+    "btc": 31,
+    "avg_price_usd": 85237.59,
+    "total_cost_usd": 2642365.29,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-03",
     "btc": 795,
     "avg_price_usd": 82526.42,
@@ -8281,6 +10024,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-03",
+    "btc": 0,
+    "avg_price_usd": 82526.42,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-08",
     "btc": -3418,
     "avg_price_usd": 79179.29,
@@ -8302,6 +10052,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-08",
+    "btc": -90,
+    "avg_price_usd": 79179.29,
+    "total_cost_usd": -7126136.1,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-09",
     "btc": -1091,
     "avg_price_usd": 76329.09,
@@ -8321,6 +10078,13 @@
     "avg_price_usd": 76329.09,
     "total_cost_usd": -7403921.73,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-09",
+    "btc": 0,
+    "avg_price_usd": 76329.09,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-14",
@@ -8358,6 +10122,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-15",
+    "btc": 0,
+    "avg_price_usd": 84523.45,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-16",
     "btc": 363,
     "avg_price_usd": 83656.49,
@@ -8386,6 +10157,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-16",
+    "btc": 15,
+    "avg_price_usd": 83656.49,
+    "total_cost_usd": 1254847.35,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-17",
     "btc": 954,
     "avg_price_usd": 84105.78,
@@ -8405,6 +10183,13 @@
     "avg_price_usd": 84105.78,
     "total_cost_usd": 3280125.42,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-17",
+    "btc": 0,
+    "avg_price_usd": 84105.78,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-18",
@@ -8449,6 +10234,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-21",
+    "btc": 70,
+    "avg_price_usd": 85073.17,
+    "total_cost_usd": 5955121.9,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-22",
     "btc": 2113,
     "avg_price_usd": 87452.05,
@@ -8475,6 +10267,13 @@
     "avg_price_usd": 87452.05,
     "total_cost_usd": 52646134.1,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-22",
+    "btc": 260,
+    "avg_price_usd": 87452.05,
+    "total_cost_usd": 22737533.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-23",
@@ -8505,11 +10304,25 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-23",
+    "btc": 0,
+    "avg_price_usd": 93576.17,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-24",
     "btc": 3499,
     "avg_price_usd": 93605.45,
     "total_cost_usd": 327525469.55,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2025-04-24",
+    "btc": 0,
+    "avg_price_usd": 93605.45,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-25",
@@ -8538,6 +10351,13 @@
     "avg_price_usd": 93872.81,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-25",
+    "btc": 23,
+    "avg_price_usd": 93872.81,
+    "total_cost_usd": 2159074.63,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-28",
@@ -8575,6 +10395,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-28",
+    "btc": 0,
+    "avg_price_usd": 93809.34,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-04-29",
     "btc": 2272,
     "avg_price_usd": 95030.61,
@@ -8601,6 +10428,13 @@
     "avg_price_usd": 95030.61,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-04-29",
+    "btc": 0,
+    "avg_price_usd": 95030.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-04-30",
@@ -8631,6 +10465,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-04-30",
+    "btc": 0,
+    "avg_price_usd": 94256.36,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-01",
     "btc": 3636,
     "avg_price_usd": 94235.75,
@@ -8659,6 +10500,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-01",
+    "btc": 0,
+    "avg_price_usd": 94235.75,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-02",
     "btc": 6953,
     "avg_price_usd": 96426.95,
@@ -8678,6 +10526,13 @@
     "avg_price_usd": 96426.95,
     "total_cost_usd": 41752869.35,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-02",
+    "btc": 0,
+    "avg_price_usd": 96426.95,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-05",
@@ -8715,6 +10570,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-05",
+    "btc": 0,
+    "avg_price_usd": 94326.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-06",
     "btc": 279,
     "avg_price_usd": 94758.82,
@@ -8734,6 +10596,13 @@
     "avg_price_usd": 94758.82,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-06",
+    "btc": 0,
+    "avg_price_usd": 94758.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-07",
@@ -8764,6 +10633,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-07",
+    "btc": 0,
+    "avg_price_usd": 96854.53,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-08",
     "btc": 681,
     "avg_price_usd": 97026.49,
@@ -8792,6 +10668,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-08",
+    "btc": 0,
+    "avg_price_usd": 97026.49,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-09",
     "btc": 3454,
     "avg_price_usd": 103076.28,
@@ -8818,6 +10701,13 @@
     "avg_price_usd": 103076.28,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-09",
+    "btc": 0,
+    "avg_price_usd": 103076.28,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-12",
@@ -8855,6 +10745,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-12",
+    "btc": 0,
+    "avg_price_usd": 103994.06,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-13",
     "btc": -872,
     "avg_price_usd": 102876.83,
@@ -8874,6 +10771,13 @@
     "avg_price_usd": 102876.83,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-13",
+    "btc": 0,
+    "avg_price_usd": 102876.83,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-14",
@@ -8904,6 +10808,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-14",
+    "btc": 0,
+    "avg_price_usd": 104184.49,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-15",
     "btc": 3976,
     "avg_price_usd": 103594.43,
@@ -8932,6 +10843,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-15",
+    "btc": 0,
+    "avg_price_usd": 103594.43,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-16",
     "btc": 1249,
     "avg_price_usd": 103708.85,
@@ -8958,6 +10876,13 @@
     "avg_price_usd": 103708.85,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-16",
+    "btc": 0,
+    "avg_price_usd": 103708.85,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-19",
@@ -9023,6 +10948,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-20",
+    "btc": 0,
+    "avg_price_usd": 105629.42,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-21",
     "btc": 4930,
     "avg_price_usd": 106786.72,
@@ -9049,6 +10981,13 @@
     "avg_price_usd": 106786.72,
     "total_cost_usd": 6086843.04,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-21",
+    "btc": 16,
+    "avg_price_usd": 106786.72,
+    "total_cost_usd": 1708587.52,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-22",
@@ -9079,6 +11018,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-22",
+    "btc": 0,
+    "avg_price_usd": 109665.86,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-23",
     "btc": 3953,
     "avg_price_usd": 111560.36,
@@ -9098,6 +11044,13 @@
     "avg_price_usd": 111560.36,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-23",
+    "btc": 4,
+    "avg_price_usd": 111560.36,
+    "total_cost_usd": 446241.44,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-26",
@@ -9140,6 +11093,13 @@
     "avg_price_usd": 109377.72,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-05-27",
+    "btc": 0,
+    "avg_price_usd": 109377.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-05-28",
@@ -9198,6 +11158,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-05-29",
+    "btc": -110,
+    "avg_price_usd": 107838.18,
+    "total_cost_usd": -11862199.8,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-05-30",
     "btc": -5362,
     "avg_price_usd": 105745.42,
@@ -9247,6 +11214,20 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-03",
+    "btc": 28,
+    "avg_price_usd": 105884.74,
+    "total_cost_usd": 2964772.72,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2025-06-03",
+    "btc": -192,
+    "avg_price_usd": 105884.74,
+    "total_cost_usd": -20329870.08,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-04",
     "btc": 2703,
     "avg_price_usd": 105434.48,
@@ -9273,6 +11254,13 @@
     "avg_price_usd": 105434.48,
     "total_cost_usd": 6958675.68,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-04",
+    "btc": 0,
+    "avg_price_usd": 105434.48,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-05",
@@ -9303,6 +11291,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-05",
+    "btc": 0,
+    "avg_price_usd": 104812.92,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-06",
     "btc": -1249,
     "avg_price_usd": 101650.74,
@@ -9329,6 +11324,13 @@
     "avg_price_usd": 101650.74,
     "total_cost_usd": -16670721.36,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-06",
+    "btc": 0,
+    "avg_price_usd": 101650.74,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-09",
@@ -9366,6 +11368,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-09",
+    "btc": 0,
+    "avg_price_usd": 105692.25,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-10",
     "btc": 3067,
     "avg_price_usd": 110261.57,
@@ -9392,6 +11401,13 @@
     "avg_price_usd": 110261.57,
     "total_cost_usd": 5292555.36,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-10",
+    "btc": 0,
+    "avg_price_usd": 110261.57,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-11",
@@ -9422,6 +11438,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-11",
+    "btc": 0,
+    "avg_price_usd": 110212.73,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-12",
     "btc": 2680,
     "avg_price_usd": 108679.98,
@@ -9450,6 +11473,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-12",
+    "btc": 0,
+    "avg_price_usd": 108679.98,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-13",
     "btc": 2271,
     "avg_price_usd": 105979.23,
@@ -9476,6 +11506,13 @@
     "avg_price_usd": 105979.23,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-13",
+    "btc": 0,
+    "avg_price_usd": 105979.23,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-16",
@@ -9513,6 +11550,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-16",
+    "btc": 0,
+    "avg_price_usd": 105554.49,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-17",
     "btc": 6088,
     "avg_price_usd": 106951.27,
@@ -9541,6 +11585,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-17",
+    "btc": 0,
+    "avg_price_usd": 106951.27,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-18",
     "btc": 2680,
     "avg_price_usd": 104683.42,
@@ -9567,6 +11618,13 @@
     "avg_price_usd": 104683.42,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-18",
+    "btc": 0,
+    "avg_price_usd": 104683.42,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-19",
@@ -9604,6 +11662,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-20",
+    "btc": 0,
+    "avg_price_usd": 104690.65,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-23",
     "btc": 245,
     "avg_price_usd": 105856,
@@ -9639,6 +11704,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-23",
+    "btc": 0,
+    "avg_price_usd": 100852.58,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-24",
     "btc": 4134,
     "avg_price_usd": 105511.62,
@@ -9665,6 +11737,13 @@
     "avg_price_usd": 105511.62,
     "total_cost_usd": 10234627.14,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-24",
+    "btc": 0,
+    "avg_price_usd": 105511.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-25",
@@ -9695,6 +11774,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-25",
+    "btc": 0,
+    "avg_price_usd": 105976.07,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-26",
     "btc": 1522,
     "avg_price_usd": 107238.53,
@@ -9721,6 +11807,13 @@
     "avg_price_usd": 107238.53,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-06-26",
+    "btc": 14,
+    "avg_price_usd": 107238.53,
+    "total_cost_usd": 1501339.42,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-06-27",
@@ -9751,6 +11844,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-27",
+    "btc": 0,
+    "avg_price_usd": 106984.01,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-06-30",
     "btc": 4980,
     "avg_price_usd": 106801,
@@ -9779,6 +11879,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-06-30",
+    "btc": 0,
+    "avg_price_usd": 108396.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-01",
     "btc": -1677,
     "avg_price_usd": 107132.8,
@@ -9798,6 +11905,13 @@
     "avg_price_usd": 107132.8,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-07-01",
+    "btc": 0,
+    "avg_price_usd": 107132.8,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-02",
@@ -9821,6 +11935,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-02",
+    "btc": 0,
+    "avg_price_usd": 105613.4,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-03",
     "btc": 2044,
     "avg_price_usd": 108824.44,
@@ -9840,6 +11961,13 @@
     "avg_price_usd": 108824.44,
     "total_cost_usd": 16323666.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-07-03",
+    "btc": 0,
+    "avg_price_usd": 108824.44,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-07",
@@ -9870,6 +11998,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-07",
+    "btc": 33,
+    "avg_price_usd": 109215.2,
+    "total_cost_usd": 3604101.6,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-08",
     "btc": 613,
     "avg_price_usd": 108300.72,
@@ -9898,6 +12033,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-08",
+    "btc": 0,
+    "avg_price_usd": 108300.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-09",
     "btc": 1135,
     "avg_price_usd": 108953.19,
@@ -9924,6 +12066,13 @@
     "avg_price_usd": 108953.19,
     "total_cost_usd": 15362399.79,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-07-09",
+    "btc": 21,
+    "avg_price_usd": 108953.19,
+    "total_cost_usd": 2288016.99,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-10",
@@ -9961,6 +12110,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-10",
+    "btc": 28,
+    "avg_price_usd": 111327.53,
+    "total_cost_usd": 3117170.84,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-11",
     "btc": 8086,
     "avg_price_usd": 115879.65,
@@ -9982,6 +12138,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-11",
+    "btc": 0,
+    "avg_price_usd": 115879.65,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-14",
     "btc": 4225,
     "avg_price_usd": 111827,
@@ -10001,6 +12164,13 @@
     "avg_price_usd": 119117.56,
     "total_cost_usd": -25967628.08,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2025-07-14",
+    "btc": 0,
+    "avg_price_usd": 119117.56,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-15",
@@ -10031,6 +12201,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-15",
+    "btc": 0,
+    "avg_price_usd": 119833.67,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-16",
     "btc": 6405,
     "avg_price_usd": 117678.19,
@@ -10057,6 +12234,13 @@
     "avg_price_usd": 117678.19,
     "total_cost_usd": 18710832.21,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-07-16",
+    "btc": 0,
+    "avg_price_usd": 117678.19,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-17",
@@ -10101,6 +12285,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-17",
+    "btc": 0,
+    "avg_price_usd": 118748.16,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-18",
     "btc": 4224,
     "avg_price_usd": 119445.37,
@@ -10143,6 +12334,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-21",
+    "btc": 0,
+    "avg_price_usd": 117256.92,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-22",
     "btc": -266,
     "avg_price_usd": 117482.47,
@@ -10157,6 +12355,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-22",
+    "btc": 0,
+    "avg_price_usd": 117482.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-23",
     "btc": 1209,
     "avg_price_usd": 119955.8,
@@ -10169,6 +12374,13 @@
     "avg_price_usd": 119955.8,
     "total_cost_usd": -230195180.2,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2025-07-23",
+    "btc": 0,
+    "avg_price_usd": 119955.8,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-25",
@@ -10199,6 +12411,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-25",
+    "btc": 0,
+    "avg_price_usd": 118354.44,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-28",
     "btc": 1249,
     "avg_price_usd": 119418.91,
@@ -10211,6 +12430,13 @@
     "avg_price_usd": 119418.91,
     "total_cost_usd": 31168335.51,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2025-07-28",
+    "btc": 0,
+    "avg_price_usd": 119418.91,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-29",
@@ -10262,6 +12488,13 @@
     "company": "bitmex"
   },
   {
+    "date": "2025-07-29",
+    "btc": 0,
+    "avg_price_usd": 118003.3,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-07-30",
     "btc": 295,
     "avg_price_usd": 117853.31,
@@ -10274,6 +12507,13 @@
     "avg_price_usd": 117853.31,
     "total_cost_usd": -49969803.44,
     "company": "grayscale"
+  },
+  {
+    "date": "2025-07-30",
+    "btc": 0,
+    "avg_price_usd": 117853.31,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-07-31",
@@ -10304,6 +12544,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-07-31",
+    "btc": 0,
+    "avg_price_usd": 117833.24,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-01",
     "btc": -22,
     "avg_price_usd": 115700.0,
@@ -10330,6 +12577,13 @@
     "avg_price_usd": 115700.0,
     "total_cost_usd": 619110700.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-01",
+    "btc": 0,
+    "avg_price_usd": 115700.0,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-05",
@@ -10360,6 +12614,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-05",
+    "btc": -84,
+    "avg_price_usd": 115138.69,
+    "total_cost_usd": -9671649.96,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-07",
     "btc": 363,
     "avg_price_usd": 115022.1,
@@ -10388,6 +12649,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-07",
+    "btc": 0,
+    "avg_price_usd": 115022.1,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-08",
     "btc": 4279,
     "avg_price_usd": 117463.47,
@@ -10414,6 +12682,13 @@
     "avg_price_usd": 117463.47,
     "total_cost_usd": 17032203.15,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-08",
+    "btc": 28,
+    "avg_price_usd": 117463.47,
+    "total_cost_usd": 3288977.16,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-11",
@@ -10451,6 +12726,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-11",
+    "btc": 0,
+    "avg_price_usd": 119266.93,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-12",
     "btc": 931,
     "avg_price_usd": 118773.8,
@@ -10477,6 +12759,13 @@
     "avg_price_usd": 118773.8,
     "total_cost_usd": 14134082.2,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-12",
+    "btc": 0,
+    "avg_price_usd": 118773.8,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-13",
@@ -10528,6 +12817,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-14",
+    "btc": 0,
+    "avg_price_usd": 123560.99,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-15",
     "btc": 976,
     "avg_price_usd": 118405.6,
@@ -10547,6 +12843,13 @@
     "avg_price_usd": 118405.6,
     "total_cost_usd": 7222741.6,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-15",
+    "btc": 0,
+    "avg_price_usd": 118405.6,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-18",
@@ -10577,6 +12880,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-18",
+    "btc": 0,
+    "avg_price_usd": 117542.84,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-19",
     "btc": -2180,
     "avg_price_usd": 116256.41,
@@ -10596,6 +12906,13 @@
     "avg_price_usd": 116256.41,
     "total_cost_usd": -348769.23,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-19",
+    "btc": -38,
+    "avg_price_usd": 116256.41,
+    "total_cost_usd": -4417743.58,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-20",
@@ -10619,6 +12936,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-20",
+    "btc": 0,
+    "avg_price_usd": 112778.34,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-21",
     "btc": -65,
     "avg_price_usd": 114252.4,
@@ -10638,6 +12962,13 @@
     "avg_price_usd": 114252.4,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-21",
+    "btc": 0,
+    "avg_price_usd": 114252.4,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-22",
@@ -10666,6 +12997,13 @@
     "avg_price_usd": 112414.4,
     "total_cost_usd": 4946233.6,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-22",
+    "btc": 0,
+    "avg_price_usd": 112414.4,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-08-25",
@@ -10703,6 +13041,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-25",
+    "btc": 0,
+    "avg_price_usd": 112630.69,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-27",
     "btc": 408,
     "avg_price_usd": 111676.04,
@@ -10731,6 +13076,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-08-27",
+    "btc": 0,
+    "avg_price_usd": 111676.04,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-08-29",
     "btc": 1248,
     "avg_price_usd": 112424.87,
@@ -10757,6 +13109,13 @@
     "avg_price_usd": 112424.87,
     "total_cost_usd": 5396393.76,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-08-29",
+    "btc": 0,
+    "avg_price_usd": 112424.87,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-09-01",
@@ -10799,6 +13158,13 @@
     "avg_price_usd": 109131.08,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-09-02",
+    "btc": 0,
+    "avg_price_usd": 109131.08,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-09-03",
@@ -10857,6 +13223,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-05",
+    "btc": -35,
+    "avg_price_usd": 110698.95,
+    "total_cost_usd": -3874463.25,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-08",
     "btc": 1955,
     "avg_price_usd": 111196,
@@ -10892,6 +13265,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-08",
+    "btc": 35,
+    "avg_price_usd": 111053.67,
+    "total_cost_usd": 3886878.45,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-09",
     "btc": 1521,
     "avg_price_usd": 111598.22,
@@ -10918,6 +13298,13 @@
     "avg_price_usd": 111598.22,
     "total_cost_usd": 11829411.32,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-09-09",
+    "btc": 0,
+    "avg_price_usd": 111598.22,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-09-10",
@@ -10976,6 +13363,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-12",
+    "btc": 138,
+    "avg_price_usd": 115891.64,
+    "total_cost_usd": 15993046.32,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-15",
     "btc": 525,
     "avg_price_usd": 114562,
@@ -11011,6 +13405,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-15",
+    "btc": 0,
+    "avg_price_usd": 115215.32,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-17",
     "btc": 1793,
     "avg_price_usd": 116690.45,
@@ -11037,6 +13438,13 @@
     "avg_price_usd": 116690.45,
     "total_cost_usd": 6067903.4,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-09-17",
+    "btc": 0,
+    "avg_price_usd": 116690.45,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-09-18",
@@ -11088,6 +13496,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-19",
+    "btc": 0,
+    "avg_price_usd": 117257.18,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-22",
     "btc": 850,
     "avg_price_usd": 117344,
@@ -11123,6 +13538,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-09-24",
+    "btc": 0,
+    "avg_price_usd": 112281.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-09-26",
     "btc": 385,
     "avg_price_usd": 109023.46,
@@ -11149,6 +13571,13 @@
     "avg_price_usd": 109023.46,
     "total_cost_usd": -2398516.12,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-09-26",
+    "btc": -330,
+    "avg_price_usd": 109023.46,
+    "total_cost_usd": -35977741.8,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-09-29",
@@ -11214,6 +13643,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-01",
+    "btc": 144,
+    "avg_price_usd": 114032.74,
+    "total_cost_usd": 16420714.56,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-07",
     "btc": 25286,
     "avg_price_usd": 124796.23,
@@ -11242,6 +13678,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-07",
+    "btc": 257,
+    "avg_price_usd": 124796.23,
+    "total_cost_usd": 32072631.11,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-10",
     "btc": 6197,
     "avg_price_usd": 121724.72,
@@ -11268,6 +13711,13 @@
     "avg_price_usd": 121724.72,
     "total_cost_usd": 973797.76,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-10-10",
+    "btc": 0,
+    "avg_price_usd": 121724.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-10-13",
@@ -11305,6 +13755,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-14",
+    "btc": -124,
+    "avg_price_usd": 115267.27,
+    "total_cost_usd": -14293141.48,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-15",
     "btc": -90,
     "avg_price_usd": 112814.97,
@@ -11324,6 +13781,13 @@
     "avg_price_usd": 112814.97,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-10-15",
+    "btc": 0,
+    "avg_price_usd": 112814.97,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-10-17",
@@ -11352,6 +13816,13 @@
     "avg_price_usd": 108114.77,
     "total_cost_usd": -22487872.16,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-10-17",
+    "btc": -52,
+    "avg_price_usd": 108114.77,
+    "total_cost_usd": -5621968.04,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-10-20",
@@ -11389,6 +13860,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-21",
+    "btc": 22,
+    "avg_price_usd": 110388.25,
+    "total_cost_usd": 2428541.5,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-27",
     "btc": 390,
     "avg_price_usd": 111053,
@@ -11424,6 +13902,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-27",
+    "btc": 19,
+    "avg_price_usd": 114993.09,
+    "total_cost_usd": 2184868.71,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-29",
     "btc": 295,
     "avg_price_usd": 112676.95,
@@ -11450,6 +13935,13 @@
     "avg_price_usd": 112676.95,
     "total_cost_usd": -598990666.2,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-10-29",
+    "btc": 0,
+    "avg_price_usd": 112676.95,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-10-30",
@@ -11480,6 +13972,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-10-30",
+    "btc": 0,
+    "avg_price_usd": 110442.38,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-10-31",
     "btc": -1361,
     "avg_price_usd": 108467.01,
@@ -11506,6 +14005,13 @@
     "avg_price_usd": 108467.01,
     "total_cost_usd": -8568893.79,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-10-31",
+    "btc": 0,
+    "avg_price_usd": 108467.01,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-03",
@@ -11543,6 +14049,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-03",
+    "btc": 0,
+    "avg_price_usd": 110535.66,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-04",
     "btc": -3552,
     "avg_price_usd": 106189.37,
@@ -11562,6 +14075,13 @@
     "avg_price_usd": 106189.37,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-11-04",
+    "btc": -113,
+    "avg_price_usd": 106189.37,
+    "total_cost_usd": -11999398.81,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-06",
@@ -11592,6 +14112,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-06",
+    "btc": 0,
+    "avg_price_usd": 103448.8,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-07",
     "btc": -349,
     "avg_price_usd": 101203.02,
@@ -11611,6 +14138,13 @@
     "avg_price_usd": 101203.02,
     "total_cost_usd": -708421.14,
     "company": "grayscale"
+  },
+  {
+    "date": "2025-11-07",
+    "btc": 0,
+    "avg_price_usd": 101203.02,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-10",
@@ -11648,6 +14182,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-12",
+    "btc": 0,
+    "avg_price_usd": 103192.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-13",
     "btc": -363,
     "avg_price_usd": 101485.1,
@@ -11676,6 +14217,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-13",
+    "btc": 0,
+    "avg_price_usd": 101485.1,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-14",
     "btc": -7489,
     "avg_price_usd": 98857.47,
@@ -11702,6 +14250,13 @@
     "avg_price_usd": 98857.47,
     "total_cost_usd": -320693632.68,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-11-14",
+    "btc": -31,
+    "avg_price_usd": 98857.47,
+    "total_cost_usd": -3064581.57,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-17",
@@ -11739,6 +14294,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-17",
+    "btc": 0,
+    "avg_price_usd": 94141.36,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-18",
     "btc": -5628,
     "avg_price_usd": 92084.72,
@@ -11758,6 +14320,13 @@
     "avg_price_usd": 92084.72,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-11-18",
+    "btc": 0,
+    "avg_price_usd": 92084.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-19",
@@ -11786,6 +14355,13 @@
     "avg_price_usd": 92582.47,
     "total_cost_usd": 139244034.88,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-11-19",
+    "btc": 0,
+    "avg_price_usd": 92582.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-20",
@@ -11837,6 +14413,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-21",
+    "btc": -10,
+    "avg_price_usd": 86566.35,
+    "total_cost_usd": -865663.5,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-24",
     "btc": -1679,
     "avg_price_usd": 86321.83,
@@ -11865,6 +14448,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-11-24",
+    "btc": 9,
+    "avg_price_usd": 86321.83,
+    "total_cost_usd": 776896.47,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-11-25",
     "btc": 953,
     "avg_price_usd": 88124.41,
@@ -11891,6 +14481,13 @@
     "avg_price_usd": 88124.41,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-11-25",
+    "btc": 0,
+    "avg_price_usd": 88124.41,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-11-26",
@@ -11970,6 +14567,20 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-12-01",
+    "btc": 0,
+    "avg_price_usd": 88788.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2025-12-01",
+    "btc": 0,
+    "avg_price_usd": 88788.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-12-03",
     "btc": 1316,
     "avg_price_usd": 91436.91,
@@ -11998,6 +14609,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-12-03",
+    "btc": 0,
+    "avg_price_usd": 91436.91,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-12-04",
     "btc": 453,
     "avg_price_usd": 93500.82,
@@ -12017,6 +14635,13 @@
     "avg_price_usd": 93500.82,
     "total_cost_usd": -374003.28,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2025-12-04",
+    "btc": 0,
+    "avg_price_usd": 93500.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2025-12-08",
@@ -12334,6 +14959,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-12-25",
+    "btc": 0,
+    "avg_price_usd": 87568.58,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-12-26",
     "btc": -849,
     "avg_price_usd": 87030.88,
@@ -12404,6 +15036,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2025-12-30",
+    "btc": 0,
+    "avg_price_usd": 87149.72,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2025-12-31",
     "btc": 3,
     "avg_price_usd": 88210.02,
@@ -12446,6 +15085,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-02",
+    "btc": 76,
+    "avg_price_usd": 88707.65,
+    "total_cost_usd": 6741781.4,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-05",
     "btc": 1283,
     "avg_price_usd": 90391,
@@ -12481,6 +15127,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-05",
+    "btc": 155,
+    "avg_price_usd": 91792.77,
+    "total_cost_usd": 14227879.35,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-06",
     "btc": 2472,
     "avg_price_usd": 93569.52,
@@ -12507,6 +15160,13 @@
     "avg_price_usd": 93569.52,
     "total_cost_usd": 17778208.8,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-06",
+    "btc": 0,
+    "avg_price_usd": 93569.52,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-07",
@@ -12537,6 +15197,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-07",
+    "btc": 0,
+    "avg_price_usd": 93217.32,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-08",
     "btc": -2132,
     "avg_price_usd": 91284.95,
@@ -12565,11 +15232,25 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-08",
+    "btc": 0,
+    "avg_price_usd": 91284.95,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-09",
     "btc": -2790,
     "avg_price_usd": 90991.12,
     "total_cost_usd": -253865224.8,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-01-09",
+    "btc": 0,
+    "avg_price_usd": 90991.12,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-12",
@@ -12607,6 +15288,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-12",
+    "btc": 56,
+    "avg_price_usd": 90784.18,
+    "total_cost_usd": 5083914.08,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-13",
     "btc": 1338,
     "avg_price_usd": 91218.59,
@@ -12642,6 +15330,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-14",
+    "btc": 31,
+    "avg_price_usd": 95237.05,
+    "total_cost_usd": 2952348.55,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-15",
     "btc": 3312,
     "avg_price_usd": 96757.27,
@@ -12670,6 +15365,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-15",
+    "btc": 0,
+    "avg_price_usd": 96757.27,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-16",
     "btc": 158,
     "avg_price_usd": 95643.49,
@@ -12696,6 +15398,13 @@
     "avg_price_usd": 95643.49,
     "total_cost_usd": 6695044.3,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-16",
+    "btc": 0,
+    "avg_price_usd": 95643.49,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-19",
@@ -12740,6 +15449,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-20",
+    "btc": -42,
+    "avg_price_usd": 92675.5,
+    "total_cost_usd": -3892371.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-21",
     "btc": -3969,
     "avg_price_usd": 88491.77,
@@ -12768,6 +15484,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-21",
+    "btc": 0,
+    "avg_price_usd": 88491.77,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-22",
     "btc": -131,
     "avg_price_usd": 89585.78,
@@ -12780,6 +15503,13 @@
     "avg_price_usd": 89585.78,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-22",
+    "btc": 0,
+    "avg_price_usd": 89585.78,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-23",
@@ -12808,6 +15538,13 @@
     "avg_price_usd": 89435.99,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-23",
+    "btc": 0,
+    "avg_price_usd": 89435.99,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-26",
@@ -12845,6 +15582,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-26",
+    "btc": 0,
+    "avg_price_usd": 86968.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-27",
     "btc": -1156,
     "avg_price_usd": 88191.41,
@@ -12871,6 +15615,13 @@
     "avg_price_usd": 88191.41,
     "total_cost_usd": 7760844.08,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-27",
+    "btc": 0,
+    "avg_price_usd": 88191.41,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-28",
@@ -12901,6 +15652,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-01-28",
+    "btc": 0,
+    "avg_price_usd": 89580.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-01-29",
     "btc": -3788,
     "avg_price_usd": 88978.39,
@@ -12920,6 +15678,13 @@
     "avg_price_usd": 88978.39,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-29",
+    "btc": 0,
+    "avg_price_usd": 88978.39,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-01-30",
@@ -12948,6 +15713,13 @@
     "avg_price_usd": 84286.47,
     "total_cost_usd": -37254619.74,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-01-30",
+    "btc": 0,
+    "avg_price_usd": 84286.47,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-02",
@@ -12985,6 +15757,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-02",
+    "btc": 0,
+    "avg_price_usd": 77812.45,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-04",
     "btc": -4286,
     "avg_price_usd": 75647.28,
@@ -13013,6 +15792,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-04",
+    "btc": 0,
+    "avg_price_usd": 75647.28,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-05",
     "btc": -2978,
     "avg_price_usd": 72872.2,
@@ -13032,6 +15818,13 @@
     "avg_price_usd": 72872.2,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-05",
+    "btc": 0,
+    "avg_price_usd": 72872.2,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-06",
@@ -13060,6 +15853,13 @@
     "avg_price_usd": 61511.06,
     "total_cost_usd": -34015616.18,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-06",
+    "btc": 0,
+    "avg_price_usd": 61511.06,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-09",
@@ -13097,6 +15897,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-10",
+    "btc": 70,
+    "avg_price_usd": 70174.75,
+    "total_cost_usd": 4912232.5,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-11",
     "btc": -1088,
     "avg_price_usd": 68836.31,
@@ -13125,11 +15932,25 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-11",
+    "btc": -42,
+    "avg_price_usd": 68836.31,
+    "total_cost_usd": -2891125.02,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-12",
     "btc": -2404,
     "avg_price_usd": 67349.1,
     "total_cost_usd": -161907236.4,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-02-12",
+    "btc": 0,
+    "avg_price_usd": 67349.1,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-13",
@@ -13158,6 +15979,13 @@
     "avg_price_usd": 66398.11,
     "total_cost_usd": -34062230.43,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-13",
+    "btc": 0,
+    "avg_price_usd": 66398.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-17",
@@ -13195,6 +16023,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-17",
+    "btc": 0,
+    "avg_price_usd": 68852.71,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-18",
     "btc": -1270,
     "avg_price_usd": 67353.02,
@@ -13223,6 +16058,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-18",
+    "btc": -25,
+    "avg_price_usd": 67353.02,
+    "total_cost_usd": -1683825.5,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-19",
     "btc": -2449,
     "avg_price_usd": 66440.23,
@@ -13242,6 +16084,13 @@
     "avg_price_usd": 66440.23,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-19",
+    "btc": 0,
+    "avg_price_usd": 66440.23,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-20",
@@ -13270,6 +16119,13 @@
     "avg_price_usd": 67212.26,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-20",
+    "btc": 0,
+    "avg_price_usd": 67212.26,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-23",
@@ -13307,6 +16163,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-23",
+    "btc": 0,
+    "avg_price_usd": 67142.13,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-24",
     "btc": 1224,
     "avg_price_usd": 64926.15,
@@ -13335,6 +16198,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-24",
+    "btc": 0,
+    "avg_price_usd": 64926.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-02-25",
     "btc": 4308,
     "avg_price_usd": 64189.39,
@@ -13361,6 +16231,13 @@
     "avg_price_usd": 64189.39,
     "total_cost_usd": 8472999.48,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-02-25",
+    "btc": 0,
+    "avg_price_usd": 64189.39,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-02-26",
@@ -13412,6 +16289,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-02-27",
+    "btc": 169,
+    "avg_price_usd": 67469.06,
+    "total_cost_usd": 11402271.14,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-02",
     "btc": 3015,
     "avg_price_usd": 67700,
@@ -13461,6 +16345,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-04",
+    "btc": 76,
+    "avg_price_usd": 68321.62,
+    "total_cost_usd": 5192443.12,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-05",
     "btc": -1389,
     "avg_price_usd": 72669.77,
@@ -13489,6 +16380,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-05",
+    "btc": 0,
+    "avg_price_usd": 72669.77,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-06",
     "btc": -2108,
     "avg_price_usd": 70874.99,
@@ -13515,6 +16413,13 @@
     "avg_price_usd": 70874.99,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-06",
+    "btc": 0,
+    "avg_price_usd": 70874.99,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-09",
@@ -13552,6 +16457,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-09",
+    "btc": -59,
+    "avg_price_usd": 66036.16,
+    "total_cost_usd": -3896133.44,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-10",
     "btc": 2653,
     "avg_price_usd": 68459.32,
@@ -13578,6 +16490,13 @@
     "avg_price_usd": 68459.32,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-10",
+    "btc": 0,
+    "avg_price_usd": 68459.32,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-11",
@@ -13608,6 +16527,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-11",
+    "btc": 0,
+    "avg_price_usd": 69883.01,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-12",
     "btc": 657,
     "avg_price_usd": 70226.82,
@@ -13636,6 +16562,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-12",
+    "btc": 0,
+    "avg_price_usd": 70226.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-13",
     "btc": 2018,
     "avg_price_usd": 70544.43,
@@ -13655,6 +16588,13 @@
     "avg_price_usd": 70544.43,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-13",
+    "btc": 0,
+    "avg_price_usd": 70544.43,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-16",
@@ -13685,6 +16625,13 @@
     "company": "grayscale"
   },
   {
+    "date": "2026-03-16",
+    "btc": 28,
+    "avg_price_usd": 72681.91,
+    "total_cost_usd": 2035093.48,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-17",
     "btc": 2267,
     "avg_price_usd": 74858.15,
@@ -13711,6 +16658,13 @@
     "avg_price_usd": 74858.15,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-17",
+    "btc": 0,
+    "avg_price_usd": 74858.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-18",
@@ -13741,6 +16695,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-18",
+    "btc": 45,
+    "avg_price_usd": 73926.28,
+    "total_cost_usd": 3326682.6,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-19",
     "btc": -544,
     "avg_price_usd": 71255.86,
@@ -13753,6 +16714,13 @@
     "avg_price_usd": 71255.86,
     "total_cost_usd": -26364668.2,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-03-19",
+    "btc": 0,
+    "avg_price_usd": 71255.86,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-20",
@@ -13783,6 +16751,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-20",
+    "btc": 0,
+    "avg_price_usd": 69871.45,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-23",
     "btc": 1031,
     "avg_price_usd": 74326,
@@ -13802,6 +16777,13 @@
     "avg_price_usd": 67848.88,
     "total_cost_usd": 39827292.56,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-03-23",
+    "btc": 0,
+    "avg_price_usd": 67848.88,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-24",
@@ -13832,6 +16814,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-03-24",
+    "btc": 0,
+    "avg_price_usd": 70892.83,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-25",
     "btc": -612,
     "avg_price_usd": 70524.51,
@@ -13858,6 +16847,13 @@
     "avg_price_usd": 70524.51,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-25",
+    "btc": 0,
+    "avg_price_usd": 70524.51,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-03-26",
@@ -13888,6 +16884,13 @@
     "company": "blackrock-ibit"
   },
   {
+    "date": "2026-03-27",
+    "btc": 0,
+    "avg_price_usd": 68791.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-03-30",
     "btc": 113,
     "avg_price_usd": 65970.43,
@@ -13914,6 +16917,13 @@
     "avg_price_usd": 65970.43,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-03-30",
+    "btc": 0,
+    "avg_price_usd": 65970.43,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-01",
@@ -13944,6 +16954,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-01",
+    "btc": 0,
+    "avg_price_usd": 68231.83,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-03",
     "btc": -45,
     "avg_price_usd": 66891.66,
@@ -13956,6 +16973,13 @@
     "avg_price_usd": 66891.66,
     "total_cost_usd": 7224299.28,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-04-03",
+    "btc": 0,
+    "avg_price_usd": 66891.66,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-06",
@@ -13993,6 +17017,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-06",
+    "btc": 33,
+    "avg_price_usd": 68985.53,
+    "total_cost_usd": 2276522.49,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-07",
     "btc": -416,
     "avg_price_usd": 68864.23,
@@ -14019,6 +17050,13 @@
     "avg_price_usd": 68864.23,
     "total_cost_usd": 17284921.73,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-07",
+    "btc": 0,
+    "avg_price_usd": 68864.23,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-08",
@@ -14049,6 +17087,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-08",
+    "btc": 0,
+    "avg_price_usd": 71975.62,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-09",
     "btc": 3740,
     "avg_price_usd": 71117.08,
@@ -14077,6 +17122,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-09",
+    "btc": 0,
+    "avg_price_usd": 71117.08,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-10",
     "btc": 1881,
     "avg_price_usd": 71770.75,
@@ -14103,6 +17155,13 @@
     "avg_price_usd": 71770.75,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-10",
+    "btc": 0,
+    "avg_price_usd": 71770.75,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-13",
@@ -14140,6 +17199,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-13",
+    "btc": 0,
+    "avg_price_usd": 70756.75,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-14",
     "btc": 2879,
     "avg_price_usd": 74514.63,
@@ -14166,6 +17232,13 @@
     "avg_price_usd": 74514.63,
     "total_cost_usd": -11177194.5,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-14",
+    "btc": 0,
+    "avg_price_usd": 74514.63,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-15",
@@ -14196,6 +17269,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-15",
+    "btc": 0,
+    "avg_price_usd": 73827.81,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-16",
     "btc": 1088,
     "avg_price_usd": 74816.57,
@@ -14224,6 +17304,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-16",
+    "btc": 0,
+    "avg_price_usd": 74816.57,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-17",
     "btc": 3672,
     "avg_price_usd": 74969.81,
@@ -14250,6 +17337,13 @@
     "avg_price_usd": 74969.81,
     "total_cost_usd": 16568328.01,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-17",
+    "btc": 76,
+    "avg_price_usd": 74969.81,
+    "total_cost_usd": 5697705.56,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-20",
@@ -14287,6 +17381,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-20",
+    "btc": 0,
+    "avg_price_usd": 74155.06,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-22",
     "btc": 3649,
     "avg_price_usd": 76378.53,
@@ -14315,6 +17416,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-22",
+    "btc": 0,
+    "avg_price_usd": 76378.53,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-23",
     "btc": 2153,
     "avg_price_usd": 78480.52,
@@ -14327,6 +17435,13 @@
     "avg_price_usd": 78480.52,
     "total_cost_usd": -17030272.84,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-04-23",
+    "btc": 0,
+    "avg_price_usd": 78480.52,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-24",
@@ -14348,6 +17463,13 @@
     "avg_price_usd": 78236.82,
     "total_cost_usd": 5085393.3,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-04-24",
+    "btc": 0,
+    "avg_price_usd": 78236.82,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-27",
@@ -14385,6 +17507,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-27",
+    "btc": 0,
+    "avg_price_usd": 78617.4,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-28",
     "btc": -1473,
     "avg_price_usd": 77270.7,
@@ -14413,6 +17542,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-28",
+    "btc": 0,
+    "avg_price_usd": 77270.7,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-04-29",
     "btc": -725,
     "avg_price_usd": 76338.52,
@@ -14425,6 +17561,13 @@
     "avg_price_usd": 76338.52,
     "total_cost_usd": -36489812.56,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-04-29",
+    "btc": 0,
+    "avg_price_usd": 76338.52,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-04-30",
@@ -14455,6 +17598,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-04-30",
+    "btc": -112,
+    "avg_price_usd": 76271.05,
+    "total_cost_usd": -8542357.6,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-01",
     "btc": 3626,
     "avg_price_usd": 76456.61,
@@ -14467,6 +17617,13 @@
     "avg_price_usd": 76456.61,
     "total_cost_usd": 204980171.41,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-05-01",
+    "btc": 0,
+    "avg_price_usd": 76456.61,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-04",
@@ -14497,6 +17654,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-04",
+    "btc": 0,
+    "avg_price_usd": 78482.49,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-05",
     "btc": 3082,
     "avg_price_usd": 79952.7,
@@ -14523,6 +17687,13 @@
     "avg_price_usd": 79952.7,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-05",
+    "btc": 0,
+    "avg_price_usd": 79952.7,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-06",
@@ -14553,6 +17724,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-06",
+    "btc": 0,
+    "avg_price_usd": 80992.02,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-07",
     "btc": -1224,
     "avg_price_usd": 81430.68,
@@ -14579,6 +17757,20 @@
     "avg_price_usd": 81430.68,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-07",
+    "btc": -112,
+    "avg_price_usd": 81430.68,
+    "total_cost_usd": -9120236.16,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2026-05-08",
+    "btc": 0,
+    "avg_price_usd": 80043.06,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-11",
@@ -14630,6 +17822,13 @@
     "company": "fidelity-fbtc"
   },
   {
+    "date": "2026-05-12",
+    "btc": 0,
+    "avg_price_usd": 81667.56,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-13",
     "btc": -3581,
     "avg_price_usd": 80480.89,
@@ -14658,6 +17857,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-13",
+    "btc": -117,
+    "avg_price_usd": 80480.89,
+    "total_cost_usd": -9416264.13,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-15",
     "btc": 45,
     "avg_price_usd": 81121.26,
@@ -14684,6 +17890,13 @@
     "avg_price_usd": 81121.26,
     "total_cost_usd": 12492674.04,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-15",
+    "btc": 0,
+    "avg_price_usd": 81121.26,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-18",
@@ -14742,6 +17955,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-19",
+    "btc": -49,
+    "avg_price_usd": 77258.02,
+    "total_cost_usd": -3785642.98,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-20",
     "btc": -793,
     "avg_price_usd": 76638.26,
@@ -14770,6 +17990,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-20",
+    "btc": 0,
+    "avg_price_usd": 76638.26,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-21",
     "btc": -1337,
     "avg_price_usd": 77522.11,
@@ -14791,11 +18018,25 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-21",
+    "btc": 0,
+    "avg_price_usd": 77522.11,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-22",
     "btc": -906,
     "avg_price_usd": 77453.21,
     "total_cost_usd": -70172608.26,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-05-22",
+    "btc": 0,
+    "avg_price_usd": 77453.21,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-25",
@@ -14831,6 +18072,13 @@
     "avg_price_usd": 77055.14,
     "total_cost_usd": -13715814.92,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-26",
+    "btc": 0,
+    "avg_price_usd": 77055.14,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-05-27",
@@ -14875,6 +18123,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-05-28",
+    "btc": -76,
+    "avg_price_usd": 74345.27,
+    "total_cost_usd": -5650240.52,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-05-29",
     "btc": -6164,
     "avg_price_usd": 73651.33,
@@ -14901,6 +18156,13 @@
     "avg_price_usd": 73651.33,
     "total_cost_usd": -9795626.89,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-05-29",
+    "btc": 0,
+    "avg_price_usd": 73651.33,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-06-01",
@@ -14959,6 +18221,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-06-02",
+    "btc": 0,
+    "avg_price_usd": 71186.15,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-06-03",
     "btc": 537,
     "avg_price_usd": 66842.37,
@@ -14978,6 +18247,13 @@
     "avg_price_usd": 66842.37,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-06-03",
+    "btc": 0,
+    "avg_price_usd": 66842.37,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-06-04",
@@ -15027,6 +18303,13 @@
     "avg_price_usd": 63722.89,
     "total_cost_usd": 0.0,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-06-05",
+    "btc": 0,
+    "avg_price_usd": 63722.89,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
   },
   {
     "date": "2026-06-08",
@@ -15092,6 +18375,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-06-10",
+    "btc": 0,
+    "avg_price_usd": 61724.69,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
     "date": "2026-06-11",
     "btc": 475,
     "avg_price_usd": 61557.19,
@@ -15120,10 +18410,52 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-06-11",
+    "btc": 0,
+    "avg_price_usd": 61557.19,
+    "total_cost_usd": 0.0,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2026-06-12",
+    "btc": 906,
+    "avg_price_usd": 63556.97,
+    "total_cost_usd": 57582614.82,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-06-12",
+    "btc": 282,
+    "avg_price_usd": 63556.97,
+    "total_cost_usd": 17923065.54,
+    "company": "fidelity-fbtc"
+  },
+  {
     "date": "2026-06-15",
     "btc": 1587,
     "avg_price_usd": 63024,
     "total_cost_usd": 100000000,
     "company": "strategy"
+  },
+  {
+    "date": "2026-06-15",
+    "btc": 589999,
+    "avg_price_usd": 65737.72,
+    "total_cost_usd": 38785189062.28,
+    "company": "valkyrie-brrr"
+  },
+  {
+    "date": "2026-06-15",
+    "btc": -23,
+    "avg_price_usd": 65737.72,
+    "total_cost_usd": -1511967.56,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-06-15",
+    "btc": 87,
+    "avg_price_usd": 65737.72,
+    "total_cost_usd": 5719181.64,
+    "company": "grayscale-mini"
   }
 ]
