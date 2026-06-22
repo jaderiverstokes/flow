@@ -18520,5 +18520,12 @@
     "avg_price_usd": 64618.95,
     "total_cost_usd": -99513183.0,
     "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-06-22",
+    "btc": 520,
+    "avg_price_usd": 67068,
+    "total_cost_usd": 35000000,
+    "company": "strategy"
   }
 ]
