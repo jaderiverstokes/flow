@@ -18704,6 +18704,13 @@
     "company": "grayscale-mini"
   },
   {
+    "date": "2026-06-30",
+    "btc": -1363,
+    "avg_price_usd": 59256,
+    "total_cost_usd": -81000000,
+    "company": "strategy"
+  },
+  {
     "date": "2026-07-01",
     "btc": -3647,
     "avg_price_usd": 58629.92,
@@ -18737,5 +18744,12 @@
     "avg_price_usd": 59814.09,
     "total_cost_usd": 36187524.45,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-07-06",
+    "btc": -2225,
+    "avg_price_usd": 60773,
+    "total_cost_usd": -135000000,
+    "company": "strategy"
   }
 ]
