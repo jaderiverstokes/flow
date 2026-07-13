@@ -18842,5 +18842,26 @@
     "avg_price_usd": 62443.34,
     "total_cost_usd": 52951952.32,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-07-10",
+    "btc": 1359,
+    "avg_price_usd": 63807.43,
+    "total_cost_usd": 86714297.37,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-07-10",
+    "btc": -5,
+    "avg_price_usd": 63807.43,
+    "total_cost_usd": -319037.15,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-07-10",
+    "btc": 0,
+    "avg_price_usd": 63807.43,
+    "total_cost_usd": 0.0,
+    "company": "grayscale-mini"
   }
 ]
