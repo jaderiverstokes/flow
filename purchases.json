@@ -19479,5 +19479,19 @@
     "avg_price_usd": 73633.29,
     "total_cost_usd": 28790616.39,
     "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-08-24",
+    "btc": -16,
+    "avg_price_usd": 77249.73,
+    "total_cost_usd": -1235995.68,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-08-24",
+    "btc": 176,
+    "avg_price_usd": 77249.73,
+    "total_cost_usd": 13595952.48,
+    "company": "grayscale-mini"
   }
 ]
