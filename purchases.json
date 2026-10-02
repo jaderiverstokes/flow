@@ -19941,5 +19941,103 @@
     "avg_price_usd": 86183.29,
     "total_cost_usd": 4826264.24,
     "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-09-24",
+    "btc": 1924,
+    "avg_price_usd": 84382.4,
+    "total_cost_usd": 162351737.6,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-09-24",
+    "btc": 152,
+    "avg_price_usd": 84382.4,
+    "total_cost_usd": 12826124.8,
+    "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-09-28",
+    "btc": 1665,
+    "avg_price_usd": 85681,
+    "total_cost_usd": 143000000,
+    "company": "strategy"
+  },
+  {
+    "date": "2026-09-28",
+    "btc": 1811,
+    "avg_price_usd": 84448.75,
+    "total_cost_usd": 152936686.25,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-09-28",
+    "btc": 456,
+    "avg_price_usd": 84448.75,
+    "total_cost_usd": 38508630.0,
+    "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-09-28",
+    "btc": -20,
+    "avg_price_usd": 84448.75,
+    "total_cost_usd": -1688975.0,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-09-28",
+    "btc": -1,
+    "avg_price_usd": 84448.75,
+    "total_cost_usd": -84448.75,
+    "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-09-29",
+    "btc": 611,
+    "avg_price_usd": 83479.25,
+    "total_cost_usd": 51005821.75,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-09-29",
+    "btc": -288,
+    "avg_price_usd": 83479.25,
+    "total_cost_usd": -24042024.0,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-09-29",
+    "btc": 123,
+    "avg_price_usd": 83479.25,
+    "total_cost_usd": 10267947.75,
+    "company": "grayscale-mini"
+  },
+  {
+    "date": "2026-09-30",
+    "btc": -113,
+    "avg_price_usd": 83640.1,
+    "total_cost_usd": -9451331.3,
+    "company": "blackrock-ibit"
+  },
+  {
+    "date": "2026-09-30",
+    "btc": -1500,
+    "avg_price_usd": 83640.1,
+    "total_cost_usd": -125460150.0,
+    "company": "fidelity-fbtc"
+  },
+  {
+    "date": "2026-10-01",
+    "btc": -5,
+    "avg_price_usd": 83576.13,
+    "total_cost_usd": -417880.65,
+    "company": "grayscale"
+  },
+  {
+    "date": "2026-10-01",
+    "btc": 0,
+    "avg_price_usd": 83576.13,
+    "total_cost_usd": 0.0,
+    "company": "grayscale-mini"
   }
 ]
